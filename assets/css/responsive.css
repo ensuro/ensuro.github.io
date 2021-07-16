@@ -83,6 +83,7 @@
 	.hero-section {
 		height: 100%;
 		padding-top: 15vh;
+		background-position: center;
 	}
 	.sec-title h2 {
 		font-size: 30px;
