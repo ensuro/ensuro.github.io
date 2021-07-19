@@ -207,6 +207,144 @@ a:focus {
 input:-moz-placeholder {
 	color: #B57D81;
 }
+.animated {
+    opacity: 0;
+}
+.visible {
+    opacity: 1;
+}
+
+
+
+@-webkit-keyframes C {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-40px, 0, 0);
+        transform: translate3d(-40px, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes C {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(-40px, 0, 0);
+        transform: translate3d(-40px, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.C {
+    -webkit-animation-name: C;
+    animation-name: C;
+}
+@-webkit-keyframes fadeInUpC {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 40px, 0);
+        transform: translate3d(0, 40px, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInUpC {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 40px, 0);
+        transform: translate3d(0, 40px, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.fadeInUpC {
+    -webkit-animation-name: fadeInUpC;
+    animation-name: fadeInUpC;
+}
+@-webkit-keyframes C {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(40px, 0, 0);
+        transform: translate3d(40px, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes C {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(40px, 0, 0);
+        transform: translate3d(40px, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.C {
+    -webkit-animation-name: C;
+    animation-name: C;
+}
+
+@-webkit-keyframes fadeInDownC {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -40px, 0);
+        transform: translate3d(0, -40px, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInDownC {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -40px, 0);
+        transform: translate3d(0, -40px, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.fadeInDownC {
+    -webkit-animation-name: fadeInDownC;
+    animation-name: fadeInDownC;
+}
 
 .section {
 	padding: 100px 0;
@@ -272,7 +410,7 @@ input:-moz-placeholder {
 }
 
 .sec-title h2 {
-	font-size: 40px;
+	font-size: 32px;
 	line-height: 60px;
 	font-weight: 800;
 	/* or 150% */
@@ -313,7 +451,7 @@ input:-moz-placeholder {
 
 .navbar-brand {
 	width: 162px;
-	background: url('../../images/logo.png');
+	background: url('../../images/logo.svg');
 	background-position: center!important;
 	background-repeat: no-repeat!important;
 	background-size: contain!important;
@@ -398,7 +536,7 @@ input:-moz-placeholder {
 }
 
 .nav-white .navbar-brand {
-	background: url('../../images/ensuro-logo.png');
+	background: url('../../images/ensuro-logo.svg');
 }
 
 .nav-white .navbar-nav>.nav-item>.nav-link {
