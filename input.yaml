@@ -1,0 +1,51 @@
+news:
+  - title: Ensuro - The first licensed decentralized reinsurance
+    date: "January 31th, 2022"
+    link: https://blog.ensuro.co/ensuro-the-first-licensed-decentralized-reinsurance-3293ada230f7
+    bigImage: images/ensuro-bma.jpeg
+    mediaImage: images/me.png
+  - title: Ensuro selected as part of the First Cohort of Cypher Accelerator - Blockchain accelerator by Wharton University
+    date: "January 26th, 2022"
+    link: https://stevenscenter.wharton.upenn.edu/accelerator/#cohort
+    bigImage: images/cypher-big.jpeg
+    mediaImage: images/cypher-small.png
+  - title: Ensuro Is Integrating Chainlink to Bridge DeFi and InsurTech With Secure Parametric Insurance Products
+    date: "November 16th, 2021"
+    link: https://blog.ensuro.co/ensuro-is-integrating-chainlink-to-bridge-defi-and-insurtech-with-secure-parametric-insurance-cb463eef3b1a
+    bigImage: images/ensuro-chainlink.png
+    mediaImage: images/me.png
+  - title: "Interview in Instech London Podcast - Marco Mirabella: Founder & CEO, Ensuro: Crypto capital for insurance start-ups"
+    date: "November 12th, 2021"
+    link: https://www.instech.london/podcast/marco-mirabella-founder-and-ceo-ensuro-crypto-capital-for-insurance-start-ups
+    bigImage: images/instech-london-podcast-164-marco-mirabella-website.jpg
+    mediaImage: images/instech-logo_1.png
+  - title: "Marco Mirabella at the University of Illinois: \"Blockchain and Decentralized Finance in the (Re)Insurance space\""
+    date: "October 5th, 2021"
+    link: https://www.youtube.com/watch?v=Ghksp9Rq4NA
+    bigImage: images/video-illinois.png
+    mediaImage: images/youtube-logo.png
+  - title: Meet the team behind Ensuro
+    date: "October 1st, 2021"
+    link: https://blog.ensuro.co/meet-the-team-behind-ensuro-90c761120cff
+    bigImage: images/ensuro-full-horiz-logo.jpeg
+    mediaImage: images/me.png
+  - title: Welcome to Ensuro-Decentralized Capital Provider for Insurance Risks - Blog presentation post
+    date: "July 25th, 2021"
+    link: https://blog.ensuro.co/welcome-to-ensuro-decentralized-capital-provider-for-insurance-risks-23ee61236d54
+    bigImage: images/ensuro-full-horiz-logo.jpeg
+    mediaImage: images/me.png
+  - title: Cryptocurrency - the next capital pool for parametric insurance?
+    date: "May 18th, 2021"
+    link: https://www.instech.london/insight/cryptocurrency-next-capital-pool-parametric-insurance 
+    bigImage: images/cryptocurrency-next-capital-pool-parametric-insurance-article.jpg
+    mediaImage: images/instech-logo_1.png
+  - title: "<i>Innovating On Money</i> award for Ensuro after participation in Celo Camp Batch 3"
+    date: June 19th, 2021
+    link: https://medium.com/celoorg/announcing-the-grand-prize-winners-of-celo-camp-batch-3-58dd0eef19fc
+    bigImage: images/celo-batch3-prize.jpeg
+    mediaImage: images/celo-logo.png
+  - title: "1st Prize in <i>The Future is Now</i> Binance / Gitcoin Hackathon"
+    date: "March 1st, 2021"
+    link: https://binancex.dev/blog.html?p=hackathon-winners-encode-hackathon-and-gitcoin-the-future-is-now
+    bigImage: images/BinanceHackLogoSquareDarker.png
+    mediaImage: images/Binance_logo.svg
