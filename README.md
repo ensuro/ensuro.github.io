@@ -6,7 +6,7 @@ The HTML files are generated from Jinja2 templates, so the changes need to be do
 
 After changing the .j2 files, using the script `./generate.sh`, the HTML are refreshed.
 
-To test locally, you can just run `$BROWSER $PWD/index.html`.
+To test locally, you can just run `<browser> index.html`.
 
 To deploy, just commit and push the HTML files.
 

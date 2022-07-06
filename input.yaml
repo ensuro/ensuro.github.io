@@ -1,4 +1,9 @@
 news:
+  - title: "Case Study: Ensuro x Koala"
+    date: "June 14th, 2022"
+    link: https://blog.ensuro.co/case-study-ensuro-x-koala-13fcdb7cfe7b
+    bigImage: images/ensuro-koala.png
+    mediaImage: images/me.png
   - title: Ensuro - The first licensed decentralized reinsurance
     date: "January 31st, 2022"
     link: https://blog.ensuro.co/ensuro-the-first-licensed-decentralized-reinsurance-3293ada230f7
@@ -19,7 +24,7 @@ news:
     link: https://www.instech.london/podcast/marco-mirabella-founder-and-ceo-ensuro-crypto-capital-for-insurance-start-ups
     bigImage: images/instech-london-podcast-164-marco-mirabella-website.jpg
     mediaImage: images/instech-logo_1.png
-  - title: "Marco Mirabella at the University of Illinois: \"Blockchain and Decentralized Finance in the (Re)Insurance space\""
+  - title: 'Marco Mirabella at the University of Illinois: "Blockchain and Decentralized Finance in the (Re)Insurance space"'
     date: "October 5th, 2021"
     link: https://www.youtube.com/watch?v=Ghksp9Rq4NA
     bigImage: images/video-illinois.png
@@ -36,7 +41,7 @@ news:
     mediaImage: images/me.png
   - title: Cryptocurrency - the next capital pool for parametric insurance?
     date: "May 18th, 2021"
-    link: https://www.instech.london/insight/cryptocurrency-next-capital-pool-parametric-insurance 
+    link: https://www.instech.london/insight/cryptocurrency-next-capital-pool-parametric-insurance
     bigImage: images/cryptocurrency-next-capital-pool-parametric-insurance-article.jpg
     mediaImage: images/instech-logo_1.png
   - title: "<i>Innovating On Money</i> award for Ensuro after participation in Celo Camp Batch 3"
