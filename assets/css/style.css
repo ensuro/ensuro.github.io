@@ -432,7 +432,7 @@ input:-moz-placeholder {
 }
 
 .custom-container {
-	padding: 0 180px;
+	padding: 0 130px;
 	width: 100%;
 	display: flex;
 }
@@ -480,7 +480,7 @@ input:-moz-placeholder {
 }
 
 .navbar-expand-lg .navbar-nav li {
-	margin-left: 100px;
+	margin-left: 70px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
