@@ -1,29 +1,4 @@
 news:
-  - title: "Presentation of Ensuro case #ITCVegas2022"
-    date: "September 23rd, 2022"
-    link: https://www.linkedin.com/feed/update/urn:li:activity:6978768769040973825?utm_source=share&utm_medium=member_desktop
-    bigImage: images/Marco-ITCVegas.jpeg
-    mediaImage: images/LinkedIn.png
-  - title: "Our CEO is already in Las Vegas for #ITCVegas2022!"
-    date: "September 22nd, 2022"
-    link: https://www.linkedin.com/posts/ensuro_itcvegas2022-itcvegas2022-insurtech-activity-6978358464586686467-EHet?utm_source=share&utm_medium=member_desktop
-    bigImage: images/ITCVegas.jpeg
-    mediaImage: images/LinkedIn.png
-  - title: "Ensuro's participation in ITC Vegas"
-    date: "September 14th, 2022"
-    link: https://www.linkedin.com/feed/update/urn:li:activity:6975833437853097985?utm_source=share&utm_medium=member_desktop
-    bigImage: images/ITC-Vegas.png
-    mediaImage: images/LinkedIn.png
-  - title: "Ensuro received an AAVE grant to build a product called Hodler Vault"
-    date: "August 29th, 2022"
-    link: https://www.linkedin.com/posts/ensuro_aave-ensuro-web3-activity-6969905439803092992-U6fj/?utm_source=share&utm_medium=member_desktop
-    bigImage: images/aave-ensuro.jpeg
-    mediaImage: images/LinkedIn.png
-  - title: "Ensuro won the Web3 Innovation Fintech Challenge"
-    date: "August 22nd, 2022"
-    link: https://www.linkedin.com/posts/ensuro_ensuro-backedbysosv-defi-activity-6966407798653898752-atEL?utm_source=share&utm_medium=member_desktop
-    bigImage: images/w3FintechChallenge.jpeg
-    mediaImage: images/LinkedIn.png
   - title: "Insurance as a source of attractive (and realistic) returns for DeFi investors"
     date: "July 28th, 2022"
     link: https://blog.ensuro.co/insurance-as-a-source-of-attractive-and-realistic-returns-for-defi-investors-f600be13e5b4
@@ -101,3 +76,24 @@ tweets:
     link: https://twitter.com/Ensuroproject/status/1551579315363520512
   - text: "An interesting point is stated in Pantera Capital’s blockchain letter; that clarifies and sheds light on the current situation in the DeFi space. #defi #reinsurance #decentralizedinsurance #ensuro"
     link: https://twitter.com/Ensuroproject/status/1550051894030209025
+linkedin:
+  - title: "Presentation of Ensuro case #ITCVegas2022"
+    date: "September 23rd, 2022"
+    link: https://www.linkedin.com/feed/update/urn:li:activity:6978768769040973825?utm_source=share&utm_medium=member_desktop
+    image: images/Marco-ITCVegas.jpeg
+  - title: "Our CEO is already in Las Vegas for #ITCVegas2022!"
+    date: "September 22nd, 2022"
+    link: https://www.linkedin.com/posts/ensuro_itcvegas2022-itcvegas2022-insurtech-activity-6978358464586686467-EHet?utm_source=share&utm_medium=member_desktop
+    image: images/ITCVegas.jpeg
+  - title: "Ensuro's participation in ITC Vegas"
+    date: "September 14th, 2022"
+    link: https://www.linkedin.com/feed/update/urn:li:activity:6975833437853097985?utm_source=share&utm_medium=member_desktop
+    image: images/ITC-Vegas.png
+  - title: "Ensuro received an AAVE grant to build a product called Hodler Vault"
+    date: "August 29th, 2022"
+    link: https://www.linkedin.com/posts/ensuro_aave-ensuro-web3-activity-6969905439803092992-U6fj/?utm_source=share&utm_medium=member_desktop
+    image: images/aave-ensuro.jpeg
+  - title: "Ensuro won the Web3 Innovation Fintech Challenge"
+    date: "August 22nd, 2022"
+    link: https://www.linkedin.com/posts/ensuro_ensuro-backedbysosv-defi-activity-6966407798653898752-atEL?utm_source=share&utm_medium=member_desktop
+    image: images/w3FintechChallenge.jpeg
