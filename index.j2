@@ -286,31 +286,30 @@
       </div>
       <!-- End of Twitter carousel --> 
       
-      <!-- LinkedIn carousel -->
+      <!-- Latest News carousel -->
       <div class="section">
          <div class="container">
             <!--Title -->
             <div class="sec-title    animated" data-animation="fadeInDownC" data-animation-delay="200">
-               <h2 class="text-center">Linkedin</h2>
+               <h2 class="text-center">Latest News</h2>
             </div>
             <!--Blog-inner Start-->
             <div class="blog-inner">
                <div class="swiffy-slider slider-item-show2 slider-item-reveal slider-nav-outside slider-nav-round slider-nav-visible slider-indicators-outside slider-indicators-round slider-indicators-dark slider-nav-animation slider-nav-animation-fadein slider-item-first-visible  animated" data-animation="fadeInDownC" data-animation-delay="400">
                   <ul class="slider-container py-4">
-                     {% for l in linkedin %}
+                     {% for n in news %}
                      <li class="slide-visible">
-                        <div class="card shadow h-100">
+                        <div class="card shadow h-100" onclick="window.open('{{n.link}}', '_blank');"  style="cursor: pointer;">
                            <div class="ratio ratio-16x9">
-                              <img src="{{l.image}}" class="card-img-top" style="width:100%; height:300px;" loading="lazy">
+                              <img src="{{n.image}}" class="card-img-top" style="width:100%; height:300px;" loading="lazy">
                            </div>
                            <div class="card-body">
-                              <span class="color-3cc91d fw-600">{{l.date}}</span>
-                              <a href="{{l.link}}" target="_blank">
-                                 <h3 class="card-text">{{l.title}}</h3>
+                              <span class="color-3cc91d fw-600">{{n.date}}</span>
+                              <a href="{{n.link}}" target="_blank">
+                                 <h3 class="card-text">{{n.title}}</h3>
                               </a>
-                              <br/>
-                              <br/>
-                              <div><a href="{{l.link}}" target="_blank">Read more</a></div>
+                              <br><br/>
+                              <div><a href="{{n.link}}" target="_blank">Read more</a></div>
                            </div>
                         </div>
                      </li>
@@ -332,41 +331,6 @@
             <!--Blog-inner End-->
          </div>
       </div>
-      <!-- End of LinkedIn carousel --> 
+      <!-- End of Latest News carousel --> 
 
-      <!-- section end-->
-      <div class="section">
-         <div class="container">
-            <!--Title -->
-            <div class="sec-title    animated" data-animation="fadeInDownC" data-animation-delay="400">
-               <h2 class="text-center">Latest News</h2>
-            </div>
-            <!--Blog-inner Start-->
-            <div class="blog-inner">
-               <div class="row ">
-                  {% for newsItem in news %}
-                  <div class="col-lg-4 col-md-12 blog-res   animated" data-animation="fadeInDownC" data-animation-delay="500">
-                     <div class="img-box">
-                        <div class="img-box-inner">
-                            <a href="{{newsItem.link}}" target="_blank"class="img" style="background-image: url('{{newsItem.bigImage}}'); display: block"></a>
-                        </div>
-                     </div>
-                     <div class="blog-pb">
-                        <span class="color-3cc91d fw-600">{{newsItem.date}}</span>
-                        <a href="{{newsItem.link}}" target="_blank">
-                          <p>{{newsItem.title}}</p>
-                        </a>
-                        <a href="{{newsItem.link}}" class="btn-blog" target="_blank">
-                          <img src="{{newsItem.mediaImage}}" alt="img" class="img-fluid">
-                        </a>
-                     </div>
-                  </div>
-                  {% endfor %}
-               </div>
-               <!--Row End-->
-            </div>
-            <!--Blog-inner Start-->
-         </div>
-         <!--Container End-->
-      </div>
       {% endblock main_content %}
