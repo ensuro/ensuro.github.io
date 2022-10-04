@@ -1,90 +1,85 @@
 news:
+  - title: "New partnership with Parachute"
+    date: "October 3rd, 2022"
+    link: https://www.linkedin.com/feed/update/urn:li:activity:6982721368853225473?utm_source=share&utm_medium=member_desktop
+    image: images/Ensuro-Parachute.jpeg
+  - title: "Hodler vault — A bridge between your crypto assets and stablecoin denominated yields"
+    date: "September 28th, 2022"
+    link: https://blog.ensuro.co/hodler-vault-a-bridge-between-your-crypto-assets-and-stablecoin-denominated-yields-98b6bffd50f9
+    image: images/hodler-vault.jpeg
   - title: "Presentation of Ensuro case #ITCVegas2022"
     date: "September 23rd, 2022"
     link: https://www.linkedin.com/feed/update/urn:li:activity:6978768769040973825?utm_source=share&utm_medium=member_desktop
-    bigImage: images/Marco-ITCVegas.jpeg
-    mediaImage: images/LinkedIn.png
+    image: images/Marco-ITCVegas.jpeg
   - title: "Our CEO is already in Las Vegas for #ITCVegas2022!"
     date: "September 22nd, 2022"
     link: https://www.linkedin.com/posts/ensuro_itcvegas2022-itcvegas2022-insurtech-activity-6978358464586686467-EHet?utm_source=share&utm_medium=member_desktop
-    bigImage: images/ITCVegas.jpeg
-    mediaImage: images/LinkedIn.png
+    image: images/ITCVegas.jpeg
   - title: "Ensuro's participation in ITC Vegas"
     date: "September 14th, 2022"
     link: https://www.linkedin.com/feed/update/urn:li:activity:6975833437853097985?utm_source=share&utm_medium=member_desktop
-    bigImage: images/ITC-Vegas.png
-    mediaImage: images/LinkedIn.png
+    image: images/ITC-Vegas.png
   - title: "Ensuro received an AAVE grant to build a product called Hodler Vault"
     date: "August 29th, 2022"
     link: https://www.linkedin.com/posts/ensuro_aave-ensuro-web3-activity-6969905439803092992-U6fj/?utm_source=share&utm_medium=member_desktop
-    bigImage: images/aave-ensuro.jpeg
-    mediaImage: images/LinkedIn.png
+    image: images/aave-ensuro.jpeg
   - title: "Ensuro won the Web3 Innovation Fintech Challenge"
     date: "August 22nd, 2022"
     link: https://www.linkedin.com/posts/ensuro_ensuro-backedbysosv-defi-activity-6966407798653898752-atEL?utm_source=share&utm_medium=member_desktop
-    bigImage: images/w3FintechChallenge.jpeg
-    mediaImage: images/LinkedIn.png
+    image: images/w3FintechChallenge.jpeg
   - title: "Insurance as a source of attractive (and realistic) returns for DeFi investors"
     date: "July 28th, 2022"
     link: https://blog.ensuro.co/insurance-as-a-source-of-attractive-and-realistic-returns-for-defi-investors-f600be13e5b4
-    bigImage: images/ensuro-defi.jpeg
-    mediaImage: images/me.png
+    image: images/ensuro-defi.jpeg
   - title: "Case Study: Ensuro x Koala"
     date: "June 14th, 2022"
     link: https://blog.ensuro.co/case-study-ensuro-x-koala-13fcdb7cfe7b
-    bigImage: images/ensuro-koala.png
-    mediaImage: images/me.png
+    image: images/ensuro-koala.png
   - title: Ensuro - The first licensed decentralized reinsurance
     date: "January 31st, 2022"
     link: https://blog.ensuro.co/ensuro-the-first-licensed-decentralized-reinsurance-3293ada230f7
-    bigImage: images/ensuro-bma.jpeg
-    mediaImage: images/me.png
+    image: images/ensuro-bma.jpeg
   - title: Ensuro selected as part of the First Cohort of Cypher Accelerator - Blockchain accelerator by The Wharton School of the University of Pennsylvania
     date: "January 26th, 2022"
     link: https://stevenscenter.wharton.upenn.edu/accelerator/#cohort
-    bigImage: images/cypher-big.jpeg
-    mediaImage: images/wharton-logo.svg
+    image: images/cypher-big.jpeg
   - title: Ensuro Is Integrating Chainlink to Bridge DeFi and InsurTech With Secure Parametric Insurance Products
     date: "November 16th, 2021"
     link: https://blog.ensuro.co/ensuro-is-integrating-chainlink-to-bridge-defi-and-insurtech-with-secure-parametric-insurance-cb463eef3b1a
-    bigImage: images/ensuro-chainlink.png
-    mediaImage: images/me.png
+    image: images/ensuro-chainlink.png
   - title: "Interview in Instech London Podcast - Marco Mirabella: Founder & CEO, Ensuro: Crypto capital for insurance start-ups"
     date: "November 12th, 2021"
     link: https://www.instech.london/podcast/marco-mirabella-founder-and-ceo-ensuro-crypto-capital-for-insurance-start-ups
-    bigImage: images/instech-london-podcast-164-marco-mirabella-website.jpg
-    mediaImage: images/instech-logo_1.png
+    image: images/instech-london-podcast-164-marco-mirabella-website.jpg
   - title: 'Marco Mirabella at the University of Illinois: "Blockchain and Decentralized Finance in the (Re)Insurance space"'
     date: "October 5th, 2021"
     link: https://www.youtube.com/watch?v=Ghksp9Rq4NA
-    bigImage: images/video-illinois.png
-    mediaImage: images/youtube-logo.png
+    image: images/video-illinois.png
   - title: Meet the team behind Ensuro
     date: "October 1st, 2021"
     link: https://blog.ensuro.co/meet-the-team-behind-ensuro-90c761120cff
-    bigImage: images/ensuro-full-horiz-logo.jpeg
-    mediaImage: images/me.png
+    image: images/ensuro-full-horiz-logo.jpeg
   - title: Welcome to Ensuro-Decentralized Capital Provider for Insurance Risks - Blog presentation post
     date: "July 25th, 2021"
     link: https://blog.ensuro.co/welcome-to-ensuro-decentralized-capital-provider-for-insurance-risks-23ee61236d54
-    bigImage: images/ensuro-full-horiz-logo.jpeg
-    mediaImage: images/me.png
+    image: images/ensuro-full-horiz-logo.jpeg
   - title: Cryptocurrency - the next capital pool for parametric insurance?
     date: "May 18th, 2021"
     link: https://www.instech.london/insight/cryptocurrency-next-capital-pool-parametric-insurance
-    bigImage: images/cryptocurrency-next-capital-pool-parametric-insurance-article.jpg
-    mediaImage: images/instech-logo_1.png
+    image: images/cryptocurrency-next-capital-pool-parametric-insurance-article.jpg
   - title: "<i>Innovating On Money</i> award for Ensuro after participation in Celo Camp Batch 3"
     date: June 19th, 2021
     link: https://medium.com/celoorg/announcing-the-grand-prize-winners-of-celo-camp-batch-3-58dd0eef19fc
-    bigImage: images/celo-batch3-prize.jpeg
-    mediaImage: images/celo-logo.png
+    image: images/celo-batch3-prize.jpeg
   - title: "1st Prize in <i>The Future is Now</i> Binance / Gitcoin Hackathon"
     date: "March 1st, 2021"
     link: https://binancex.dev/blog.html?p=hackathon-winners-encode-hackathon-and-gitcoin-the-future-is-now
-    bigImage: images/BinanceHackLogoSquareDarker.png
-    mediaImage: images/Binance_logo.svg
+    image: images/BinanceHackLogoSquareDarker.png
 tweets:
+  - text: "📢We're excited to announce a new partnership with Parachute!🪂 @Ensuroproject will provide capacity for Parachute's Hurricane Resilience Program. 🌪️ 🧵"
+    link: https://twitter.com/Ensuroproject/status/1576968081968353281?s=20&t=kcWs3EvcWjABGBkT65uHNQ
+  - text: "@Ensuroproject recently announced a grant from the @AaveAave DAO for a project called Hodler Vault. In this article our CEO @marcomirabe sheds some more light on what Hodler Vault is and why we have decided to develop it. 🧵"
+    link: https://twitter.com/Ensuroproject/status/1575126338335375362?s=20&t=Tk4k9OHhGyGdW1kgrXgjqg
   - text: "Our CEO, Marco Mirabella, is already in Las Vegas for #ITCVegas2022! Today at 11.50 am (GMT-7), at the Demo Stage, he will participate in presenting the @Ensuroproject and what we are doing. Come and ask anything you want to know! #ITCVegas2022 #insurtech #Ensuro"
     link: https://twitter.com/Ensuroproject/status/1572594751224053760?s=20&t=A2WPUnzY5k2FbqvgbirqRA
   - text: "Thank you so much, @Aave, for this great opportunity! We look forward to contributing value to Aave users and the community! 🙌"

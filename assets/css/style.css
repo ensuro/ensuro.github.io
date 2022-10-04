@@ -702,6 +702,17 @@ input:-moz-placeholder {
 	overflow: hidden;
 }
 
+
+.blog-pb2 {
+	background: #F1F9FF;
+	border-radius: 0 0 15px 15px;
+	padding: 25px;
+	transition: all 0.6s ease;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+
 .blog-res {
 	margin-bottom: 50px;
 }
@@ -752,6 +763,29 @@ input:-moz-placeholder {
 	line-height: 30px;
 	/* or 187% */
 	height: 120px;
+	color: #001854;
+}
+
+.blog-res:hover .blog-pb2 {
+	background: #FFFFFF;
+	box-shadow: 0px 0px 25px rgba(0, 49, 87, 0.15);
+}
+
+.blog-pb2 h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	/* identical to box height */
+	color: #001854;
+}
+
+.blog-pb2 p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 30px;
+	/* or 187% */
 	color: #001854;
 }
 
