@@ -1,4 +1,8 @@
 news:
+  - title: "#DevconBogota is less than a week away!"
+    date: "October 6th, 2022"
+    link: https://www.linkedin.com/posts/ensuro_devconbogota-ensuro-ethereum-activity-6983794057558786048-epCC?utm_source=share&utm_medium=member_desktop
+    image: images/ensuro-devcon.jpeg
   - title: "New partnership with Parachute"
     date: "October 3rd, 2022"
     link: https://www.linkedin.com/feed/update/urn:li:activity:6982721368853225473?utm_source=share&utm_medium=member_desktop
@@ -76,6 +80,8 @@ news:
     link: https://binancex.dev/blog.html?p=hackathon-winners-encode-hackathon-and-gitcoin-the-future-is-now
     image: images/BinanceHackLogoSquareDarker.png
 tweets:
+  - text: "The excitement is building for #DevconBogota! 🤩 We are less than a week away from one of the biggest conferences for the Ethereum community. Devcon is the Ethereum conference for developers, researchers, thinkers, and makers."
+    link: https://twitter.com/Ensuroproject/status/1578029832520097792?s=20&t=IYqA4ZpXXb6rYf5C1_oVOA
   - text: "📢We're excited to announce a new partnership with Parachute!🪂 @Ensuroproject will provide capacity for Parachute's Hurricane Resilience Program. 🌪️ 🧵"
     link: https://twitter.com/Ensuroproject/status/1576968081968353281?s=20&t=kcWs3EvcWjABGBkT65uHNQ
   - text: "@Ensuroproject recently announced a grant from the @AaveAave DAO for a project called Hodler Vault. In this article our CEO @marcomirabe sheds some more light on what Hodler Vault is and why we have decided to develop it. 🧵"
