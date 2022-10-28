@@ -1,4 +1,16 @@
 news:
+  - title: "No Blockchain reaction in Insurance?"
+    date: "October 26th, 2022"
+    link: https://blog.ensuro.co/no-blockchain-reaction-in-insurance-87c0b987411b
+    image: images/blockchain-insurance.jpeg
+  - title: "Ensuro x Parachute: How can blockchain capital improve hurricane protections"
+    date: "October 21st, 2022"
+    link: https://blog.ensuro.co/ensuro-x-parachute-how-can-blockchain-capital-improve-hurricane-protections-1ad141a38229
+    image: images/Ensuro-Parachute.jpeg
+  - title: "DevCon Officially Began"
+    date: "October 12th, 2022"
+    link: https://www.linkedin.com/posts/ensuro_devcon-ensuro-ethereum-activity-6986011181664624640-fdV8?utm_source=share&utm_medium=member_desktop
+    image: images/devcon-bogota.jpeg
   - title: "Our CEO is already in Bogota for #ETHBogota and #Devcon!"
     date: "October 10th, 2022"
     link: https://www.linkedin.com/posts/ensuro_ethbogota-devcon-ensuro-activity-6985205690847903744-5ymp?utm_source=share&utm_medium=member_desktop
@@ -84,6 +96,12 @@ news:
     link: https://binancex.dev/blog.html?p=hackathon-winners-encode-hackathon-and-gitcoin-the-future-is-now
     image: images/BinanceHackLogoSquareDarker.png
 tweets:
+  - text: "Every other day it seems we're reading about more industries and large corporations investing in blockchain technology. 🧵"
+    link: https://twitter.com/Ensuroproject/status/1585264997210488832?s=20&t=7_D8sAMJ5vW5Pv8YN4OBmA
+  - text: "📢 We recently announced a partnership between Ensuro and Parachute. In this article our CEO @marcomirabe sheds some more light on this new product.🤩🧵 #ensuro #parachute #reinsurance #parametricinsurance"
+    link: https://twitter.com/Ensuroproject/status/1583497302333067265?s=20&t=7_D8sAMJ5vW5Pv8YN4OBmA
+  - text: "Yesterday was day one - #Devcon officially began after a three-year break with an energetic opening ceremony 🥳🎉 . We are ready for the second day! Let us know if you are there! We'd love to meet you! #ensuro #ethereum #devconbogota #defi"
+    link: https://twitter.com/Ensuroproject/status/1580246636780867584?s=20&t=7_D8sAMJ5vW5Pv8YN4OBmA
   - text: "Our CEO @marcomirabe is already in Bogota 🚀🔥. He participated in  #ETHBogota this past weekend and is now ready for #Devcon.🤩 #ensuro #ethereum #ethbogota #defi"
     link: https://twitter.com/Ensuroproject/status/1579446752364892160?s=20&t=D0CiNXPAGjlbAmspOqOY0w
   - text: "The excitement is building for #DevconBogota! 🤩 We are less than a week away from one of the biggest conferences for the Ethereum community. Devcon is the Ethereum conference for developers, researchers, thinkers, and makers."
