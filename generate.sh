@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euo pipefail
+
 VENV_PATH=${VENV_PATH:-./venv}
 
 if [ ! -d $VENV_PATH ]; then
@@ -10,7 +12,10 @@ else
     source $VENV_PATH/bin/activate
 fi
 
-j2 -f yaml index.j2 input.yaml  > build/index.html
-j2 -f yaml aboutus.j2 input.yaml  > build/aboutus.html
-j2 -f yaml careers.j2 input.yaml  > build/careers.html
+TEMPLATES="index about careers investors"
+
+for template in $TEMPLATES; do
+    j2 -f yaml ${template}.j2 input.yaml  > build/${template}.html
+done
+
 cp -r static/* build/
