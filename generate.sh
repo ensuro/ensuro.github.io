@@ -13,3 +13,4 @@ fi
 j2 -f yaml index.j2 input.yaml  > build/index.html
 j2 -f yaml aboutus.j2 input.yaml  > build/aboutus.html
 j2 -f yaml careers.j2 input.yaml  > build/careers.html
+cp -r static/* build/
