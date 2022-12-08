@@ -1,4 +1,28 @@
 news:
+  - title: "Third episode of Breadcrumbs"
+    date: "December 2nd, 2022"
+    link: https://www.linkedin.com/mycompany/ensuro/recommendations/urn:li:activity:7003781872652582912
+    image: images/breadcrumbs-podcast.png
+  - title: "Why would the development of a global standard and regulation on compliance and AML drive growth and encourage the adoption of Defi?"
+    date: "November 25th, 2022"
+    link: https://blog.ensuro.co/why-would-the-development-of-a-global-standard-and-regulation-on-compliance-and-aml-drive-growth-e6f5a313b651
+    image: images/jaliah-article.png
+  - title: "Taipei Entrepreneurs Hub - Demo Day"
+    date: "November 23th, 2022"
+    link: https://www.linkedin.com/posts/ensuro_softsolverssolutions-likeitformosa-ensuro-activity-7001172286678388737-yP1i?utm_source=share&utm_medium=member_desktop
+    image: images/giacomo-taipei.png
+  - title: "Our CTO, Guillermo Narvaja, presented Ensuro and what we are doing at #LABITCONF2022"
+    date: "November 16th, 2022"
+    link: https://www.linkedin.com/posts/ensuro_labitconf2022-labitconf-ensuro-activity-6998687227736113153-jC3g?utm_source=share&utm_medium=member_desktop
+    image: images/guillo-labitconf.jpeg
+  - title: "#LABITCONF2022"
+    date: "November 10th, 2022"
+    link: https://www.linkedin.com/mycompany/ensuro/recommendations/urn:li:activity:6996865755589832706
+    image: images/labitconf22.jpeg
+  - title: "Our CEO, Marco Mirabella, was interviewed by AM Best"
+    date: "October 28th, 2022"
+    link: https://www.linkedin.com/posts/ensuro_ensuro-blockchain-insurance-activity-6991738502862270464-OCqS?utm_source=share&utm_medium=member_desktop
+    image: images/marco-interview.jpeg
   - title: "No Blockchain reaction in Insurance?"
     date: "October 26th, 2022"
     link: https://blog.ensuro.co/no-blockchain-reaction-in-insurance-87c0b987411b
