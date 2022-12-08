@@ -1,8 +1,6 @@
 name: Deploy PR previews
 
 on:
-  workflow_dispatch:
-    inputs: {}
   pull_request:
     types:
       - opened
