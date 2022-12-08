@@ -12,7 +12,7 @@ else
     source $VENV_PATH/bin/activate
 fi
 
-TEMPLATES="index about careers investors"
+TEMPLATES="index about careers investors contact"
 
 for template in $TEMPLATES; do
     j2 -f yaml ${template}.j2 input.yaml  > build/${template}.html
