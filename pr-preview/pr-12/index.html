@@ -2,56 +2,50 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="style.css" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link
-	rel="stylesheet"
-	href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-/>
-<link
-	href="https://fonts.googleapis.com/css2?family=Jost:wght@200;400;500;600&display=swap"
-	rel="stylesheet"
-/>
-
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Jost:wght@200;400;500;600&display=swap"
+			rel="stylesheet"
+		/>
        <title>Ensuro | Decentralized capital for insurance</title>
     </head>
 	<body>
         <header class="w-full bg-white p-6 relative z-20">
-	<div class="flex justify-between container-padded">
-		<a href="index.html">
-			<img src="./assets/logo_header.svg" alt="" />
-		</a>
-		<div class="block lg:hidden">
-			<button class="flex items-center px-3 py-2">
-				<img src="./assets/header_menu.svg" alt="" />
-			</button>
-		</div>
-		<nav class="nav-header flex items-center">
-			<ul>
-	<li><a href="index.html" class="hide-on-header">Home</a></li>
-	<li><a href="#">Docs</a></li>
-	<li><a href="investors.html">Investors</a></li>
-	<li><a href="about.html">About Ensuro</a></li>
-	<li><a href="careers.html">Careers</a></li>
-	<li><a href="contact.html" class="hide-on-footer">Contact us</a></li>
-	<li><a href="PrivacyPolicy.pdf" class="hide-on-header" target="_blank">Privacy Policy</a></li>
-</ul>
+			<div class="flex justify-between container-padded">
+				<a href="index.html">
+					<img src="./assets/logo_header.svg" alt="" />
+				</a>
+				<div class="block lg:hidden">
+					<button class="flex items-center px-3 py-2">
+						<img src="./assets/header_menu.svg" alt="" />
+					</button>
+				</div>
+				<nav class="nav-header flex items-center">
+					<ul>
+						<li><a href="index.html" class="hide-on-header">Home</a></li>
+						<li><a href="#">Docs</a></li>
+						<li><a href="investors.html">Investors</a></li>
+						<li><a href="about.html">About Ensuro</a></li>
+						<li><a href="careers.html">Careers</a></li>
+						<li><a href="contact.html" class="hide-on-footer">Contact us</a></li>
+						<li><a href="PrivacyPolicy.pdf" class="hide-on-header" target="_blank">Privacy Policy</a></li>
+					</ul>
+					<a href="https://app.ensuro.co" target="_blank" class="btn-secondary">Use app</a>
+				</nav>
+			</div>
+		</header>
 
-			<a href="#" class="btn-secondary">Use app</a>
-		</nav>
-	</div>
-</header>
-<div
-	class="h-1 w-full bg-gradient-to-r from-primary-500 to-secondary-500 shadow-md z-10 relative"
-></div>
-
-
-        <!-- MODULES -->
-        
-        <article
+		<!-- MODULES -->
+		
+<article
 	id="banner"
 	class="bg-gradient-to-b from-primary-800 to-primary-500 w-full h-screen text-white justify-center items-center flex-col"
 >
@@ -105,14 +99,14 @@
 	</div>
 </article>
 
-        <article class="container-padded text-center ">
+<article class="container-padded text-center ">
 	<hr class="h-8 xl:h-16 border-none">
 	<b class="breather-title w-[75%] mx-auto block"> Ensuro brings the innovative DeFi Capital to the Insurtech World<span class="text-secondary-500">_</span></b>
     <hr class="h-8 xl:h-16 border-none">
     <hr class="w-full border-t border-gray-200 h-1">
 </article>
 
-        <article class="container-padded">
+<article class="container-padded">
 	<div class="">
 		<hr class="h-8 xl:h-16 border-none">
 		<section class="grid grid-cols-2 gap-4 items-center">
@@ -155,8 +149,8 @@
 	</div>
 </article>
 
-        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-        <article class="bg-primary-100">
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<article class="bg-primary-100">
 	<hr class="h-12 xl:h-24 border-none">
 	<h2 class="title-md container-padded">
 		Partners And Investors<span class="text-secondary-500">_</span>
@@ -166,8 +160,7 @@
         <hr class="w-full border-t border-gray-200 h-1">
 		<hr class="h-8 xl:h-16 border-none">
     </div>
-	<div class="w-[90vw] m-auto  px-20 relative">
-		
+	<div class="w-[90vw] m-auto  px-20 relative">		
 		<section class="swiper-partners overflow-hidden">
 			<!-- Additional required wrapper -->
 			<div class="swiper-wrapper relative items-center">
@@ -202,42 +195,39 @@
 			</nav>
 		</section>
 	</div>
-	<script>
+	<script>		
+		const swiperPartners = new Swiper('.swiper-partners', {
+			// Optional parameters
+			slidesPerView: 7,
+			spaceBetween: 25,
+			loop: true,
 		
-const swiperPartners = new Swiper('.swiper-partners', {
-    // Optional parameters
-    slidesPerView: 7,
-    spaceBetween: 25,
-    loop: true,
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
-  });
+			// If we need pagination
+			pagination: {
+			el: '.swiper-pagination',
+			},
+		
+			// Navigation arrows
+			navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+			},
+		
+			// And if we need scrollbar
+			scrollbar: {
+			el: '.swiper-scrollbar',
+			},
+		});
 	</script>
-    <hr class="h-28 xl:h-36 border-none">
+	<hr class="h-28 xl:h-36 border-none">
 </article>
 
-        <div class="diagonal-gradient">
-            <article>
+<div class="diagonal-gradient">
+	<article>
 	<hr class="h-12 xl:h-24 border-none">
 	<header class="container-padded">
 		<h2 class="title-md">
-			What our partners and clients are saying<span class="text-secondary-500"
-				>_</span
-			>
+			What our partners and clients are saying<span class="text-secondary-500">_</span>
 		</h2>
 	</header>
 	<hr class="h-5 xl:h-12 border-none">
@@ -327,198 +317,598 @@ const swiperPartners = new Swiper('.swiper-partners', {
 			</nav>
 		</section>
 	</div>
-	<script>
-		const swiperTestimonials = new Swiper('.swiper-testimonials', {
-    // Optional parameters
-    slidesPerView: 3,
-    spaceBetween: 40,
-    center: true,
-    loop: true,
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
-  });
-	</script>
-	<hr class="h-8 xl:h-16 border-none">
-</article>
+		<script>
+			const swiperTestimonials = new Swiper('.swiper-testimonials', {
+				// Optional parameters
+				slidesPerView: 3,
+				spaceBetween: 40,
+				center: true,
+				loop: true,
+			
+				// If we need pagination
+				pagination: {
+				el: '.swiper-pagination',
+				},
+			
+				// Navigation arrows
+				navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+				},
+			
+				// And if we need scrollbar
+				scrollbar: {
+				el: '.swiper-scrollbar',
+				},
+			});
+		</script>
+		<hr class="h-8 xl:h-16 border-none">
+	</article>
 
-            <article>
-    <hr class="h-8 xl:h-16 border-none">
-	<header class="container-padded">
-		<h2 class="title-md">
-			Latest News<span class="text-secondary-500">_</span>
-		</h2>
-	</header>
-    <hr class="h-8 xl:h-16 border-none">
-	<div class="w-[90vw] m-auto px-20 relative">
-		<section class="swiper-news overflow-hidden py-6">
-			<!-- Additional required wrapper -->
-			<div class="swiper-wrapper relative items-center pb-12">
-				<!-- Slides -->
-				<section class="swiper-slide">
-					<a class="news-card relative block hover:opacity-80 transition-all" href="#">
-						<img src="./assets/news_devcon.jpg" alt="" class="w-full"/>
-						<div class="p-10">
-							<p class="text-regular-blue">October 6th, 2022</p>
-							<hr class="h-2 border-none">
-							<p class="text-alt">
-								#DevconBogota is less than a week away!
-							</p>
-							<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
-						</div>
-						<hr class="h-5 xl:h-12 border-none">
-					</a>
+	<article>
+		<hr class="h-8 xl:h-16 border-none">
+		<header class="container-padded">
+			<h2 class="title-md">
+				Latest News<span class="text-secondary-500">_</span>
+			</h2>
+		</header>
+		<hr class="h-8 xl:h-16 border-none">
+		<div class="w-[90vw] m-auto px-20 relative">
+			<section class="swiper-news overflow-hidden py-6">
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper relative items-center pb-12">
+					<!-- Slides -->
+					
+						<section class="swiper-slide">
+							<a href="https://www.linkedin.com/mycompany/ensuro/recommendations/urn:li:activity:7003781872652582912" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/breadcrumbs-podcast.png" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">December 2nd, 2022</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										Third episode of Breadcrumbs
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://blog.ensuro.co/why-would-the-development-of-a-global-standard-and-regulation-on-compliance-and-aml-drive-growth-e6f5a313b651" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/jaliah-article.png" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">November 25th, 2022</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										Why would the development of a global standard and regulation on compliance and AML drive growth and encourage the adoption of Defi?
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://www.linkedin.com/posts/ensuro_softsolverssolutions-likeitformosa-ensuro-activity-7001172286678388737-yP1i?utm_source=share&utm_medium=member_desktop" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/giacomo-taipei.png" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">November 23th, 2022</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										Taipei Entrepreneurs Hub - Demo Day
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://www.linkedin.com/posts/ensuro_labitconf2022-labitconf-ensuro-activity-6998687227736113153-jC3g?utm_source=share&utm_medium=member_desktop" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/guillo-labitconf.jpeg" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">November 16th, 2022</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										Our CTO, Guillermo Narvaja, presented Ensuro and what we are doing at #LABITCONF2022
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://www.linkedin.com/mycompany/ensuro/recommendations/urn:li:activity:6996865755589832706" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/labitconf22.jpeg" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">November 10th, 2022</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										#LABITCONF2022
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://www.linkedin.com/posts/ensuro_ensuro-blockchain-insurance-activity-6991738502862270464-OCqS?utm_source=share&utm_medium=member_desktop" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/marco-interview.jpeg" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">October 28th, 2022</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										Our CEO, Marco Mirabella, was interviewed by AM Best
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://blog.ensuro.co/no-blockchain-reaction-in-insurance-87c0b987411b" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/blockchain-insurance.jpeg" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">October 26th, 2022</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										No Blockchain reaction in Insurance?
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://blog.ensuro.co/ensuro-x-parachute-how-can-blockchain-capital-improve-hurricane-protections-1ad141a38229" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/Ensuro-Parachute.jpeg" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">October 21st, 2022</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										Ensuro x Parachute: How can blockchain capital improve hurricane protections
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://www.linkedin.com/posts/ensuro_devcon-ensuro-ethereum-activity-6986011181664624640-fdV8?utm_source=share&utm_medium=member_desktop" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/devcon-bogota.jpeg" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">October 12th, 2022</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										DevCon Officially Began
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://www.linkedin.com/posts/ensuro_ethbogota-devcon-ensuro-activity-6985205690847903744-5ymp?utm_source=share&utm_medium=member_desktop" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/ETH-Bogota.jpeg" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">October 10th, 2022</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										Our CEO is already in Bogota for #ETHBogota and #Devcon!
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://www.linkedin.com/posts/ensuro_devconbogota-ensuro-ethereum-activity-6983794057558786048-epCC?utm_source=share&utm_medium=member_desktop" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/ensuro-devcon.jpeg" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">October 6th, 2022</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										#DevconBogota is less than a week away!
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://www.linkedin.com/feed/update/urn:li:activity:6982721368853225473?utm_source=share&utm_medium=member_desktop" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/Ensuro-Parachute.jpeg" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">October 3rd, 2022</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										New partnership with Parachute
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://blog.ensuro.co/hodler-vault-a-bridge-between-your-crypto-assets-and-stablecoin-denominated-yields-98b6bffd50f9" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/hodler-vault.jpeg" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">September 28th, 2022</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										Hodler vault — A bridge between your crypto assets and stablecoin denominated yields
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://www.linkedin.com/feed/update/urn:li:activity:6978768769040973825?utm_source=share&utm_medium=member_desktop" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/Marco-ITCVegas.jpeg" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">September 23rd, 2022</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										Presentation of Ensuro case #ITCVegas2022
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://www.linkedin.com/posts/ensuro_itcvegas2022-itcvegas2022-insurtech-activity-6978358464586686467-EHet?utm_source=share&utm_medium=member_desktop" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/ITCVegas.jpeg" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">September 22nd, 2022</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										Our CEO is already in Las Vegas for #ITCVegas2022!
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://www.linkedin.com/feed/update/urn:li:activity:6975833437853097985?utm_source=share&utm_medium=member_desktop" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/ITC-Vegas.png" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">September 14th, 2022</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										Ensuro's participation in ITC Vegas
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://www.linkedin.com/posts/ensuro_aave-ensuro-web3-activity-6969905439803092992-U6fj/?utm_source=share&utm_medium=member_desktop" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/aave-ensuro.jpeg" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">August 29th, 2022</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										Ensuro received an AAVE grant to build a product called Hodler Vault
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://www.linkedin.com/posts/ensuro_ensuro-backedbysosv-defi-activity-6966407798653898752-atEL?utm_source=share&utm_medium=member_desktop" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/w3FintechChallenge.jpeg" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">August 22nd, 2022</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										Ensuro won the Web3 Innovation Fintech Challenge
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://blog.ensuro.co/insurance-as-a-source-of-attractive-and-realistic-returns-for-defi-investors-f600be13e5b4" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/ensuro-defi.jpeg" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">July 28th, 2022</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										Insurance as a source of attractive (and realistic) returns for DeFi investors
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://blog.ensuro.co/case-study-ensuro-x-koala-13fcdb7cfe7b" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/ensuro-koala.png" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">June 14th, 2022</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										Case Study: Ensuro x Koala
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://blog.ensuro.co/ensuro-the-first-licensed-decentralized-reinsurance-3293ada230f7" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/ensuro-bma.jpeg" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">January 31st, 2022</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										Ensuro - The first licensed decentralized reinsurance
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://stevenscenter.wharton.upenn.edu/accelerator/#cohort" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/cypher-big.jpeg" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">January 26th, 2022</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										Ensuro selected as part of the First Cohort of Cypher Accelerator - Blockchain accelerator by The Wharton School of the University of Pennsylvania
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://blog.ensuro.co/ensuro-is-integrating-chainlink-to-bridge-defi-and-insurtech-with-secure-parametric-insurance-cb463eef3b1a" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/ensuro-chainlink.png" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">November 16th, 2021</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										Ensuro Is Integrating Chainlink to Bridge DeFi and InsurTech With Secure Parametric Insurance Products
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://www.instech.london/podcast/marco-mirabella-founder-and-ceo-ensuro-crypto-capital-for-insurance-start-ups" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/instech-london-podcast-164-marco-mirabella-website.jpg" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">November 12th, 2021</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										Interview in Instech London Podcast - Marco Mirabella: Founder & CEO, Ensuro: Crypto capital for insurance start-ups
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://www.youtube.com/watch?v=Ghksp9Rq4NA" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/video-illinois.png" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">October 5th, 2021</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										Marco Mirabella at the University of Illinois: "Blockchain and Decentralized Finance in the (Re)Insurance space"
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://blog.ensuro.co/meet-the-team-behind-ensuro-90c761120cff" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/ensuro-full-horiz-logo.jpeg" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">October 1st, 2021</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										Meet the team behind Ensuro
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://blog.ensuro.co/welcome-to-ensuro-decentralized-capital-provider-for-insurance-risks-23ee61236d54" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/ensuro-full-horiz-logo.jpeg" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">July 25th, 2021</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										Welcome to Ensuro-Decentralized Capital Provider for Insurance Risks - Blog presentation post
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://www.instech.london/insight/cryptocurrency-next-capital-pool-parametric-insurance" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/cryptocurrency-next-capital-pool-parametric-insurance-article.jpg" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">May 18th, 2021</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										Cryptocurrency - the next capital pool for parametric insurance?
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://medium.com/celoorg/announcing-the-grand-prize-winners-of-celo-camp-batch-3-58dd0eef19fc" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/celo-batch3-prize.jpeg" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">June 19th, 2021</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										<i>Innovating On Money</i> award for Ensuro after participation in Celo Camp Batch 3
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+						<section class="swiper-slide">
+							<a href="https://binancex.dev/blog.html?p=hackathon-winners-encode-hackathon-and-gitcoin-the-future-is-now" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="images/BinanceHackLogoSquareDarker.png" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">March 1st, 2021</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										1st Prize in <i>The Future is Now</i> Binance / Gitcoin Hackathon
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					
+				</div>
+				<!-- If we need navigation buttons -->
+				<nav class="absolute-center w-full z-10">
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</nav>
+			</section>
+		</div>
+		<script>
+			const swiperNews = new Swiper('.swiper-news', {
+				// Optional parameters
+				slidesPerView: 3,
+				spaceBetween: 30,
+				freeMode: false,
+				center: true,
+				loop: false,
+			
+				// If we need pagination
+				pagination: {
+					el: '.swiper-pagination',
+				},
+
+				// Navigation arrows
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+			});
+		</script>
+		<hr class="h-8 xl:h-16 border-none">
+	</article>
+
+		<footer class="bg-gradient-to-b from-primary-800 to-primary-500 py-20">
+			<div class="grid lg:grid-cols-5 container-padded relative z-10 gap-8">
+				<section class="col-span-1">
+					<img src="./assets/ensuro_white.svg" alt="" />
+					<hr class="h-8 xl:h-16 border-none">
+					<nav class="nav-footer">
+						<ul>
+							<li><a href="index.html" class="hide-on-header">Home</a></li>
+							<li><a href="#">Docs</a></li>
+							<li><a href="investors.html">Investors</a></li>
+							<li><a href="about.html">About Ensuro</a></li>
+							<li><a href="careers.html">Careers</a></li>
+							<li><a href="contact.html" class="hide-on-footer">Contact us</a></li>
+							<li><a href="PrivacyPolicy.pdf" class="hide-on-header" target="_blank">Privacy Policy</a></li>
+							<li><a href="Ensuro_ToS.pdf" class="hide-on-header" target="_blank">Terms of Service</a></li>
+						</ul>
+					</nav>
 				</section>
-                <section class="swiper-slide">
-					<a href="#" class="news-card relative block hover:opacity-80 transition-all">
-						<img src="./assets/news_partnership.jpg" alt="" class="w-full"/>
-						<div class="p-10">
-							<p class="text-regular-blue">October 3th, 2022</p>
-							<hr class="h-2 border-none">
-							<p class="text-alt">
-								New partnership with Parachute
-							</p>
-							<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
-						</div>
-						<hr class="h-5 xl:h-12 border-none">
-					</a>
+				<section class="col-span-2 flex items-start justify-center">
+					<div class="mx-auto">
+						<h2 class="title-footer">Want To Learn More?</h2>
+						<a href="Ensuro_whitepaper.pdf" class="btn-alt-primary bg-[#013498]" target="_blank">Read whitepaper</a>
+						<hr class="h-8 xl:h-16 border-none">
+						<h2 class="title-footer">
+							Are You an MGA Looking <br class="hidden md:block" />For Capacity?
+						</h2>
+						<a href="#" class="btn-alt-primary uppercase bg-[#0046bd]">Contact us</a>
+					</div>
 				</section>
-                <section class="swiper-slide">
-					<a href="#" class="news-card relative block hover:opacity-80 transition-all">
-						<img src="./assets/news_hodler.jpg" alt="" class="w-full"/>
-						<div class="p-10">
-							<p class="text-regular-blue">September 28th, 2022</p>
-							<hr class="h-2 border-none">
-							<p class="text-alt">
-								Hodler vault — A bridge between your crypto assets and stablecoin denominated yields
-							</p>
-							<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
-						</div>
-						<hr class="h-5 xl:h-12 border-none">
-					</a>
-				</section>
-                <section class="swiper-slide">
-					<a href="#" class="news-card relative block hover:opacity-80 transition-all">
-						<img src="./assets/news_bridge.jpg" alt="" class="w-full"/>
-						<div class="p-10">
-							<p class="text-regular-blue">September 28th, 2022</p>
-							<hr class="h-2 border-none">
-							<p class="text-alt">
-								Hodler vault — A bridge between your crypto assets and stablecoin denominated yields
-							</p>
-							<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
-						</div>
-						<hr class="h-5 xl:h-12 border-none">
-					</a>
+				<section class="col-span-2">
+					<h2 class="title-footer">Reach Out To Us</h2>
+					<hr class="h-2 border-none">
+					<p class="text-regular-white">
+						For any inquiries or partnership requests, please contact us via our
+						social media channels.
+					</p>
+					<hr class="h-5 xl:h-12 border-none">
+					<div class="flex">
+						<a href="https://twitter.com/Ensuroproject" target="_blank" class="mr-6 hover:opacity-80 transition-all">
+							<img src="./assets/twitter.svg" alt="" />
+						</a>
+						<a href="https://www.linkedin.com/company/ensuro/mycompany/" target="_blank" class="mr-6 hover:opacity-80 transition-all">
+							<img src="./assets/linkdin.svg" alt="" />
+						</a>
+						<a href="https://github.com/ensuro" target="_blank" class="mr-6 hover:opacity-80 transition-all">
+							<img src="./assets/github.svg" alt="" />
+						</a>
+						<a href="https://web.telegram.org/z/#-1325640961" target="_blank" class="mr-6 hover:opacity-80 transition-all">
+							<img src="./assets/telegram.svg" alt="" />
+						</a>
+						<a href="https://discord.gg/sePJF7RRZC" target="_blank" class="mr-6 hover:opacity-80 transition-all">
+							<img src="./assets/discord.svg" alt="" />
+						</a>
+						<a href="https://blog.ensuro.co/" target="_blank" class="hover:opacity-80 transition-all">
+							<img src="./assets/medium.svg" alt="" />
+						</a>
+					</div>
+					<hr class="h-5 xl:h-12 border-none">
+					<a href="PrivacyPolicy.pdf" class="text-regular-white" target="_blank">View our Privacy Policy</a>
 				</section>
 			</div>
-            <div class="swiper-pagination"></div>
-		</section>
-	</div>
-	<script>
-		const swiperNews = new Swiper('.swiper-news', {
-    // Optional parameters
-    slidesPerView: 3,
-    spaceBetween: 40,
-    freeMode: true,
-    center: true,
-    loop: true,
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
-
-  });
-	</script>
-	<hr class="h-8 xl:h-16 border-none">
-</article>
-
-        <footer class="bg-gradient-to-b from-primary-800 to-primary-500 py-20">
-	<div class="grid lg:grid-cols-5 container-padded relative z-10 gap-8">
-		<section class="col-span-1">
-			<img src="./assets/ensuro_white.svg" alt="" />
-			<hr class="h-8 xl:h-16 border-none">
-			<nav class="nav-footer">
-				<ul>
-	<li><a href="index.html" class="hide-on-header">Home</a></li>
-	<li><a href="#">Docs</a></li>
-	<li><a href="investors.html">Investors</a></li>
-	<li><a href="about.html">About Ensuro</a></li>
-	<li><a href="careers.html">Careers</a></li>
-	<li><a href="contact.html" class="hide-on-footer">Contact us</a></li>
-	<li><a href="PrivacyPolicy.pdf" class="hide-on-header" target="_blank">Privacy Policy</a></li>
-	<li><a href="Ensuro_ToS.pdf" class="hide-on-header" target="_blank">Terms of Service</a></li>
-</ul>
-
-			</nav>
-		</section>
-		<section class="col-span-2 flex items-start justify-center">
-			<div class="mx-auto">
-				<h2 class="title-footer">Want To Learn More?</h2>
-				<a href="Ensuro_whitepaper.pdf" class="btn-alt-primary bg-[#013498]" target="_blank">Read whitepaper</a>
-				<hr class="h-8 xl:h-16 border-none">
-				<h2 class="title-footer">
-					Are You an MGA Looking <br class="hidden md:block" />For Capacity?
-				</h2>
-				<a href="#" class="btn-alt-primary uppercase bg-[#0046bd]">Contact us</a>
-			</div>
-		</section>
-		<section class="col-span-2">
-			<h2 class="title-footer">Reach Out To Us</h2>
-			<hr class="h-2 border-none">
-			<p class="text-regular-white">
-				For any inquiries or partnership requests, please contact us via our
-				social media channels.
-			</p>
 			<hr class="h-5 xl:h-12 border-none">
-			<div class="flex">
-				<a href="https://twitter.com/Ensuroproject" target="_blank" class="mr-6 hover:opacity-80 transition-all">
-					<img src="./assets/twitter.svg" alt="" />
-				</a>
-				<a href="https://www.linkedin.com/company/ensuro/mycompany/" target="_blank" class="mr-6 hover:opacity-80 transition-all">
-					<img src="./assets/linkdin.svg" alt="" />
-				</a>
-				<a href="https://github.com/ensuro" target="_blank" class="mr-6 hover:opacity-80 transition-all">
-					<img src="./assets/github.svg" alt="" />
-				</a>
-				<a href="https://web.telegram.org/z/#-1325640961" target="_blank" class="mr-6 hover:opacity-80 transition-all">
-					<img src="./assets/telegram.svg" alt="" />
-				</a>
-				<a href="https://discord.gg/sePJF7RRZC" target="_blank" class="mr-6 hover:opacity-80 transition-all">
-					<img src="./assets/discord.svg" alt="" />
-				</a>
-				<a href="https://blog.ensuro.co/" target="_blank" class="hover:opacity-80 transition-all">
-					<img src="./assets/medium.svg" alt="" />
-				</a>
-			</div>
-			<hr class="h-5 xl:h-12 border-none">
-			<a href="PrivacyPolicy.pdf" class="text-regular-white" target="_blank">View our Privacy Policy</a>
-		</section>
-	</div>
-	<hr class="h-5 xl:h-12 border-none">
-	<small class="flex flex-row justify-between container-padded">
-		<span class="text-light text-white">Ⓒ 2023 Ensuro</span>
-		<span class="text-light text-white"
-			>*Ensuro is licensed to conduct digital asset business by the Bermuda
-			Monetary Authority</span
-		>
-	</small>
-</footer>
+			<small class="flex flex-row justify-between container-padded">
+				<span class="text-light text-white">Ⓒ 2023 Ensuro</span>
+				<span class="text-light text-white">*Ensuro is licensed to conduct digital asset business by the Bermuda Monetary Authority</span>
+			</small>
+		</footer>
 
-        <!-- SCRIPTS -->
+		<!-- SCRIPTS -->
     </body>
 </html>
