@@ -230,84 +230,79 @@
 			What our partners and clients are saying<span class="text-secondary-500">_</span>
 		</h2>
 	</header>
-	<hr class="h-5 xl:h-12 border-none">
 	<div class="w-[90vw] m-auto overflow-hidden px-32 relative">
 		<hr class="h-8 xl:h-16 border-none">
-		<section class="swiper-testimonials overflow-hidden">
+		<section class="swiper-testimonials overflow-hidden py-6">
 			<!-- Additional required wrapper -->
-			<div class="swiper-wrapper relative items-center">
+			<div class="swiper-wrapper relative items-center pb-12">
 				<!-- Slides -->
+				
 				<section class="swiper-slide">
 					<div class="testimonial-card">
-						<img src="./assets/quote_icon.svg" alt="" class="absolute" />
+						<img src="./assets/quote_icon.svg" style="height: 30px" alt="" class="absolute" />
+						<br class="hidden md:block">
 						<header class="flex items-end justify-end">
 							<h3 class="title-sm mr-4">Marion Doucet</h3>
-							<img src="./assets/partner_marion.jpg" alt="" />
+							<img src=./assets/partner_marion.jpg alt="" />
 						</header>
 						<hr class="h-5 xl:h-12 border-none">
 						<p class="text-alt text-right">
-							"We were looking for an agile partner to help us create innovative
-							products in record time, and Ensuro met all our criteria. They
-							have superb execution, understood our model quickly, and
-							challenged it effectively. They are also very proactive.  When you
-							choose Ensuro, you're really making the right choice."
+							We were looking for an agile partner to help us create innovative products in record time, and Ensuro met all our criteria. They have superb execution, understood our model quickly, and challenged it effectively. They are also very proactive.  When you choose Ensuro, you're really making the right choice.
 						</p>
 						<hr class="h-5 xl:h-12 border-none">
+						<br class="hidden md:block">
 						<img
-							src="./assets/logo-koala.png"
+							src=./assets/logo-koala.png
 							alt=""
 							class="testimonial-logo"
 						/>
 					</div>
 				</section>
+				
 				<section class="swiper-slide">
 					<div class="testimonial-card">
-						<img src="./assets/quote_icon.svg" alt="" class="absolute" />
+						<img src="./assets/quote_icon.svg" style="height: 30px" alt="" class="absolute" />
+						<br class="hidden md:block">
 						<header class="flex items-end justify-end">
-							<h3 class="title-sm mr-4">Marion Doucet</h3>
-							<img src="./assets/partner_edwin.jpg" alt="" />
+							<h3 class="title-sm mr-4">Edwin Campos</h3>
+							<img src=./assets/partner_edwin.jpg alt="" />
 						</header>
 						<hr class="h-5 xl:h-12 border-none">
 						<p class="text-alt text-right">
-							"In Ensuro, we found a partner that is helping us flourish in the
-							decentralized finance landscape. We easily integrated our
-							proprietary technologies with Ensuro’s accessible blockchain
-							tools, and used their actionable and sharp perspectives during our
-							product launch. As a result, Parachute clients can now enjoy a
-							more robust service to manage hurricane risk.”
+							In Ensuro, we found a partner that is helping us flourish in the decentralized finance landscape. We easily integrated our proprietary technologies with Ensuro’s accessible blockchain tools, and used their actionable and sharp perspectives during ourproduct launch. As a result, Parachute clients can now enjoy a more robust service to manage hurricane risk.
 						</p>
 						<hr class="h-5 xl:h-12 border-none">
+						<br class="hidden md:block">
 						<img
-							src="./assets/logo-parachute.png"
+							src=./assets/logo-parachute.png
 							alt=""
 							class="testimonial-logo"
 						/>
 					</div>
 				</section>
+				
 				<section class="swiper-slide">
 					<div class="testimonial-card">
-						<img src="./assets/quote_icon.svg" alt="" class="absolute" />
+						<img src="./assets/quote_icon.svg" style="height: 30px" alt="" class="absolute" />
+						<br class="hidden md:block">
 						<header class="flex items-end justify-end">
-							<h3 class="title-sm mr-4">Marion Doucet</h3>
-							<img src="./assets/partner_justin.jpg" alt="" />
+							<h3 class="title-sm mr-4">Justin Havins</h3>
+							<img src=./assets/partner_justin.jpg alt="" />
 						</header>
 						<hr class="h-5 xl:h-12 border-none">
 						<p class="text-alt text-right">
-							"DeFi capital can now be used to access a new asset class, as
-							Ensuro's innovative solution can bridge the gap between DeFi and
-							real-world risk. Blockchain has the potential to bring more
-							transparency and efficiency to insurance, an industry that has
-							been reluctant to change. We are proud that they have decided to
-							build their protocol on Polygon”
+							DeFi capital can now be used to access a new asset class, as Ensuro's innovative solution can bridge the gap between DeFi and real-world risk. Blockchain has the potential to bring more transparency and efficiency to insurance, an industry that has been reluctant to change. We are proud that they have decided to build their protocol on Polygon
 						</p>
 						<hr class="h-5 xl:h-12 border-none">
+						<br class="hidden md:block">
 						<img
-							src="./assets/logo-polygon.png"
+							src=./assets/logo-polygon.png
 							alt=""
 							class="testimonial-logo"
 						/>
 					</div>
 				</section>
+				
 			</div>
 
 			<!-- If we need navigation buttons -->
@@ -321,9 +316,10 @@
 			const swiperTestimonials = new Swiper('.swiper-testimonials', {
 				// Optional parameters
 				slidesPerView: 3,
-				spaceBetween: 40,
+				spaceBetween: 10,
+				freeMode: false,
 				center: true,
-				loop: true,
+				loop: false,
 			
 				// If we need pagination
 				pagination: {
