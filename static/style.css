@@ -1613,20 +1613,40 @@ footer .hide-on-footer {
   margin-right: auto;
 }
 
-.testimonial-card {
-  position: relative;
-  height: 620px;
-  border-radius: 0.5rem;
-  border-width: 1px;
-  --tw-border-opacity: 1;
-  border-color: rgb(138 183 233 / var(--tw-border-opacity));
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
+@media only screen and (min-width: 1300px) {
+	.testimonial-card {
+		position: relative;
+		height: 700px;
+		width: 350px;
+		border-radius: 0.5rem;
+		border-width: 1px;
+		--tw-border-opacity: 1;
+		border-color: rgb(138 183 233 / var(--tw-border-opacity));
+		--tw-bg-opacity: 1;
+		background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+		padding-top: 2.5rem;
+		padding-bottom: 2.5rem;
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
 }
+
+.testimonial-card {
+	position: relative;
+	height: 700px;
+	width: auto;
+	border-radius: 0.5rem;
+	border-width: 1px;
+	--tw-border-opacity: 1;
+	border-color: rgb(138 183 233 / var(--tw-border-opacity));
+	--tw-bg-opacity: 1;
+	background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
 
 .news-card {
   position: relative;
