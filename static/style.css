@@ -657,6 +657,10 @@ video {
   margin-left: auto;
 }
 
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
 .mr-9 {
   margin-right: 2.25rem;
 }
@@ -713,6 +717,10 @@ video {
   height: 1.25rem;
 }
 
+.h-16 {
+  height: 4rem;
+}
+
 .h-32 {
   height: 8rem;
 }
@@ -725,6 +733,10 @@ video {
   min-height: 100vh;
 }
 
+.h-screen {
+  min-height: 85vh;
+}
+
 .w-full {
   width: 100%;
 }
@@ -735,6 +747,10 @@ video {
 
 .w-\[75\%\] {
   width: 75%;
+}
+
+.w-\[60\%\] {
+  width: 60%;
 }
 
 .w-1\/2 {
@@ -1038,6 +1054,11 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-3xl {
@@ -1500,10 +1521,23 @@ footer .hide-on-footer {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-big-blue {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  --tw-text-opacity: 1;
+  color: rgb(0 102 255 / var(--tw-text-opacity));
+}
+
 @media (min-width: 1280px) {
   .text-big-white {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .text-big-blue {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    color: rgb(0 102 255 / var(--tw-text-opacity));
   }
 }
 
