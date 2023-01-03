@@ -1,7 +1,7 @@
 {% extends "master.j2" %}
 {% block title %}Ensuro | Decentralized capital for insurance{% endblock title %}
 {% block main_content %}
-        <article
+<article
 	id="banner"
 	class="bg-gradient-to-b from-primary-800 to-primary-500 w-full h-screen text-white justify-center items-center flex-col"
 >
@@ -55,14 +55,14 @@
 	</div>
 </article>
 
-        <article class="container-padded text-center ">
+<article class="container-padded text-center ">
 	<hr class="h-8 xl:h-16 border-none">
 	<b class="breather-title w-[75%] mx-auto block"> Ensuro brings the innovative DeFi Capital to the Insurtech World<span class="text-secondary-500">_</span></b>
     <hr class="h-8 xl:h-16 border-none">
     <hr class="w-full border-t border-gray-200 h-1">
 </article>
 
-        <article class="container-padded">
+<article class="container-padded">
 	<div class="">
 		<hr class="h-8 xl:h-16 border-none">
 		<section class="grid grid-cols-2 gap-4 items-center">
@@ -105,8 +105,8 @@
 	</div>
 </article>
 
-        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-        <article class="bg-primary-100">
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<article class="bg-primary-100">
 	<hr class="h-12 xl:h-24 border-none">
 	<h2 class="title-md container-padded">
 		Partners And Investors<span class="text-secondary-500">_</span>
@@ -116,8 +116,7 @@
         <hr class="w-full border-t border-gray-200 h-1">
 		<hr class="h-8 xl:h-16 border-none">
     </div>
-	<div class="w-[90vw] m-auto  px-20 relative">
-		
+	<div class="w-[90vw] m-auto  px-20 relative">		
 		<section class="swiper-partners overflow-hidden">
 			<!-- Additional required wrapper -->
 			<div class="swiper-wrapper relative items-center">
@@ -152,42 +151,39 @@
 			</nav>
 		</section>
 	</div>
-	<script>
+	<script>		
+		const swiperPartners = new Swiper('.swiper-partners', {
+			// Optional parameters
+			slidesPerView: 7,
+			spaceBetween: 25,
+			loop: true,
 		
-const swiperPartners = new Swiper('.swiper-partners', {
-    // Optional parameters
-    slidesPerView: 7,
-    spaceBetween: 25,
-    loop: true,
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
-  });
+			// If we need pagination
+			pagination: {
+			el: '.swiper-pagination',
+			},
+		
+			// Navigation arrows
+			navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+			},
+		
+			// And if we need scrollbar
+			scrollbar: {
+			el: '.swiper-scrollbar',
+			},
+		});
 	</script>
-    <hr class="h-28 xl:h-36 border-none">
+	<hr class="h-28 xl:h-36 border-none">
 </article>
 
-        <div class="diagonal-gradient">
-            <article>
+<div class="diagonal-gradient">
+	<article>
 	<hr class="h-12 xl:h-24 border-none">
 	<header class="container-padded">
 		<h2 class="title-md">
-			What our partners and clients are saying<span class="text-secondary-500"
-				>_</span
-			>
+			What our partners and clients are saying<span class="text-secondary-500">_</span>
 		</h2>
 	</header>
 	<hr class="h-5 xl:h-12 border-none">
@@ -277,123 +273,92 @@ const swiperPartners = new Swiper('.swiper-partners', {
 			</nav>
 		</section>
 	</div>
-	<script>
-		const swiperTestimonials = new Swiper('.swiper-testimonials', {
-    // Optional parameters
-    slidesPerView: 3,
-    spaceBetween: 40,
-    center: true,
-    loop: true,
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
-  });
-	</script>
-	<hr class="h-8 xl:h-16 border-none">
-</article>
+		<script>
+			const swiperTestimonials = new Swiper('.swiper-testimonials', {
+				// Optional parameters
+				slidesPerView: 3,
+				spaceBetween: 40,
+				center: true,
+				loop: true,
+			
+				// If we need pagination
+				pagination: {
+				el: '.swiper-pagination',
+				},
+			
+				// Navigation arrows
+				navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+				},
+			
+				// And if we need scrollbar
+				scrollbar: {
+				el: '.swiper-scrollbar',
+				},
+			});
+		</script>
+		<hr class="h-8 xl:h-16 border-none">
+	</article>
 
-            <article>
-    <hr class="h-8 xl:h-16 border-none">
-	<header class="container-padded">
-		<h2 class="title-md">
-			Latest News<span class="text-secondary-500">_</span>
-		</h2>
-	</header>
-    <hr class="h-8 xl:h-16 border-none">
-	<div class="w-[90vw] m-auto px-20 relative">
-		<section class="swiper-news overflow-hidden py-6">
-			<!-- Additional required wrapper -->
-			<div class="swiper-wrapper relative items-center pb-12">
-				<!-- Slides -->
-				<section class="swiper-slide">
-					<a class="news-card relative block hover:opacity-80 transition-all" href="#">
-						<img src="./assets/news_devcon.jpg" alt="" class="w-full"/>
-						<div class="p-10">
-							<p class="text-regular-blue">October 6th, 2022</p>
-							<hr class="h-2 border-none">
-							<p class="text-alt">
-								#DevconBogota is less than a week away!
-							</p>
-							<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
-						</div>
-						<hr class="h-5 xl:h-12 border-none">
-					</a>
-				</section>
-                <section class="swiper-slide">
-					<a href="#" class="news-card relative block hover:opacity-80 transition-all">
-						<img src="./assets/news_partnership.jpg" alt="" class="w-full"/>
-						<div class="p-10">
-							<p class="text-regular-blue">October 3th, 2022</p>
-							<hr class="h-2 border-none">
-							<p class="text-alt">
-								New partnership with Parachute
-							</p>
-							<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
-						</div>
-						<hr class="h-5 xl:h-12 border-none">
-					</a>
-				</section>
-                <section class="swiper-slide">
-					<a href="#" class="news-card relative block hover:opacity-80 transition-all">
-						<img src="./assets/news_hodler.jpg" alt="" class="w-full"/>
-						<div class="p-10">
-							<p class="text-regular-blue">September 28th, 2022</p>
-							<hr class="h-2 border-none">
-							<p class="text-alt">
-								Hodler vault — A bridge between your crypto assets and stablecoin denominated yields
-							</p>
-							<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
-						</div>
-						<hr class="h-5 xl:h-12 border-none">
-					</a>
-				</section>
-                <section class="swiper-slide">
-					<a href="#" class="news-card relative block hover:opacity-80 transition-all">
-						<img src="./assets/news_bridge.jpg" alt="" class="w-full"/>
-						<div class="p-10">
-							<p class="text-regular-blue">September 28th, 2022</p>
-							<hr class="h-2 border-none">
-							<p class="text-alt">
-								Hodler vault — A bridge between your crypto assets and stablecoin denominated yields
-							</p>
-							<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
-						</div>
-						<hr class="h-5 xl:h-12 border-none">
-					</a>
-				</section>
-			</div>
-            <div class="swiper-pagination"></div>
-		</section>
-	</div>
-	<script>
-		const swiperNews = new Swiper('.swiper-news', {
-    // Optional parameters
-    slidesPerView: 3,
-    spaceBetween: 40,
-    freeMode: true,
-    center: true,
-    loop: true,
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
+	<article>
+		<hr class="h-8 xl:h-16 border-none">
+		<header class="container-padded">
+			<h2 class="title-md">
+				Latest News<span class="text-secondary-500">_</span>
+			</h2>
+		</header>
+		<hr class="h-8 xl:h-16 border-none">
+		<div class="w-[90vw] m-auto px-20 relative">
+			<section class="swiper-news overflow-hidden py-6">
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper relative items-center pb-12">
+					<!-- Slides -->
+					{% for n in news %}
+						<section class="swiper-slide">
+							<a href="{{n.link}}" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
+								<img src="{{n.image}}" style="height: 280px" alt="" class="w-full"/>
+								<div class="p-10">
+									<p class="text-regular-blue">{{n.date}}</p>
+									<hr class="h-2 border-none">
+									<p class="text-alt">
+										{{n.title}}
+									</p>
+									<p class="absolute right-5 bottom-5 btn-pink">Read more</p>
+								</div>
+								<hr class="h-5 xl:h-12 border-none">
+							</a>
+						</section>
+					{% endfor %}
+				</div>
+				<!-- If we need navigation buttons -->
+				<nav class="absolute-center w-full z-10">
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</nav>
+			</section>
+		</div>
+		<script>
+			const swiperNews = new Swiper('.swiper-news', {
+				// Optional parameters
+				slidesPerView: 3,
+				spaceBetween: 30,
+				freeMode: false,
+				center: true,
+				loop: false,
+			
+				// If we need pagination
+				pagination: {
+					el: '.swiper-pagination',
+				},
 
-  });
-	</script>
-	<hr class="h-8 xl:h-16 border-none">
-</article>
+				// Navigation arrows
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+			});
+		</script>
+		<hr class="h-8 xl:h-16 border-none">
+	</article>
 {% endblock main_content %}
