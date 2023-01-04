@@ -47,7 +47,7 @@
 		{% block main_content %}
 		{% endblock main_content %}
 		<footer class="bg-gradient-to-b from-primary-800 to-primary-500 py-20">
-			<div class="grid lg:grid-cols-5 container-padded relative z-10 gap-8">
+			<div class="grid grid-cols-1 md:grid-cols-5 xs:text-center container-padded relative z-10 gap-8">
 				<section class="col-span-1">
 					<img src="./assets/ensuro_white.svg" alt="" />
 					<hr class="h-8 xl:h-16 border-none">
@@ -72,7 +72,7 @@
 						<h2 class="title-footer">
 							Are You an MGA Looking <br class="hidden md:block" />For Capacity?
 						</h2>
-						<a href="#" class="btn-alt-primary uppercase bg-[#0046bd]">Contact us</a>
+						<a href="contact.html" class="btn-alt-primary uppercase bg-[#0046bd]">Contact us</a>
 					</div>
 				</section>
 				<section class="col-span-2">
@@ -108,9 +108,15 @@
 				</section>
 			</div>
 			<hr class="h-5 xl:h-12 border-none">
+			<div class="only-mobile">
+				<p class="text-white container-padded relative">*Ensuro is licensed to conduct digital asset business by the Bermuda Monetary Authority</p>
+			</div>
+			<hr class="h-5 xl:h-12 border-none">
 			<small class="flex flex-row justify-between container-padded">
 				<span class="text-light text-white">Ⓒ 2023 Ensuro</span>
-				<span class="text-light text-white">*Ensuro is licensed to conduct digital asset business by the Bermuda Monetary Authority</span>
+				<div class="only-desktop">
+					<span class="text-white text-light">*Ensuro is licensed to conduct digital asset business by the Bermuda Monetary Authority</span>
+				</div>
 			</small>
 		</footer>
 
