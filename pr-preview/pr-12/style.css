@@ -653,6 +653,10 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-\[1\.5rem\] {
+  margin-top: 1.5rem;
+}
+
 .ml-auto {
   margin-left: auto;
 }
@@ -1659,9 +1663,26 @@ footer .hide-on-footer {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+@media only screen and (min-width: 1300px) {
+  .team-card {
+    position: relative;
+    height: auto;
+    width: 350px;
+    border-radius: 0.75rem;
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+    --tw-gradient-from: #fff;
+    --tw-gradient-to: rgb(255 255 255 / 0);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    --tw-gradient-to: #F3F8FF;
+    box-shadow: -1px 1px 29px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: -1px 1px 29px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: -1px 1px 29px 0px rgba(0, 0, 0, 0.2);
+  }
+}
+
 .team-card {
   position: relative;
-  height: 600px;
+  height: auto;
   border-radius: 0.75rem;
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
   --tw-gradient-from: #fff;
@@ -1689,7 +1710,7 @@ footer .hide-on-footer {
 
 .careers-card {
   position: relative;
-  height: 380px;
+  height: auto;
   border-radius: 0.75rem;
   border-width: 1px;
   --tw-border-opacity: 1;
@@ -1774,10 +1795,6 @@ footer .hide-on-footer {
   }
 }
 
-.half-input {
-  width: 45%;
-}
-
 .card-form label {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1825,6 +1842,50 @@ footer .hide-on-footer {
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-7 {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+
+  .md\:half-input {
+    width: 45%;
+  }
+
+  .only-mobile {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  .xs\:h-20 {
+    height: 5rem;
+  }
+}
+
+
+
+/* only for mobile */
+@media screen and (max-width: 767px) {
+  .only-desktop {
+    display: none;
+  }
+
+  .xs\:text-center {
+    text-align: center;
+  }
+
+  .xs\:h-20 {
+    height: 5rem;
+  }
+
+  .xs\:h-12 {
+    height: 3rem;
   }
 }
 

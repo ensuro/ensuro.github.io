@@ -58,14 +58,14 @@
 			</h1>
 			<hr class="h-12 xl:h-24 border-none">
 			<form class="card-form">
-				<div class="flex justify-between">
-					<div class="text-left half-input">
+				<div class="grid grid-cols-1 md:grid-cols-2 flex justify-between">
+					<div class="text-left md:half-input">
 						<label for="name">Your Name</label>
 						<hr class="h-2 border-none">
 						<hr class="h-2 border-none">
 						<input type="text" name="name" id="name" />
 					</div>
-					<div class="text-left half-input">
+					<div class="text-left md:half-input">
 						<label for="email">Your Email</label><br />
 						<hr class="h-2 border-none">
 						<hr class="h-2 border-none">
@@ -89,10 +89,10 @@
                     <hr class="h-2 border-none">
 					<hr class="h-2 border-none">
 					<textarea name="message" id="message" cols="30" rows="20" class="w-full"></textarea>
+					<p class="text-alt">View our <a href="PrivacyPolicy.pdf" target="_blank" class="text-primary-500">Privacy Policy</a></p>
 				</div>
                 <hr class="h-8 xl:h-16 border-none">
                 <div class="flex justify-between">
-                    <p class="text-alt">View our <a href="#" class="text-primary-500">Privacy Policy</a></p>
                     <button type="submit" class="btn-submit">Submit</button>
                 </div>
 			</form>
@@ -100,7 +100,7 @@
         <hr class="h-12 xl:h-24 border-none">
 
 		<footer class="bg-gradient-to-b from-primary-800 to-primary-500 py-20">
-			<div class="grid lg:grid-cols-5 container-padded relative z-10 gap-8">
+			<div class="grid grid-cols-1 md:grid-cols-5 xs:text-center container-padded relative z-10 gap-8">
 				<section class="col-span-1">
 					<img src="./assets/ensuro_white.svg" alt="" />
 					<hr class="h-8 xl:h-16 border-none">
@@ -125,7 +125,7 @@
 						<h2 class="title-footer">
 							Are You an MGA Looking <br class="hidden md:block" />For Capacity?
 						</h2>
-						<a href="#" class="btn-alt-primary uppercase bg-[#0046bd]">Contact us</a>
+						<a href="contact.html" class="btn-alt-primary uppercase bg-[#0046bd]">Contact us</a>
 					</div>
 				</section>
 				<section class="col-span-2">
@@ -161,9 +161,15 @@
 				</section>
 			</div>
 			<hr class="h-5 xl:h-12 border-none">
+			<div class="only-mobile">
+				<p class="text-white container-padded relative">*Ensuro is licensed to conduct digital asset business by the Bermuda Monetary Authority</p>
+			</div>
+			<hr class="h-5 xl:h-12 border-none">
 			<small class="flex flex-row justify-between container-padded">
 				<span class="text-light text-white">Ⓒ 2023 Ensuro</span>
-				<span class="text-light text-white">*Ensuro is licensed to conduct digital asset business by the Bermuda Monetary Authority</span>
+				<div class="only-desktop">
+					<span class="text-white text-light">*Ensuro is licensed to conduct digital asset business by the Bermuda Monetary Authority</span>
+				</div>
 			</small>
 		</footer>
 
