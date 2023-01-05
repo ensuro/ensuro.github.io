@@ -1729,6 +1729,7 @@ footer .hide-on-footer {
   position: relative;
   left: -2.5rem;
   top: -2.5rem;
+  margin-left: 2rem;
 }
 
 .diagonal-gradient {

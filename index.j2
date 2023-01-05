@@ -155,10 +155,15 @@
 			</nav>
 		</section>
 	</div>
-	<script>		
+	<script>
+		let qty = 0;
+		if(screen.width <= 767) 
+			qty = 2;
+		else
+			qty = 7;
 		const swiperPartners = new Swiper('.swiper-partners', {
 			// Optional parameters
-			slidesPerView: 7,
+			slidesPerView: qty,
 			spaceBetween: 25,
 			loop: true,
 		
@@ -295,9 +300,14 @@
 			</section>
 		</div>
 		<script>
+			let newsQty = 0;
+			if(screen.width <= 767) 
+				newsQty = 1;
+			else
+				newsQty = 3;
 			const swiperNews = new Swiper('.swiper-news', {
 				// Optional parameters
-				slidesPerView: 3,
+				slidesPerView: newsQty,
 				spaceBetween: 30,
 				freeMode: false,
 				center: true,
