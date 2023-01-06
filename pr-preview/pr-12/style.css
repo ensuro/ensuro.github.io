@@ -554,6 +554,36 @@ video {
   }
 } */
 
+.font-size-24 {
+  font-size: 24px !important;
+}
+
+.font-size-26 {
+  font-size: 26px !important;
+}  
+
+.font-size-32 {
+  font-size: 32px !important;
+}
+
+.font-size-38 {
+  font-size: 38px !important;
+}
+
+.font-size-40 {
+  font-size: 40px !important;
+}
+
+.font-size-48 {
+  font-size: 48px !important;
+}
+
+.font-size-68 {
+  font-size: 68px !important;
+}
+
+
+
 .container-padded {
   margin-left: auto;
   margin-right: auto;
@@ -1896,6 +1926,34 @@ footer .hide-on-footer {
   .xs\:h-12 {
     height: 3rem;
   }
+
+  .xs\:font-size-18 {
+    font-size: 18px !important;
+  }
+
+  .xs\:font-size-22 {
+    font-size: 22px !important;
+  }  
+
+  .xs\:font-size-24 {
+    font-size: 24px !important;
+  } 
+
+  .xs\:font-size-26 {
+    font-size: 26px !important;
+  } 
+
+  .xs\:font-size-28 {
+    font-size: 28px !important;
+  } 
+  
+  .xs\:font-size-30 {
+    font-size: 30px !important;
+  } 
+
+  .xs\:font-size-36 {
+    font-size: 36px !important;
+  } 
 
   .news-card {
     height: auto !important;

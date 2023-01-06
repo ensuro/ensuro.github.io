@@ -29,14 +29,14 @@
 					<div class="nav-header collapse navbar-collapse" id="navbarNav">
 						<ul class="navbar-nav ml-auto ">
 							<li class="nav-item"><a href="index.html" class="hide-on-header">Home</a></li>
-							<li class="nav-item"><a href="#">Docs</a></li>
+							<li class="nav-item" target="_blank"><a href="https://docs.ensuro.co/">Docs</a></li>
 							<li class="nav-item"><a href="investors.html">Investors</a></li>
 							<li class="nav-item"><a href="about.html">About Ensuro</a></li>
 							<li class="nav-item"><a href="careers.html">Careers</a></li>
 							<li class="nav-item"><a href="contact.html" class="hide-on-footer">Contact us</a></li>
 							<li class="nav-item"><a href="PrivacyPolicy.pdf" class="hide-on-header" target="_blank">Privacy Policy</a></li>
 						</ul>
-						<a href="https://app.ensuro.co" target="_blank" class="btn-secondary nav-item">Use app</a>
+						<a href="https://app-v2.ensuro.co" target="_blank" class="btn-secondary nav-item">Use app</a>
 
 					</div>
 				</div>
@@ -55,11 +55,11 @@
 		<br class="only-desktop">
 		<section class="grid grid-cols-1 gap-2 md:grid-cols-2 relative z-10">
 			<header class="flex justify-center flex-col order-2 md:order-1">
-				<h1 class="text-6xl">
+				<h1 class="font-size-68 xs:font-size-36 text-6xl">
 					Decentralized<br /><b>Capital For Insurance</b>
 				</h1>
 				<hr class="h-8 xl:h-16 border-none">
-				<p class="text-2xl">
+				<p class="font-size-24 xs:font-size-18 text-2xl">
 					Ensuro is the first decentralized, licensed (re)insurer on a public
 					blockchain. We use smart contracts to curate competitive insurance
 					portfolios. We allow anyone to invest in insurance risk and reap its
@@ -74,9 +74,10 @@
 			/>
 		</section>
 		<hr class="xs:h-12 border-none">
+		<br >
 		<section class="relative z-10">
 			<a href="investors.html" class="flex">
-				<span class="font-black text-3xl mr-3 text-secondary-500">How to invest</span>
+				<span class="xs:font-size-28 font-black text-3xl mr-3 text-secondary-500">How to invest</span>
 				<img src="./assets/arrow_right.svg" />
 			</a>
             <hr class="h-5 xl:h-12 border-none">
@@ -84,7 +85,7 @@
 			<div class="flex items-center justify-between">
 				<h2 class="only-desktop text-3xl drop-shadow-md">Are You an MGA Looking <br class="hidden md:block">For Capacity?</h2>
 				<div class="grid grid-cols-1 md:grid-cols-3 gap-20 items-center">
-					<h2 class="only-mobile text-3xl drop-shadow-md">Are You an MGA Looking <br class="hidden md:block">For Capacity?</h2>
+					<h2 class="xs:font-size-28  only-mobile text-3xl drop-shadow-md">Are You an MGA Looking <br class="hidden md:block">For Capacity?</h2>
 					<span class="text-center">
 						<p class="text-5xl font-extralight text-secondary-500">3,716</p>
                         <hr class="h-2 border-none">
@@ -110,7 +111,7 @@
 
 <article class="container-padded text-center ">
 	<hr class="h-8 xl:h-16 border-none">
-	<b class="breather-title w-[75%] mx-auto block"> Ensuro brings the innovative DeFi Capital to the Insurtech World<span class="text-secondary-500">_</span></b>
+	<b class="font-size-48 xs:font-size-24 breather-title w-[75%] mx-auto block"> Ensuro brings the innovative DeFi Capital to the Insurtech World<span class="text-secondary-500">_</span></b>
     <hr class="h-8 xl:h-16 border-none">
     <hr class="w-full border-t border-gray-200 h-1">
 </article>
@@ -124,7 +125,7 @@
 					How It Works<span class="text-secondary-500">_</span>
 				</h2>
 				<hr class="h-8 xl:h-16 border-none">
-				<p class="text-regular">
+				<p class="xs:font-size-18 text-regular">
 					Ensuro collects capital from Liquidity Providers, both retail and
 					institutional, through a Liquidity Pool governed by smart contracts.
 					This capital, collected in the form of cryptographic stablecoins,
@@ -140,7 +141,7 @@
 		<section class="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
 			<img class="only-desktop" src="./assets/aside_work2.jpg" alt="" />
 			<div>
-				<p class="text-regular text-right">
+				<p class="xs:font-size-18 text-regular text-right">
 					Ensuro collects capital from Liquidity Providers, both retail and
 					institutional, through a Liquidity Pool governed by smart contracts.
 					This capital, collected in the form of cryptographic stablecoins,
@@ -343,7 +344,7 @@
 				spaceBetween: 10,
 				freeMode: false,
 				center: true,
-				loop: false,
+				loop: true,
 			
 				// If we need pagination
 				pagination: {
@@ -841,15 +842,17 @@
 			let newsQty = 0;
 			if(screen.width <= 767) 
 				newsQty = 1;
-			else
+			else if(screen.width < 1660)
 				newsQty = 3;
+			else 
+				newsQty = 4;
 			const swiperNews = new Swiper('.swiper-news', {
 				// Optional parameters
 				slidesPerView: newsQty,
 				spaceBetween: 20,
 				freeMode: false,
 				center: true,
-				loop: false,
+				loop: true,
 			
 				// If we need pagination
 				pagination: {
@@ -874,12 +877,13 @@
 					<nav class="only-desktop nav-footer">
 						<ul>
 							<li><a href="index.html" class="hide-on-header">Home</a></li>
-							<li><a href="#">Docs</a></li>
+							<li><a href="https://docs.ensuro.co/" target="_blank">Docs</a></li>
 							<li><a href="investors.html">Investors</a></li>
 							<li><a href="about.html">About Ensuro</a></li>
 							<li><a href="careers.html">Careers</a></li>
 							<li><a href="contact.html" class="hide-on-footer">Contact us</a></li>
 							<li><a href="PrivacyPolicy.pdf" class="hide-on-header" target="_blank">Privacy Policy</a></li>
+							<li><a href="brandbook.pdf" class="hide-on-header" target="_blank">Press Kit</a></li>
 							<li><a href="Ensuro_ToS.pdf" class="hide-on-header" target="_blank">Terms of Service</a></li>
 						</ul>
 					</nav>
@@ -914,7 +918,7 @@
 						<a href="https://github.com/ensuro" target="_blank" class="mr-6 hover:opacity-80 transition-all">
 							<img src="./assets/github.svg" alt="" />
 						</a>
-						<a href="https://web.telegram.org/z/#-1325640961" target="_blank" class="mr-6 hover:opacity-80 transition-all">
+						<a href="https://t.me/ensuroproject" target="_blank" class="mr-6 hover:opacity-80 transition-all">
 							<img src="./assets/telegram.svg" alt="" />
 						</a>
 						<a href="https://discord.gg/sePJF7RRZC" target="_blank" class="mr-6 hover:opacity-80 transition-all">
@@ -929,12 +933,13 @@
 					<nav class="only-mobile nav-footer">
 						<ul>
 							<li><a href="index.html" class="hide-on-header">Home</a></li>
-							<li><a href="#">Docs</a></li>
+							<li><a href="https://docs.ensuro.co/" target="_blank">Docs</a></li>
 							<li><a href="investors.html">Investors</a></li>
 							<li><a href="about.html">About Ensuro</a></li>
 							<li><a href="careers.html">Careers</a></li>
 							<li><a href="contact.html" class="hide-on-footer">Contact us</a></li>
 							<li><a href="PrivacyPolicy.pdf" class="hide-on-header" target="_blank">Privacy Policy</a></li>
+							<li><a href="brandbook.pdf" class="hide-on-header" target="_blank">Press Kit</a></li>
 							<li><a href="Ensuro_ToS.pdf" class="hide-on-header" target="_blank">Terms of Service</a></li>
 						</ul>
 					</nav>
