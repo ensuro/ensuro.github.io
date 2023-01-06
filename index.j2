@@ -135,27 +135,13 @@
 			<!-- Additional required wrapper -->
 			<div class="swiper-wrapper relative items-center">
 				<!-- Slides -->
-				<div class="swiper-slide">
-                    <img src="./assets/logo-sosv.png" alt=""/>
-                </div>
-				<div class="swiper-slide">
-                    <img src="./assets/logo-artesian.png" alt=""/>
-                </div>
-                <div class="swiper-slide">
-                    <img src="./assets/logo-polygon.png" alt=""/>
-                </div>
-                <div class="swiper-slide">
-                    <img src="./assets/logo-koala.png" alt=""/>
-                </div>
-                <div class="swiper-slide">
-                    <img src="./assets/logo-orbit.png" alt=""/>
-                </div>
-                <div class="swiper-slide">
-                    <img src="./assets/logo-parachute.png" alt=""/>
-                </div>
-                <div class="swiper-slide">
-                    <img src="./assets/logo-iaventures.png" alt=""/>
-                </div>
+				{% for partner in partners_and_investors %} 
+					<div class="swiper-slide">
+						<a href={{partner.link}} target="_blank" style="display:block">
+							<img src={{partner.logo}} alt=""/>
+						</a>
+					</div>
+				{% endfor %}
 			</div>
 
 			<!-- If we need navigation buttons -->
@@ -215,10 +201,13 @@
 					<section class="swiper-slide">
 						<div class="testimonial-card">
 							<img src="./assets/quote_icon.svg" style="height: 30px" alt="" class="absolute" />
+							<br class="only-mobile">
 							<br class="hidden md:block">
 							<header class="flex items-end justify-end">
 								<h3 class="title-sm mr-4">{{p.name}}</h3>
-								<img src={{p.photo}} alt="" />
+								<a href={{p.link}} target="_blank">
+									<img src={{p.photo}} alt="" />
+								</a>
 							</header>
 							<hr class="h-5 xl:h-12 border-none">
 							<p class="text-alt text-right">
@@ -249,7 +238,6 @@
 				tQty = 1;
 			else
 				tQty = 3;
-			console.log(screen.width, tQty);
 			const swiperTestimonials = new Swiper('.swiper-testimonials', {
 				// Optional parameters
 				slidesPerView: tQty,
