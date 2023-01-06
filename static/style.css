@@ -548,11 +548,11 @@ video {
   }
 }
 
-@media (min-width: 1536px) {
+/* @media (min-width: 1536px) {
   .container-padded {
     max-width: 1536px;
   }
-}
+} */
 
 .container-padded {
   margin-left: auto;
@@ -1495,8 +1495,8 @@ footer .hide-on-footer {
 
 @media (min-width: 1280px) {
   .text-regular {
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.625rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -1508,7 +1508,7 @@ footer .hide-on-footer {
 
 @media (min-width: 1280px) {
   .text-regular {
-    font-size: 1.8rem;
+    font-size: 1.625rem;
   }
 }
 
@@ -1881,12 +1881,67 @@ footer .hide-on-footer {
     text-align: center;
   }
 
+  .xs\:text-left {
+    text-align: left;
+  }
+
   .xs\:h-20 {
     height: 5rem;
   }
 
+  .xs\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
   .xs\:h-12 {
     height: 3rem;
+  }
+
+  .news-card {
+    height: auto !important;
+    width: 100% !important;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  }
+
+  .px-20, .px-32 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .testimonial-card {
+    height: auto;
+    width: 100%;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    --tw-border-opacity: 1;
+    border-color: rgb(138 183 233 / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .testimonial-logo {
+    height: auto;
+    max-width: 150px;
+    position: initial;
+    bottom: 2.5rem;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+
+  .title-footer {
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-weight: 500;
   }
 }
 
