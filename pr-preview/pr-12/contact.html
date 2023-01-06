@@ -101,10 +101,10 @@
 
 		<footer class="bg-gradient-to-b from-primary-800 to-primary-500 py-20">
 			<div class="grid grid-cols-1 md:grid-cols-5 xs:text-center container-padded relative z-10 gap-8">
-				<section class="col-span-1">
+				<section class="col-span-1 xs:col-span-2 ">
 					<img src="./assets/ensuro_white.svg" alt="" />
 					<hr class="h-8 xl:h-16 border-none">
-					<nav class="nav-footer">
+					<nav class="only-desktop nav-footer">
 						<ul>
 							<li><a href="index.html" class="hide-on-header">Home</a></li>
 							<li><a href="#">Docs</a></li>
@@ -130,11 +130,12 @@
 				</section>
 				<section class="col-span-2">
 					<h2 class="title-footer">Reach Out To Us</h2>
-					<hr class="h-2 border-none">
-					<p class="text-regular-white">
+					<hr class="only-desktop h-2 border-none">
+					<p class="text-regular-white xs:text-left">
 						For any inquiries or partnership requests, please contact us via our
 						social media channels.
 					</p>
+					<br class="only-mobile">
 					<hr class="h-5 xl:h-12 border-none">
 					<div class="flex">
 						<a href="https://twitter.com/Ensuroproject" target="_blank" class="mr-6 hover:opacity-80 transition-all">
@@ -157,7 +158,19 @@
 						</a>
 					</div>
 					<hr class="h-5 xl:h-12 border-none">
-					<a href="PrivacyPolicy.pdf" class="text-regular-white" target="_blank">View our Privacy Policy</a>
+					<br class="only-mobile" >
+					<nav class="only-mobile nav-footer">
+						<ul>
+							<li><a href="index.html" class="hide-on-header">Home</a></li>
+							<li><a href="#">Docs</a></li>
+							<li><a href="investors.html">Investors</a></li>
+							<li><a href="about.html">About Ensuro</a></li>
+							<li><a href="careers.html">Careers</a></li>
+							<li><a href="contact.html" class="hide-on-footer">Contact us</a></li>
+							<li><a href="PrivacyPolicy.pdf" class="hide-on-header" target="_blank">Privacy Policy</a></li>
+							<li><a href="Ensuro_ToS.pdf" class="hide-on-header" target="_blank">Terms of Service</a></li>
+						</ul>
+					</nav>
 				</section>
 			</div>
 			<hr class="h-5 xl:h-12 border-none">
