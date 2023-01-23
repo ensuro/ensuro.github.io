@@ -555,7 +555,7 @@ video {
 } */
 
 .home-image {
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -1523,7 +1523,7 @@ a:hover{
 
 @media (min-width: 1280px) {
   .title-footer {
-    font-size: 1.875rem;
+    font-size: 1.5rem;
     line-height: 2.25rem;
   }
 }
@@ -1849,7 +1849,7 @@ a:hover{
 }
 
 .card-form input, .card-form select, .card-form textarea {
-  height: 3.5rem;
+  height: 2rem;
   width: 100%;
   border-radius: 0.5rem;
   border-width: 1px;
@@ -1885,7 +1885,7 @@ a:hover{
 }
 
 .card-form textarea {
-  height: 13rem;
+  height: 8rem;
 }
 
 .hover\:opacity-80:hover {
@@ -1928,7 +1928,7 @@ a:hover{
   }
 
   .md\:half-input {
-    width: 45%;
+    width: 75%;
   }
 
   .only-mobile {
@@ -2041,7 +2041,7 @@ a:hover{
 
   .title-footer {
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     line-height: 1.75rem;
     font-weight: 500;
   }
