@@ -559,8 +559,27 @@ video {
   margin: 0 auto;
 }
 
+.reduce-image-65 {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.reduce-image-75 {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.reduce-image-85 {
+  width: 85%;
+  margin: 0 auto;
+}
+
 .font-size-20 { 
   font-size: 20px !important;
+}
+
+.font-size-22 { 
+  font-size: 22px !important;
 }
 
 .font-size-24 {
@@ -573,6 +592,10 @@ video {
 
 .font-size-32 {
   font-size: 32px !important;
+}
+
+.font-size-36 {
+  font-size: 36px !important;
 }
 
 .font-size-38 {
@@ -1780,6 +1803,7 @@ a:hover{
   left: -2.5rem;
   top: -2.5rem;
   margin-left: 2rem;
+  width: 45%;
 }
 
 .diagonal-gradient {
