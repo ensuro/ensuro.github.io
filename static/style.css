@@ -554,6 +554,15 @@ video {
   }
 } */
 
+.home-image {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.font-size-20 { 
+  font-size: 20px !important;
+}
+
 .font-size-24 {
   font-size: 24px !important;
 }
@@ -578,8 +587,8 @@ video {
   font-size: 48px !important;
 }
 
-.font-size-68 {
-  font-size: 68px !important;
+.font-size-56 {
+  font-size: 56px !important;
 }
 
 
@@ -885,7 +894,7 @@ video {
 }
 
 .border-t {
-  border-top-width: 1px;
+  border-top-width: 2px;
 }
 
 .border-none {
@@ -1169,6 +1178,12 @@ header .hide-on-header {
   display: none;
 }
 
+.header-line {
+  position: relative;
+  width: 100%;
+  height: 5px;
+}
+
 footer .hide-on-footer {
   display: none;
 }
@@ -1270,10 +1285,10 @@ footer .hide-on-footer {
   border-radius: 0.5rem;
   --tw-bg-opacity: 1;
   background-color: rgb(1 78 206 / var(--tw-bg-opacity));
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   text-transform: uppercase;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1365,6 +1380,10 @@ footer .hide-on-footer {
 }
 
 /* TEXT------------------------- */
+
+a:hover{
+  text-decoration: none;
+}
 
 .breather-title {
   font-size: 1.875rem;
@@ -1539,6 +1558,7 @@ footer .hide-on-footer {
 @media (min-width: 1280px) {
   .text-regular {
     font-size: 1.625rem;
+    line-height: 2.25rem;
   }
 }
 
