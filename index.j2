@@ -195,12 +195,12 @@
 				What our partners and clients are saying<span class="text-secondary-500">_</span>
 			</h2>
 		</header>
-		<div class="w-[90vw] m-auto overflow-hidden px-32 relative">
+		<div class="w-[90vw] m-auto px-20 relative">
 			<hr class="only-desktop h-8 xl:h-16 border-none">
-			<section class="swiper-testimonials overflow-hidden py-6">
-				<!-- Additional required wrapper -->
-				<div class="swiper-wrapper relative items-center pb-12">
-					<!-- Slides -->
+			<section class="swiper-news overflow-hidden py-6">
+				<!--Blog-inner Start-->
+				<div class="swiffy-slider slider-item-show3 slider-nav-outside slider-nav-dark slider-nav-lg slider-nav-visible slider-indicators-outside slider-indicators-round slider-indicators-dark slider-nav-animation slider-nav-animation-fadein slider-item-first-visible">
+					<div class="slider-container">
 					{% for p in partners_quotes %}
 					<section class="swiper-slide">
 						<div class="testimonial-card">
@@ -227,46 +227,13 @@
 						</div>
 					</section>
 					{% endfor %}
+					</div>
+					<button type="button" class="slider-nav" aria-label="Go left"></button>
+					<button type="button" class="slider-nav slider-nav-next" aria-label="Go left"></button>
 				</div>
-
-				<!-- If we need navigation buttons -->
-				<nav class="absolute-center w-full z-10">
-					<div class="swiper-button-prev"></div>
-					<div class="swiper-button-next"></div>
-				</nav>
+				<!--Blog-inner End-->
 			</section>
 		</div>
-		<script>
-			let tQty = 0;
-			if(screen.width <= 767) 
-				tQty = 1;
-			else
-				tQty = 3;
-			const swiperTestimonials = new Swiper('.swiper-testimonials', {
-				// Optional parameters
-				slidesPerView: tQty,
-				spaceBetween: 10,
-				freeMode: false,
-				center: true,
-				loop: true,
-			
-				// If we need pagination
-				pagination: {
-				el: '.swiper-pagination',
-				},
-			
-				// Navigation arrows
-				navigation: {
-				nextEl: '.swiper-button-next',
-				prevEl: '.swiper-button-prev',
-				},
-			
-				// And if we need scrollbar
-				scrollbar: {
-				el: '.swiper-scrollbar',
-				},
-			});
-		</script>
 		<hr class="only-desktop h-8 xl:h-16 border-none">
 	</article>
 
@@ -281,7 +248,7 @@
 		<div class="w-[90vw] m-auto px-20 relative">
 			<section class="swiper-news overflow-hidden py-6">
 				<!--Blog-inner Start-->
-				<div class="swiffy-slider slider-item-show3 slider-nav-outside slider-nav-dark slider-nav-lg slider-nav-visible slider-indicators-outside slider-indicators-round slider-indicators-dark slider-nav-animation slider-nav-animation-fadein slider-item-first-visible">
+				<div class="swiffy-slider news-slider-item-show3 slider-nav-outside slider-nav-dark slider-nav-lg slider-nav-visible slider-indicators-outside slider-indicators-round slider-indicators-dark slider-nav-animation slider-nav-animation-fadein slider-item-first-visible">
 					<div class="slider-container">
 						{% for n in news %}
 							<a href="{{n.link}}" target="_blank" class="news-card relative block hover:opacity-80 transition-all">
