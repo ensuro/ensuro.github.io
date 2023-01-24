@@ -2082,3 +2082,27 @@ a:hover{
     height: 5rem;
   }
 }
+
+
+.swiffy-slider {
+  position: initial !important;
+  --swiffy-slider-nav-dark: #000aff !important;
+}
+
+@media screen and (min-width: 767px) {
+  .slider-item-show3 {
+    --swiffy-slider-item-count: 3 !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .slider-item-show3 {
+    --swiffy-slider-item-count: 1 !important;
+  }
+}
+
+@media (min-width: 1920px) {
+  .slider-item-show3 {
+    --swiffy-slider-item-count: 4 !important;
+  }
+}
