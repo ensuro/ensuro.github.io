@@ -2090,19 +2090,19 @@ a:hover{
 }
 
 @media screen and (min-width: 767px) {
-  .slider-item-show3 {
+  .news-slider-item-show3 {
     --swiffy-slider-item-count: 3 !important;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .slider-item-show3 {
+  .news-slider-item-show3 {
     --swiffy-slider-item-count: 1 !important;
   }
 }
 
 @media (min-width: 1920px) {
-  .slider-item-show3 {
+  .news-slider-item-show3 {
     --swiffy-slider-item-count: 4 !important;
   }
 }
