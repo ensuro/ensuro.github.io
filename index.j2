@@ -49,11 +49,16 @@
 					<span class="text-center">
 						<p class="text-4xl font-extralight text-secondary-500" id="active-policies"></p>
 						<script>
-							fetch('https://offchain-v2.ensuro.co/api/policies/?status=active&limit=1')
-							 	.then(response => response.json())
-							 	.then(data => {
-									document.querySelector('#active-policies').innerHTML = data.count.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");;
-							 	});
+							const fetchV1 = fetch('https://offchain.ensuro.co/api/policies/?status=active&limit=1')
+												.then((res) => res.json());
+
+							const fetchV2 = fetch('https://offchain-v2.ensuro.co/api/policies/?status=active&limit=1')
+												.then((res) => res.json());
+
+							const allData = Promise.all([fetchV1, fetchV2]);
+							allData.then((res) => {
+								document.querySelector('#active-policies').innerHTML = (res[0].count + res[1].count).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+							});
 						</script>
                         <hr class="h-2 border-none">
 						<small class="mx-auto block text-xl opacity-80">Active Policies</small>
@@ -64,7 +69,7 @@
 							fetch('https://offchain-v2.ensuro.co/api/riskmodules/total_premiums/')
 							 	.then(response => response.json())
 							 	.then(data => {
-									document.querySelector('#total-premiums').innerHTML = new Intl.NumberFormat("en-US", {style: 'currency', currency: 'USD', notation: "compact" }).format(data.total);
+									document.querySelector('#total-premiums').innerHTML = new Intl.NumberFormat("en-US", {style: 'currency', currency: 'USD', notation: "compact" }).format(data.total + 776000);
 							 	});
 						</script>
                         <hr class="h-2 border-none">

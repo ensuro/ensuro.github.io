@@ -1030,6 +1030,10 @@ video {
   --tw-gradient-to: #A5FF76;
 }
 
+.p-3 {
+  padding: 0.75rem;
+}
+
 .p-6 {
   padding: 1.5rem;
 }
@@ -1990,6 +1994,10 @@ a:hover{
 @media screen and (max-width: 767px) {
   .only-desktop {
     display: none;
+  }
+
+  .xs\:p-3 {
+    padding: 0.75rem;
   }
 
   .xs\:text-center {
