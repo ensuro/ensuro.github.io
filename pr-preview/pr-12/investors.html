@@ -19,17 +19,21 @@
       	<link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
     </head>
 	<body>
-        <header class="w-full bg-white p-6 relative z-20">
+        <header class="w-full bg-white p-3 relative z-20">
 			<nav class="navbar navbar-expand-lg navbar-light flex justify-between container-padded">
 				<div class="container-fluid">
 					<a href="index.html">
-						<img src="./assets/logo_header.svg" alt="" />
+						<img class="only-desktop" src="./assets/logo_header.svg" alt="" />
+						<img class="only-mobile" src="./assets/logo_header.svg" alt="" />
 					</a>
+					<div >
+					<a href="https://app-v2.ensuro.co" target="_blank" class="btn-secondary nav-item only-mobile">App</a>
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="flex items-center px-3 py-2">
 							<img src="./assets/header_menu.svg" alt="" />
 						</span>
 					</button>
+					</div>
 					<div class="nav-header collapse navbar-collapse" id="navbarNav">
 						<ul class="navbar-nav ml-auto ">
 							<li class="nav-item"><a href="index.html" class="hide-on-header">Home</a></li>
@@ -40,8 +44,7 @@
 							<li class="nav-item"><a href="contact.html" class="hide-on-footer">Contact us</a></li>
 							<li class="nav-item"><a href="PrivacyPolicy.pdf" class="hide-on-header" target="_blank">Privacy Policy</a></li>
 						</ul>
-						<a href="https://app-v2.ensuro.co" target="_blank" class="btn-secondary nav-item">Use app</a>
-
+						<a href="https://app-v2.ensuro.co" target="_blank" class="btn-secondary nav-item only-desktop">App</a>
 					</div>
 				</div>
 			</nav>
