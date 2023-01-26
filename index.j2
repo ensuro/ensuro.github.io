@@ -42,24 +42,45 @@
 				<a href="contact.html" class="flex">
 					<span class="only-desktop text-3xl drop-shadow-md text-white">Are You an MGA Looking <br class="hidden md:block">For Capacity?</span>
 				</a>
-				<div class="grid grid-cols-1 md:grid-cols-3 gap-20 items-center">
+				<div class="grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
 					<a href="contact.html" class="only-mobile flex">
 						<span class="xs:font-size-28  only-mobile text-3xl drop-shadow-md text-white">Are You an MGA Looking <br class="hidden md:block">For Capacity?</span>
 					</a>
 					<span class="text-center">
-						<p class="text-5xl font-extralight text-secondary-500">9,000</p>
+						<p class="text-4xl font-extralight text-secondary-500" id="active-policies"></p>
+						<script>
+							fetch('https://offchain-v2.ensuro.co/api/policies/?status=active&limit=1')
+							 	.then(response => response.json())
+							 	.then(data => {
+									document.querySelector('#active-policies').innerHTML = data.count.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");;
+							 	});
+						</script>
                         <hr class="h-2 border-none">
 						<small class="mx-auto block text-xl opacity-80">Active Policies</small>
 					</span>
 					<span class="text-center">
-						<p class="text-5xl font-extralight text-secondary-500">$731K</p>
+						<p class="text-4xl font-extralight text-secondary-500" id="total-premiums">$731K</p>
+						<script>
+							fetch('https://offchain-v2.ensuro.co/api/riskmodules/total_premiums/')
+							 	.then(response => response.json())
+							 	.then(data => {
+									document.querySelector('#total-premiums').innerHTML = new Intl.NumberFormat("en-US", {style: 'currency', currency: 'USD', notation: "compact" }).format(data.total);
+							 	});
+						</script>
                         <hr class="h-2 border-none">
 						<small class="mx-auto block text-xl opacity-80"> Total Premium</small>
 					</span>
 					<span class="text-center">
-						<p class="text-5xl font-extralight text-secondary-500">7,8%</p>
+						<p class="text-4xl font-extralight text-secondary-500" id="apy">7,8%</p>
+						<script>
+							fetch('https://offchain-v2.ensuro.co/api/etokens/apy_range/?days_from=7')
+							 	.then(response => response.json())
+							 	.then(data => {
+									document.querySelector('#apy').innerHTML = (data.min_apy * 100 ).toFixed(0) + '% to ' + (data.max_apy * 100 ).toFixed(0) + '%';
+							 	});
+						</script>
                         <hr class="h-2 border-none">
-						<small class="mx-auto block text-xl opacity-80">Senior Pool APY</small>
+						<small class="mx-auto block text-xl opacity-80">APY</small>
 					</span>
 				</div>
 			</div>
