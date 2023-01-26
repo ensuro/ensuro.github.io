@@ -1657,6 +1657,35 @@ a:hover{
   }
 }
 
+
+.text-blue-date {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(0 102 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1280px) {
+  .text-blue-date {
+    font-size: 1.125rem;
+    line-height: 2rem;
+  }
+}
+
+.text-black-news {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: black;
+}
+
+@media (min-width: 1920px) {
+  .text-black-news {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
 .text-alt {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -1732,13 +1761,20 @@ a:hover{
 
 .news-card {
   position: relative;
-  height: 600px;
+  height: 523px !important;
+  width: auto !important;
   overflow: hidden;
-  border-radius: 0.5rem;
+  border-radius: 1.5rem;
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+@media (min-width: 1920px) {
+  .news-card {
+    width: 414px !important;
+  }
 }
 
 @media only screen and (min-width: 1300px) {
@@ -1761,7 +1797,7 @@ a:hover{
 .team-card {
   position: relative;
   height: auto;
-  border-radius: 0.75rem;
+  border-radius: 1.5rem;
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
   --tw-gradient-from: #fff;
   --tw-gradient-to: rgb(255 255 255 / 0);
@@ -2006,9 +2042,10 @@ a:hover{
 
   .news-card {
     height: auto !important;
-    width: 100% !important;
+    width: 270px !important;
     overflow: hidden;
-    border-radius: 0.5rem;
+    margin: auto;
+    border-radius: 1.5rem;
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
     --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
@@ -2106,8 +2143,8 @@ a:hover{
   }
 }
 
-@media (min-width: 1920px) {
+/* @media (min-width: 1920px) {
   .news-slider-item-show3 {
     --swiffy-slider-item-count: 4 !important;
   }
-}
+} */
