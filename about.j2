@@ -60,12 +60,14 @@
 		{% for t in team %}
 		<section class="team-card">
 			<header class="flex relative items-center">
-				<img src={{t.photo}} alt="" />
+				<img src={{t.photo}} alt="" onclick="window.open('{{t.link}}', '_blank');"  style="cursor: pointer;" />
 				<h3 class="title-sm pt-0 pr-5">{{t.role}}</h3>
 			</header>
 			<hr class="h-2 border-none">
 			<div class="content px-10">
-				<b class="team-name">{{t.name}}</b>
+				<a href={{t.link}} target="_blank">
+					<b class="team-name">{{t.name}}</b>
+				</a>
 				<hr class="h-2 border-none">
 				<p class="team-content">
 					{{t.description}}
