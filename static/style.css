@@ -1762,6 +1762,17 @@ a:hover{
 	padding-right: 2rem;
 }
 
+@media (min-width: 1920px) {
+  .testimonial-card {
+    height: 700px !important;
+    width: 450px !important;
+  }
+
+  .xl\:padding {
+    padding-left: 4rem !important;
+  }
+}
+
 
 .news-card {
   position: relative;
