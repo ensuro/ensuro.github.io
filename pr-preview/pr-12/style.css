@@ -1775,6 +1775,10 @@ a:hover{
   .xl\:padding {
     padding-left: 4rem !important;
   }
+
+  .xl\:font-size-22 {
+    font-size: 22px !important;
+  }
 }
 
 
