@@ -70,7 +70,7 @@ team:
     description: "Mario is a professional specialized in operations. He is a certified lawyer, a specialist in Human Resources, and has a Master's degree in Management and Development of organizations and another in Data Analytics. He has experience working in the operations departments of non-governmental, public, and private organizations in Argentina, Germany, Norway, and Sweden."
   - name: "Gabriel Parrondo"
     photo: "./assets/team_gabriel.png"
-    role: "Software Developer"
+    role: "Chief Information Security Officer"
     link: "https://www.linkedin.com/in/gnpar/"
     description: "Gabriel is a software developer with a strong background in infrastructure. He has over 10 years of experience in the IT sector during which he's worked as a sysadmin, network engineer, security analyst and full stack developer."
   - name: "Nicolás de la Torre"
