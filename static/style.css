@@ -574,6 +574,10 @@ video {
   margin: 0 auto;
 }
 
+.font-size-18 { 
+  font-size: 18px !important;
+}
+
 .font-size-20 { 
   font-size: 20px !important;
 }
