@@ -60,7 +60,7 @@ team:
     description: "Colin is a finance professional who has been working in international re/insurance markets for over 30 years in various senior roles. His previous employers include Marsh, XL Re, Equator Re and Markel Latin America where he served as CFO."
   - name: "Jaliah Nassanga"
     photo: "./assets/team_jaliah.png"
-    role: "Money Laundering Reporting Officer"
+    role: "Chief Compliance Officer"
     link: "https://www.linkedin.com/in/jaliah-nassanga-cfe-cams-460b7571/"
     description: "Jaliah is a Certified Anti-Money Laundering Specialist and Fraud Examiner with over 10 years’ of Banking industry experience where she served in different roles. Previously a Compliance Officer for an East African Regional Tier 1 Commercial Bank where she had oversight for the Bank’s Compliance and AML/CFT Risk Management Program."
   - name: "Mario David Tabares"
