@@ -574,15 +574,15 @@ video {
   margin: 0 auto;
 }
 
-.font-size-18 { 
+.font-size-18 {
   font-size: 18px !important;
 }
 
-.font-size-20 { 
+.font-size-20 {
   font-size: 20px !important;
 }
 
-.font-size-22 { 
+.font-size-22 {
   font-size: 22px !important;
 }
 
@@ -592,7 +592,7 @@ video {
 
 .font-size-26 {
   font-size: 26px !important;
-}  
+}
 
 .font-size-32 {
   font-size: 32px !important;
@@ -1338,7 +1338,7 @@ footer .hide-on-footer {
   background-color: rgb(1 35 118 / var(--tw-bg-opacity));
 }
 
-.btn-alt-primary:before, .btn-submit:before, 
+.btn-alt-primary:before, .btn-submit:before,
 .btn-primary:before, .btn-primary-white:before {
   content: '';
   position: absolute;
@@ -2045,27 +2045,27 @@ a:hover{
 
   .xs\:font-size-22 {
     font-size: 22px !important;
-  }  
+  }
 
   .xs\:font-size-24 {
     font-size: 24px !important;
-  } 
+  }
 
   .xs\:font-size-26 {
     font-size: 26px !important;
-  } 
+  }
 
   .xs\:font-size-28 {
     font-size: 28px !important;
-  } 
-  
+  }
+
   .xs\:font-size-30 {
     font-size: 30px !important;
-  } 
+  }
 
   .xs\:font-size-36 {
     font-size: 36px !important;
-  } 
+  }
 
   .news-card {
     height: auto !important;
@@ -2175,3 +2175,7 @@ a:hover{
     --swiffy-slider-item-count: 4 !important;
   }
 } */
+
+.no-border {
+  outline: none !important;
+}
