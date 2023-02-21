@@ -1784,7 +1784,7 @@ a:hover{
 
 .news-card {
   position: relative;
-  height: 523px !important;
+  height: 570px !important;
   width: auto !important;
   overflow: hidden;
   border-radius: 1.5rem;
@@ -2162,19 +2162,21 @@ a:hover{
   .news-slider-item-show3 {
     --swiffy-slider-item-count: 3 !important;
   }
+
+  .testimonial-slider-item-show3 {
+    --swiffy-slider-item-count: 3 !important;
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .news-slider-item-show3 {
     --swiffy-slider-item-count: 1 !important;
   }
-}
 
-/* @media (min-width: 1920px) {
-  .news-slider-item-show3 {
-    --swiffy-slider-item-count: 4 !important;
+  .testimonial-slider-item-show3 {
+    --swiffy-slider-item-count: 1 !important;
   }
-} */
+}
 
 .no-border {
   outline: none !important;
