@@ -105,6 +105,30 @@ advisors:
     link: "https://www.linkedin.com/in/joe-monk-81551318/"
     description: "Joe Monk is a freelance consultant having qualified as a Fellow of the Institute of Actuaries in 1999. He started his career in 1995 at Lane Clark & Peacock, a London-based actuarial consultancy, progressing to be a senior partner and practice head. In 2010 he moved in-house, joining Alterra (previously Max Capital) as Global Chief Actuary. After Alterra’s sale to Markel in 2013 he joined Pioneer Underwriters as Chief Actuary, before setting up as an independent consultant in 2018. Joe holds an MA in Economics from Cambridge University."
 news:
+  - title: "With great transparency comes great responsibility: auditing smart contract permissions"
+    date: "February 16th, 2023"
+    link: https://blog.ensuro.co/with-great-transparency-comes-great-responsibility-auditing-smart-contract-permissions-f9824d64312e
+    image: images/auditing_smart_contract.png
+  - title: "Ensuro has reached $1.5 M USDC in Total Value Locked (TVL)"
+    date: "February 10th, 2023"
+    link: https://www.linkedin.com/posts/ensuro_ensuro-insurance-insurtech-activity-7029750576380833792-HCNi?utm_source=share&utm_medium=member_desktop
+    image: images/1-5M_TVL.png
+  - title: "We have launched our new website! 🤩🥳🎉"
+    date: "January 31st, 2023"
+    link: https://www.linkedin.com/posts/ensuro_new-website-activity-7026170867449520129-ovDX?utm_source=share&utm_medium=member_desktop
+    image: images/new_web.png
+  - title: "Blockchain in insurance: why the industry needs to embrace the technology"
+    date: "January 24th, 2023"
+    link: https://blog.ensuro.co/blockchain-in-insurance-why-the-industry-needs-to-embrace-the-technology-737462e33d9c
+    image: images/blockchain_insurance.png
+  - title: "We have reached $1M USD in Total Fee Collected"
+    date: "January 17th, 2023"
+    link: https://www.linkedin.com/posts/ensuro_ensuro-activity-7021049473858424834-6lcb?utm_source=share&utm_medium=member_desktop
+    image: images/1M-Total-Fee.png
+  - title: "Ensuro 2.0 is here!"
+    date: "December 12th, 2022"
+    link: https://blog.ensuro.co/ensuro-2-0-is-here-df401555a65f
+    image: images/ensuro2-0.png
   - title: "Third episode of Breadcrumbs"
     date: "December 2nd, 2022"
     link: https://www.linkedin.com/mycompany/ensuro/recommendations/urn:li:activity:7003781872652582912
