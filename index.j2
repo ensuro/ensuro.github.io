@@ -78,7 +78,7 @@
           <span class="text-center">
             <p class="text-4xl font-extralight text-secondary-500" id="apy">7,8%</p>
             <script>
-              fetch('https://offchain-v2.ensuro.co/api/etokens/apy_range/?days_from=7')
+              fetch('https://offchain-v2.ensuro.co/api/etokens/apy_range/?days_from=7&etks=0x8d2Ee82c4172B2138B06b8037d769cBfAf9C0274,0x55bAe6690d46EA94D7F05DF7c80A85E322421fB6')
                 .then(response => response.json())
                 .then(data => {
                   document.querySelector('#apy').innerHTML = (data.min_apy * 100 ).toFixed(0) + '% to ' + (data.max_apy * 100 ).toFixed(0) + '%';
