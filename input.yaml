@@ -5,18 +5,24 @@ partners_quotes:
     quote: "We were looking for an agile partner to help us create innovative products in record time, and Ensuro met all our criteria. They have superb execution, understood our model quickly, and challenged it effectively. They are also very proactive.  When you choose Ensuro, you're really making the right choice."
     company: "https://hikoala.co/"
     logo: ./assets/logo-koala.png
-  - name: "Edwin Campos"
-    link: "https://www.linkedin.com/in/camposedwin/"
-    photo: ./assets/partner_edwin.jpg
-    quote: "In Ensuro, we found a partner that is helping us flourish in the decentralized finance landscape. We easily integrated our proprietary technologies with Ensuro’s accessible blockchain tools, and used their actionable and sharp perspectives during ourproduct launch. As a result, Parachute clients can now enjoy a more robust service to manage hurricane risk."
-    company: "https://byparachute.com/"
-    logo: ./assets/logo-parachute.png
+  - name: "Maria Mateo"
+    link: "https://www.linkedin.com/in/mariamateoiborra/"
+    photo: images/MariaMateo-Ibisa.png
+    quote: "Ensuro was a great partner on our recently launched project. They demonstrated a strong commitment to making the partnership successful and were adaptable and open to new approaches. Their technical skills and work ethic were outstanding. I would highly recommend Ensuro as a partner for any future projects and look forward to working with them again."
+    company: "https://ibisa.network/"
+    logo: images/IBISA-logo.png
   - name: "Justin Havins"
     link: "https://www.linkedin.com/in/justin-havins-4b277132/"
     photo: ./assets/partner_justin.jpg
     quote: "DeFi capital can now be used to access a new asset class, as Ensuro's innovative solution can bridge the gap between DeFi and real-world risk. Blockchain has the potential to bring more transparency and efficiency to insurance, an industry that has been reluctant to change. We are proud that they have decided to build their protocol on Polygon"
     company: "https://polygon.technology/"
     logo: ./assets/logo-polygon.png
+  - name: "Edwin Campos"
+    link: "https://www.linkedin.com/in/camposedwin/"
+    photo: ./assets/partner_edwin.jpg
+    quote: "In Ensuro, we found a partner that is helping us flourish in the decentralized finance landscape. We easily integrated our proprietary technologies with Ensuro’s accessible blockchain tools, and used their actionable and sharp perspectives during ourproduct launch. As a result, Parachute clients can now enjoy a more robust service to manage hurricane risk."
+    company: "https://byparachute.com/"
+    logo: ./assets/logo-parachute.png
 partners_and_investors:
   - logo: "./assets/logo-sosv.png"
     link: "https://sosv.com/"
@@ -30,6 +36,8 @@ partners_and_investors:
     link: "https://orbitstartups.com/"
   - logo: "./assets/logo-parachute.png"
     link: "https://byparachute.com/"
+  - logo: images/IBISA-logo.png
+    link: "https://ibisa.network/"
   - logo: "./assets/logo-iaventures.png"
     link: "https://iasv.co/"
 team:
