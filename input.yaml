@@ -17,6 +17,12 @@ partners_quotes:
     quote: "DeFi capital can now be used to access a new asset class, as Ensuro's innovative solution can bridge the gap between DeFi and real-world risk. Blockchain has the potential to bring more transparency and efficiency to insurance, an industry that has been reluctant to change. We are proud that they have decided to build their protocol on Polygon"
     company: "https://polygon.technology/"
     logo: ./assets/logo-polygon.png
+  - name: "Janet Kuteli"
+    link: "https://www.linkedin.com/in/janetkuteli/"
+    photo: ./assets/partner-janet.png
+    quote: "Not only did Ensuro help us create a distinctive product quickly, but they also challenged our initial approach, resulting in significant improvements. Their exceptional work ethic and technical proficiency were impressive. Ensuro's proactive and committed approach enabled us to launch our project successfully. We strongly recommend them as a dependable partner."
+    company: "https://fortunecredit.co.ke/"
+    logo: ./assets/fortune-credit-logo.png
   - name: "Edwin Campos"
     link: "https://www.linkedin.com/in/camposedwin/"
     photo: ./assets/partner_edwin.jpg
@@ -38,6 +44,8 @@ partners_and_investors:
     link: "https://byparachute.com/"
   - logo: images/IBISA-logo.png
     link: "https://ibisa.network/"
+  - logo: "./assets/fortune-credit-logo.png"
+    link: "https://fortunecredit.co.ke/"
   - logo: "./assets/logo-iaventures.png"
     link: "https://iasv.co/"
 team:
