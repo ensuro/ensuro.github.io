@@ -86,11 +86,11 @@
           for established and upcoming insurance partners.
         </p>
       </header>
-      <img
-        class="only-desktop order-1 md:order-2 home-image"
-        src="./assets/home_banner_front.png"
-        alt="Decentralized Capital For Insurance"
-      />
+      <div class="only-desktop order-2 md:order-2 centered-video">
+        <center>
+          <iframe class="only-desktop" width="560" height="315" src="https://www.youtube.com/embed/0731NrrbT2o?controls=0" title="How Ensuro works" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </center>
+      </div>
     </section>
     <hr class="xs:h-12 border-none">
     <br >
@@ -99,7 +99,7 @@
         <span class="xs:font-size-28 font-black text-3xl mr-3 text-secondary-500">How to invest</span>
         <img src="./assets/arrow_right.svg" />
       </a>
-            <hr class="h-5 xl:h-12 border-none">
+      <hr class="h-5 xl:h-12 border-none">
       <hr class="xs:h-12 border-none">
       <div class="flex items-center justify-between">
         <a href="contact.html" class="flex">
@@ -141,7 +141,7 @@
           <span class="text-center">
             <p class="text-4xl font-extralight text-secondary-500" id="apy">7,8%</p>
             <script>
-              fetch('https://offchain-v2.ensuro.co/api/etokens/apy_range/?days_from=7&etks=0x8d2Ee82c4172B2138B06b8037d769cBfAf9C0274,0x55bAe6690d46EA94D7F05DF7c80A85E322421fB6')
+              fetch('https://offchain-v2.ensuro.co/api/etokens/apy_range/?days_from=30&etks=0x8d2Ee82c4172B2138B06b8037d769cBfAf9C0274,0x55bAe6690d46EA94D7F05DF7c80A85E322421fB6')
                 .then(response => response.json())
                 .then(data => {
                   document.querySelector('#apy').innerHTML = (data.min_apy * 100 ).toFixed(0) + '% to ' + (data.max_apy * 100 ).toFixed(0) + '%';
@@ -184,13 +184,6 @@
         <br class="only-mobile" >
       </div>
       <img src="./assets/aside_work1.svg" class="ml-auto" />
-    </section>
-    <hr class="only-desktop h-8 xl:h-16 border-none">
-    <br class="only-mobile" >
-    <section items-center">
-      <center>
-        <iframe src="https://drive.google.com/file/d/16f3I2Olwi2W7dSQLchokXrpeMzWWuXQC/preview" width="640" height="480" allow="autoplay"></iframe>
-      </center>
     </section>
     <hr class="only-desktop h-8 xl:h-16 border-none">
     <br class="only-mobile" >

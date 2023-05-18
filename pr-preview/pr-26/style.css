@@ -2181,3 +2181,9 @@ a:hover{
 .no-border {
   outline: none !important;
 }
+
+.centered-video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
