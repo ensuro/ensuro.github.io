@@ -2187,3 +2187,46 @@ a:hover{
   justify-content: center;
   align-items: center;
 }
+
+
+/* Estilos para el popup */
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 600px;
+  /* height: 0; */
+  /* height: 400px; */
+  /* padding-bottom: 56.25%; */
+
+  /* background-color: #ffffff;
+  border-radius: 10px; */
+  overflow: hidden;
+  z-index: 9999 !important;
+}
+
+
+/* Media queries para dispositivos móviles */
+@media screen and (max-width: 600px) {
+  .popup {
+    height: 350px;
+    width: 90%;
+    padding-bottom: 75%;
+  }
+
+  /* .popup iframe {
+    height: 200px !important;
+  } */
+}
+
+/* Estilos para el botón de cierre */
+.close {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+  z-index: 1;
+}
