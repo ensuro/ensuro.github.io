@@ -23,14 +23,42 @@
           for established and upcoming insurance partners.
         </p>
       </header>
-      <div class="only-desktop order-2 md:order-2 centered-video">
-        <center>
-          <iframe class="only-desktop" width="560" height="315" src="https://www.youtube.com/embed/0731NrrbT2o?controls=0" title="How Ensuro works" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </center>
-      </div>
+      <img
+        class="only-desktop order-1 md:order-2 home-image"
+        src="./assets/home_banner_front.png"
+        alt="Decentralized Capital For Insurance"
+      />
     </section>
+    <div class="relative z-10" onclick="openPopup()">
+      <br >
+      <button class="btn-secondary xl:font-size-20 uppercase">&#9654; How it Works</button>
+    </div>
+
+    <!-- Overlay -->
+    <div id="overlay" class="overlay"></div>
+
+    <div id="homeVideoPopup" class="popup">
+      <span class="close" onclick="closePopup()">&times;</span>
+      <iframe id="videoPlayer" width="100%" height="315" src="https://www.youtube.com/embed/0731NrrbT2o?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <script>
+      var videoPlayer = document.getElementById('videoPlayer');
+
+      function openPopup() {
+        document.getElementById('overlay').style.display = 'block';
+        document.getElementById('homeVideoPopup').style.display = 'block';
+        videoPlayer.contentWindow.postMessage(JSON.stringify({ event: 'command', func: 'playVideo' }), '*');
+      }
+
+      function closePopup() {
+        document.getElementById('overlay').style.display = 'none'
+        document.getElementById('homeVideoPopup').style.display = 'none';
+        videoPlayer.contentWindow.postMessage(JSON.stringify({ event: 'command', func: 'stopVideo' }), '*');
+      }
+    </script>
+    <hr class="h-5 xl:h-12 border-none">
     <hr class="xs:h-12 border-none">
-    <br >
     <section class="relative z-10">
       <a href="investors.html" class="flex">
         <span class="xs:font-size-28 font-black text-3xl mr-3 text-secondary-500">How to invest</span>
