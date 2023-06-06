@@ -2189,7 +2189,6 @@ a:hover{
 }
 
 
-/* Estilos para el popup */
 .popup {
   display: none;
   position: fixed;
@@ -2202,8 +2201,17 @@ a:hover{
   z-index: 9999 !important;
 }
 
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.666);
+  z-index: 999;
+}
 
-/* Media queries para dispositivos móviles */
 @media screen and (max-width: 600px) {
   .popup {
     height: 350px;
@@ -2212,11 +2220,10 @@ a:hover{
   }
 }
 
-/* Estilos para el botón de cierre */
 .close {
   font-size: 24px;
   font-weight: bold;
-  color: #F82558;
+  color: white;
   cursor: pointer;
   z-index: 1;
   opacity: 1;
