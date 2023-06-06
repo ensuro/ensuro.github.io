@@ -97,6 +97,9 @@
       <button class="btn-secondary xl:font-size-20 uppercase">&#9654; How it Works</button>
     </div>
 
+    <!-- Overlay -->
+    <div id="overlay" class="overlay"></div>
+
     <div id="homeVideoPopup" class="popup">
       <span class="close" onclick="closePopup()">&times;</span>
       <iframe id="videoPlayer" width="100%" height="315" src="https://www.youtube.com/embed/0731NrrbT2o?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
@@ -106,11 +109,13 @@
       var videoPlayer = document.getElementById('videoPlayer');
 
       function openPopup() {
+        document.getElementById('overlay').style.display = 'block';
         document.getElementById('homeVideoPopup').style.display = 'block';
         videoPlayer.contentWindow.postMessage(JSON.stringify({ event: 'command', func: 'playVideo' }), '*');
       }
 
       function closePopup() {
+        document.getElementById('overlay').style.display = 'none'
         document.getElementById('homeVideoPopup').style.display = 'none';
         videoPlayer.contentWindow.postMessage(JSON.stringify({ event: 'command', func: 'stopVideo' }), '*');
       }
