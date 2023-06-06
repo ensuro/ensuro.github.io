@@ -2226,7 +2226,8 @@ a:hover{
 .close {
   font-size: 24px;
   font-weight: bold;
-  color: #ffffff;
+  color: #F82558;
   cursor: pointer;
   z-index: 1;
+  opacity: 1;
 }
