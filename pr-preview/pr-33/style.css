@@ -2264,6 +2264,10 @@ a:hover{
   }
 }
 
+.with-pointer {
+  cursor: pointer;
+}
+
 .close {
   font-size: 24px;
   font-weight: bold;
