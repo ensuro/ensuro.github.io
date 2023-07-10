@@ -139,7 +139,7 @@
   <div class="w-[90vw] m-auto px-20 relative">
     <section class="swiper-news overflow-hidden py-6">
       <!--Blog-inner Start-->
-      <div class="swiffy-slider news-slider-item-show3 slider-nav-outside slider-nav-dark slider-nav-lg slider-nav-visible slider-indicators-outside slider-indicators-round slider-indicators-dark slider-nav-animation slider-nav-animation-fadein slider-item-first-visible">
+      <div class="swiffy-slider {% if products|length > 2 %} products-slider-item-show3 {% else %} products-slider-item-show2 {% endif %}  slider-nav-outside slider-nav-dark slider-nav-lg slider-nav-visible slider-indicators-outside slider-indicators-round slider-indicators-dark slider-nav-animation slider-nav-animation-fadein slider-item-first-visible">
         <div class="slider-container">
           {% for p in products %}
           <div class="product-card relative block hover:opacity-80 transition-all" style="margin: 5px !important">
@@ -161,8 +161,10 @@
           </div>
           {% endfor %}
         </div>
-        <button type="button" class="slider-nav no-border" aria-label="Go left"></button>
-        <button type="button" class="slider-nav slider-nav-next no-border" aria-label="Go left"></button>
+        {% if products|length > 3 %}
+          <button type="button" class="slider-nav no-border" aria-label="Go left"></button>
+          <button type="button" class="slider-nav slider-nav-next no-border" aria-label="Go left"></button>
+        {% endif %}
       </div>
       <!--Blog-inner End-->
     </section>
