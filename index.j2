@@ -93,7 +93,7 @@
                 document.querySelector('#active-policies').innerHTML = (res[0].count + res[1].count).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
               });
             </script>
-                        <hr class="h-2 border-none">
+            <hr class="h-2 border-none">
             <small class="mx-auto block text-xl opacity-80">Active Policies</small>
           </span>
           <span class="text-center">
@@ -105,7 +105,7 @@
                   document.querySelector('#total-premiums').innerHTML = new Intl.NumberFormat("en-US", {style: 'currency', currency: 'USD', notation: "compact" }).format(data.total + 776000);
                 });
             </script>
-                        <hr class="h-2 border-none">
+            <hr class="h-2 border-none">
             <small class="mx-auto block text-xl opacity-80"> Total Premium</small>
           </span>
           <span class="text-center">
@@ -117,7 +117,7 @@
                   document.querySelector('#apy').innerHTML = (data.min_apy * 100 ).toFixed(0) + '% to ' + (data.max_apy * 100 ).toFixed(0) + '%';
                 });
             </script>
-                        <hr class="h-2 border-none">
+            <hr class="h-2 border-none">
             <small class="mx-auto block text-xl opacity-80">APY</small>
           </span>
         </div>
@@ -127,6 +127,48 @@
     </section>
   </div>
 </article>
+
+
+<article>
+  <hr class="h-8 xl:h-16 border-none">
+  <header class="container-padded">
+    <h2 class="title-md">
+      Our Products<span class="text-secondary-500">_</span>
+    </h2>
+  </header>
+  <div class="w-[90vw] m-auto px-20 relative">
+    <section class="swiper-news overflow-hidden py-6">
+      <!--Blog-inner Start-->
+      <div class="swiffy-slider news-slider-item-show3 slider-nav-outside slider-nav-dark slider-nav-lg slider-nav-visible slider-indicators-outside slider-indicators-round slider-indicators-dark slider-nav-animation slider-nav-animation-fadein slider-item-first-visible">
+        <div class="slider-container">
+          {% for p in products %}
+          <div class="product-card relative block hover:opacity-80 transition-all" style="margin: 5px !important">
+            <img src="{{p.logo}}" alt="" class="w-full product-logo"/>
+            <div class="p-6">
+              <h3 class="title-sm mr-4">{{p.name}}</h3>
+            </div>
+            <img src="./assets/divider.png" alt="" class="w-full"/>
+            <div class="p-6">
+              <hr class="h-2 border-none">
+              <p class="text-black-news">
+                {{p.description}}
+              </p>
+              <a class="absolute right-5 bottom-5 btn-pink" href={{p.video_link}} target="_blank">
+                Watch Video <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" class="youtube-icon"><path d="M10,15L15.19,12L10,9V15M21.56,7.17C21.69,7.64 21.78,8.27 21.84,9.07C21.91,9.87 21.94,10.56 21.94,11.16L22,12C22,14.19 21.84,15.8 21.56,16.83C21.31,17.73 20.73,18.31 19.83,18.56C19.36,18.69 18.5,18.78 17.18,18.84C15.88,18.91 14.69,18.94 13.59,18.94L12,19C7.81,19 5.2,18.84 4.17,18.56C3.27,18.31 2.69,17.73 2.44,16.83C2.31,16.36 2.22,15.73 2.16,14.93C2.09,14.13 2.06,13.44 2.06,12.84L2,12C2,9.81 2.16,8.2 2.44,7.17C2.69,6.27 3.27,5.69 4.17,5.44C4.64,5.31 5.5,5.22 6.82,5.16C8.12,5.09 9.31,5.06 10.41,5.06L12,5C16.19,5 18.8,5.16 19.83,5.44C20.73,5.69 21.31,6.27 21.56,7.17Z" fill="#ff0000" /></svg>
+              </a>
+            </div>
+            <hr class="h-5 xl:h-12 border-none">
+          </div>
+          {% endfor %}
+        </div>
+        <button type="button" class="slider-nav no-border" aria-label="Go left"></button>
+        <button type="button" class="slider-nav slider-nav-next no-border" aria-label="Go left"></button>
+      </div>
+      <!--Blog-inner End-->
+    </section>
+  </div>
+</article>
+
 
 <article class="container-padded text-center ">
   <hr class="h-8 xl:h-16 border-none">
@@ -190,8 +232,8 @@
   </h2>
   <hr class="h-5 xl:h-12 border-none">
     <div class="w-[90vw] mx-auto">
-        <hr class="w-full border-t border-gray-200 h-1">
-    <hr class="h-8 xl:h-16 border-none">
+      <hr class="w-full border-t border-gray-200 h-1">
+      <hr class="h-8 xl:h-16 border-none">
     </div>
   <div class="w-[90vw] m-auto  px-20 relative">
     <section class="swiper-partners overflow-hidden">

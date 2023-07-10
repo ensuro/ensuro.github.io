@@ -1794,8 +1794,22 @@ a:hover{
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.product-card {
+  position: relative;
+  height: 640px !important;
+  width: auto !important;
+  overflow: hidden;
+  border-width: 1px;
+  border-radius: 1.5rem;
+  --tw-bg-opacity: 1;
+  --tw-border-opacity: 1;
+  border-color: rgb(138 183 233 / var(--tw-border-opacity));
+  --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 @media (min-width: 1920px) {
-  .news-card {
+  .news-card .product-card {
     width: 414px !important;
   }
 }
@@ -2079,6 +2093,20 @@ a:hover{
     filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
   }
 
+  .product-card {
+    height: auto !important;
+    width: 270px !important;
+    overflow: hidden;
+    margin: auto;
+    border-width: 1px;
+    border-radius: 1.5rem;
+    --tw-bg-opacity: 1;
+    border-color: rgb(138 183 233 / var(--tw-border-opacity));
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  }
+
   .px-20, .px-32 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -2227,4 +2255,13 @@ a:hover{
   cursor: pointer;
   z-index: 1;
   opacity: 1;
+}
+
+.product-logo {
+  max-height: 100px;
+  padding: 15px;
+}
+
+.youtube-icon {
+  display: initial;
 }
