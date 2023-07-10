@@ -1796,7 +1796,7 @@ a:hover{
 
 .product-card {
   position: relative;
-  height: 640px !important;
+  max-height: 640px !important;
   width: auto !important;
   overflow: hidden;
   border-width: 1px;
@@ -2194,6 +2194,14 @@ a:hover{
   .testimonial-slider-item-show3 {
     --swiffy-slider-item-count: 3 !important;
   }
+
+  .products-slider-item-show3 {
+    --swiffy-slider-item-count: 3 !important;
+  }
+
+  .products-slider-item-show2 {
+    --swiffy-slider-item-count: 2 !important;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -2202,6 +2210,14 @@ a:hover{
   }
 
   .testimonial-slider-item-show3 {
+    --swiffy-slider-item-count: 1 !important;
+  }
+
+  .products-slider-item-show3 {
+    --swiffy-slider-item-count: 1 !important;
+  }
+
+  .products-slider-item-show2 {
     --swiffy-slider-item-count: 1 !important;
   }
 }
