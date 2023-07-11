@@ -163,10 +163,8 @@
           </div>
           {% endfor %}
         </div>
-        {% if products|length > 3 %}
-          <button type="button" class="slider-nav no-border" aria-label="Go left"></button>
-          <button type="button" class="slider-nav slider-nav-next no-border" aria-label="Go left"></button>
-        {% endif %}
+        <button type="button" class="{% if products|length < 3 %} only-mobile {% endif %} slider-nav no-border" aria-label="Go left"></button>
+        <button type="button" class="{% if products|length < 3 %} only-mobile {% endif %} slider-nav slider-nav-next no-border" aria-label="Go left"></button>
       </div>
       <!--Blog-inner End-->
     </section>

@@ -2010,7 +2010,7 @@ a:hover{
   }
 
   .only-mobile {
-    display: none;
+    display: none !important;
   }
 
 }
@@ -2095,6 +2095,7 @@ a:hover{
 
   .product-card {
     height: auto !important;
+    max-height: none !important;
     width: 270px !important;
     overflow: hidden;
     margin: auto;
