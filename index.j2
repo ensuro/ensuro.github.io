@@ -29,7 +29,7 @@
         alt="Decentralized Capital For Insurance"
       />
     </section>
-    <div class="relative z-10" onclick="openPopup()">
+    <div class="relative z-10" onclick="openPopup('https://www.youtube.com/embed/VpY3suwk7SU?enablejsapi=1')">
       <br >
       <button class="btn-secondary xl:font-size-20 uppercase flex">
         <svg width="30" height="24" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
@@ -44,21 +44,23 @@
 
     <div id="homeVideoPopup" class="popup">
       <span class="close" onclick="closePopup()">&times;</span>
-      <iframe id="videoPlayer" width="100%" height="315" src="https://www.youtube.com/embed/VpY3suwk7SU?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+      <iframe id="videoPlayer" width="100%" height="315" src="" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <script>
       var videoPlayer = document.getElementById('videoPlayer');
 
-      function openPopup() {
+      function openPopup(videoUrl) {
         document.getElementById('overlay').style.display = 'block';
         document.getElementById('homeVideoPopup').style.display = 'block';
+        videoPlayer.src = videoUrl;
         videoPlayer.contentWindow.postMessage(JSON.stringify({ event: 'command', func: 'playVideo' }), '*');
       }
 
       function closePopup() {
         document.getElementById('overlay').style.display = 'none'
         document.getElementById('homeVideoPopup').style.display = 'none';
+        videoPlayer.src = "";
         videoPlayer.contentWindow.postMessage(JSON.stringify({ event: 'command', func: 'stopVideo' }), '*');
       }
     </script>
@@ -93,7 +95,7 @@
                 document.querySelector('#active-policies').innerHTML = (res[0].count + res[1].count).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
               });
             </script>
-                        <hr class="h-2 border-none">
+            <hr class="h-2 border-none">
             <small class="mx-auto block text-xl opacity-80">Active Policies</small>
           </span>
           <span class="text-center">
@@ -105,7 +107,7 @@
                   document.querySelector('#total-premiums').innerHTML = new Intl.NumberFormat("en-US", {style: 'currency', currency: 'USD', notation: "compact" }).format(data.total + 776000);
                 });
             </script>
-                        <hr class="h-2 border-none">
+            <hr class="h-2 border-none">
             <small class="mx-auto block text-xl opacity-80"> Total Premium</small>
           </span>
           <span class="text-center">
@@ -117,7 +119,7 @@
                   document.querySelector('#apy').innerHTML = (data.min_apy * 100 ).toFixed(0) + '% to ' + (data.max_apy * 100 ).toFixed(0) + '%';
                 });
             </script>
-                        <hr class="h-2 border-none">
+            <hr class="h-2 border-none">
             <small class="mx-auto block text-xl opacity-80">APY</small>
           </span>
         </div>
@@ -127,6 +129,49 @@
     </section>
   </div>
 </article>
+
+
+<article>
+  <hr class="h-8 xl:h-16 border-none">
+  <header class="container-padded">
+    <h2 class="title-md text-center">
+      Our Products<span class="text-secondary-500">_</span>
+    </h2>
+  </header>
+  <div class="w-[90vw] m-auto px-20 relative">
+    <section class="swiper-news overflow-hidden py-6">
+      <!--Blog-inner Start-->
+      <div class="swiffy-slider {% if products|length > 2 %} products-slider-item-show3 {% else %} products-slider-item-show2 {% endif %}  slider-nav-outside slider-nav-dark slider-nav-lg slider-nav-visible slider-indicators-outside slider-indicators-round slider-indicators-dark slider-nav-animation slider-nav-animation-fadein slider-item-first-visible">
+        <div class="slider-container">
+          {% for p in products %}
+          <div class="product-card relative block hover:opacity-80 transition-all" style="margin: 5px !important">
+            <img src="{{p.logo}}" alt="" class="w-full product-logo"/>
+            <div class="product-title">
+              <h2 class="title-md" style="color: gray">{{p.name}}</h2>
+            </div>
+            <div class="p-6">
+              <hr class="h-2 border-none">
+              <p class="text-gray-product text-center">
+                {{p.description}}
+              </p>
+              <div class="absolute-centered text-center bottom-5 text-blue-date with-pointer" onclick="openPopup('{{p.video_link}}')">
+                <svg width="30" height="24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 48 48" style="vertical-align: sub" xml:space="preserve" class="play-icon">
+                  <path class="st0" d="M16,15.3v17.4c0,2.3,2.5,3.7,4.5,2.5l13.6-8.7c1.8-1.1,1.8-3.8,0-4.9l-13.6-8.7C18.5,11.6,16,13,16,15.3z" fill="#0066FF"/>
+                </svg> WATCH VIDEO
+              </div>
+            </div>
+            <hr class="h-5 xl:h-12 border-none">
+          </div>
+          {% endfor %}
+        </div>
+        <button type="button" class="slider-nav no-border" aria-label="Go left"></button>
+        <button type="button" class="slider-nav slider-nav-next no-border" aria-label="Go left"></button>
+      </div>
+      <!--Blog-inner End-->
+    </section>
+  </div>
+</article>
+
 
 <article class="container-padded text-center ">
   <hr class="h-8 xl:h-16 border-none">
@@ -185,13 +230,13 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <article class="bg-primary-100">
   <hr class="h-12 xl:h-24 border-none">
-  <h2 class="title-md container-padded">
+  <h2 class="title-md container-padded text-center">
     Partners And Investors<span class="text-secondary-500">_</span>
   </h2>
   <hr class="h-5 xl:h-12 border-none">
     <div class="w-[90vw] mx-auto">
-        <hr class="w-full border-t border-gray-200 h-1">
-    <hr class="h-8 xl:h-16 border-none">
+      <hr class="w-full border-t border-gray-200 h-1">
+      <hr class="h-8 xl:h-16 border-none">
     </div>
   <div class="w-[90vw] m-auto  px-20 relative">
     <section class="swiper-partners overflow-hidden">
@@ -250,7 +295,7 @@
   <article>
     <hr class="h-12 xl:h-24 border-none">
     <header class="container-padded">
-      <h2 class="title-md">
+      <h2 class="title-md text-center">
         What our partners and clients are saying<span class="text-secondary-500">_</span>
       </h2>
     </header>
@@ -303,7 +348,7 @@
   <article>
     <hr class="h-8 xl:h-16 border-none">
     <header class="container-padded">
-      <h2 class="title-md">
+      <h2 class="title-md text-center">
         Latest News<span class="text-secondary-500">_</span>
       </h2>
     </header>
