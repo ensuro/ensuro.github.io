@@ -25,13 +25,18 @@
       </div>
       <br >
       <br >
-      <div class="container-padded flex justify-center text-center relative z-10 col-span-2" onclick="openPopup()">
-        <br >
-        <button class="btn-secondary xl:font-size-20 uppercase flex">
+      <div class="container-padded flex justify-center text-center relative z-10">
+        <button class="btn-secondary xl:font-size-20 uppercase flex" style="margin: 10px" onclick="openPopup('https://www.youtube.com/embed/Ewfi4N4AOSI?enablejsapi=1')">
           <svg width="30" height="24" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
             <path class="st0" d="M16,15.3v17.4c0,2.3,2.5,3.7,4.5,2.5l13.6-8.7c1.8-1.1,1.8-3.8,0-4.9l-13.6-8.7C18.5,11.6,16,13,16,15.3z" fill="#FFFFFF"/>
           </svg>
-          How it Works
+          How to register
+        </button>
+        <button class="btn-secondary xl:font-size-20 uppercase flex" style="margin: 10px" onclick="openPopup('https://www.youtube.com/embed/zjc_ObMG_vA?enablejsapi=1')">
+          <svg width="30" height="24" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+            <path class="st0" d="M16,15.3v17.4c0,2.3,2.5,3.7,4.5,2.5l13.6-8.7c1.8-1.1,1.8-3.8,0-4.9l-13.6-8.7C18.5,11.6,16,13,16,15.3z" fill="#FFFFFF"/>
+          </svg>
+          How to invest
         </button>
       </div>
       <hr class="h-32 xl:h-44 border-none">
@@ -39,22 +44,25 @@
       <!-- Overlay -->
       <div id="overlay" class="overlay"></div>
 
-      <div id="videoPopup" class="popup">
+      <div id="investorsPopup" class="popup">
         <span class="close" onclick="closePopup()">&times;</span>
-        <iframe id="videoPlayer" width="100%" height="315" src="https://www.youtube.com/embed/VpY3suwk7SU?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+        <iframe id="videoPlayer" width="100%" height="315" src="" frameborder="0" allowfullscreen></iframe>
       </div>
 
       <script>
         var videoPlayer = document.getElementById('videoPlayer');
 
-        function openPopup() {
+        function openPopup(videoUrl) {
           document.getElementById('overlay').style.display = 'block';
-          document.getElementById('videoPopup').style.display = 'block';
+          document.getElementById('investorsPopup').style.display = 'block';
+          videoPlayer.src = videoUrl;
+          videoPlayer.contentWindow.postMessage(JSON.stringify({ event: 'command', func: 'playVideo' }), '*');
         }
 
         function closePopup() {
           document.getElementById('overlay').style.display = 'none'
-          document.getElementById('videoPopup').style.display = 'none';
+          document.getElementById('investorsPopup').style.display = 'none';
+          videoPlayer.src = "";
           videoPlayer.contentWindow.postMessage(JSON.stringify({ event: 'command', func: 'stopVideo' }), '*');
         }
       </script>
