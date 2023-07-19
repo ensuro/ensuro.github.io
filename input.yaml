@@ -328,8 +328,8 @@ products:
   - name: "Koala Flex"
     description: "Koala Flex is an innovative product developed by Ensuro and Koala. It offers ultimate flexibility to travelers, allowing them to cancel their bookings for any reason without justification and receive 80% of the trip price. Koala Flex also offers automatic and instant claim management, with no need to provide proof or reasons for cancellation."
     logo: ./assets/product-koala.svg
-    video_link: https://www.youtube.com/embed/Yrru2b6IRwc?enablejsapi=1
+    video_link: https://www.youtube.com/embed/7i3P5xeG0f0?enablejsapi=1
   - name: "ResilientGrowth"
     description: "ResilientGrowth is a blockchain-based insurance solution developed by Ensuro, Ibisa, and Fortune Credit to help Kenyan farmers combat the challenges posed by climate change. The product leverages smart contracts and parametric insurance to provide farmers with a reliable and affordable way to protect their investments against drought and crop losses."
     logo: ./assets/partner-fortune.svg
-    video_link: https://www.youtube.com/embed/LssvzMw9EGY?enablejsapi=1
+    video_link: https://www.youtube.com/embed/sestt_ro_4U?enablejsapi=1
