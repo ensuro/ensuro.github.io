@@ -121,6 +121,26 @@ advisors:
     link: "https://www.linkedin.com/in/joe-monk-81551318/"
     description: "Joe Monk is a freelance consultant having qualified as a Fellow of the Institute of Actuaries in 1999. He started his career in 1995 at Lane Clark & Peacock, a London-based actuarial consultancy, progressing to be a senior partner and practice head. In 2010 he moved in-house, joining Alterra (previously Max Capital) as Global Chief Actuary. After Alterra’s sale to Markel in 2013 he joined Pioneer Underwriters as Chief Actuary, before setting up as an independent consultant in 2018. Joe holds an MA in Economics from Cambridge University."
 news:
+  - title: "Exploring the Future of Insurtech: Our CEO, Marco Mirabella, Discusses Blockchain, Parametric Insurance, and Innovation with Michael Waitze on the Asia InsurTech Podcast"
+    date: "August 7th, 2023"
+    link: https://asiainsurtechpodcast.com/ep-213-marco-mirabells-ensuro-certainty-of-payment-and-a-simple-claims-process/
+    image: images/marco-asia-insurtech-podcast.png
+  - title: "Yet more evidence of the need for blockchain-based insurance."
+    date: "July 26th, 2023"
+    link: https://blog.ensuro.co/yet-more-evidence-of-the-need-for-blockchain-based-insurance-a01827c8dadc
+    image: images/blockchain_ensuro.png
+  - title: "Unleashing the Power of Multisigs and Timelocks: Ensuro Governance and Security"
+    date: "June 29th, 2023"
+    link: https://blog.ensuro.co/unleashing-the-power-of-multisigs-and-timelocks-ensuro-governance-and-security-947b557556a6
+    image: images/ensuro-security.png
+  - title: "DeFi and the new financial paradigm: our CTO, Guillermo Narvaja, participated in #Modular's panel discussion in Buenos Aires on the impact of Blockchain in finance."
+    date: "June 20th, 2023"
+    link: https://www.linkedin.com/posts/ensuro_modular-modular-ensuro-activity-7076904302564274176-0vSr?utm_source=share&utm_medium=member_desktop
+    image: images/Modular.png
+  - title: "Ensuro recognized at Insurtech Meetday: A reflection of commitment to innovation"
+    date: "June 19th, 2023"
+    link: https://www.linkedin.com/posts/ensuro_insurtech-innovation-startups-activity-7076551819509817344-pHJC?utm_source=share&utm_medium=member_desktop
+    image: images/insurtech-meetday.png
   - title: "Ensuro Secures a Spot on the InsureTech Connect Forward50 APAC List!"
     date: "June 5th, 2023"
     link: https://www.linkedin.com/posts/ensuro_forward50-ensuro-insurance-activity-7071434104679858177-UJn0?utm_source=share&utm_medium=member_desktop
