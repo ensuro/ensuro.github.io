@@ -29,6 +29,18 @@ partners_quotes:
     quote: "In Ensuro, we found a partner that is helping us flourish in the decentralized finance landscape. We easily integrated our proprietary technologies with Ensuro’s accessible blockchain tools, and used their actionable and sharp perspectives during ourproduct launch. As a result, Parachute clients can now enjoy a more robust service to manage hurricane risk."
     company: "https://byparachute.com/"
     logo: ./assets/logo-parachute.png
+  - name: "Roberta Spadoni"
+    link: "https://www.linkedin.com/in/roberta-spadoni-b5443010/"
+    photo: ./assets/roberta_spadoni.png
+    quote: "We are pleased with the partnership with Ensuro because it's a company in line with our principles. Indeed, we are united by the continuous search for innovation, not just from a technological standpoint, but also in the operating model. Our expertise, combined with their blockchain-based IT architectures, represents a unique combination."
+    company: "https://www.revoinsurance.com/"
+    logo: ./assets/logo-revo.png
+  - name: "Nabil Rahman"
+    link: "https://www.linkedin.com/in/nabilrahman/"
+    photo: ./assets/nabil_rahman.png
+    quote: "Bringing our CFAR product to life has been a longstanding goal at Spot. We required a nimble partner who could facilitate rapid innovation, align with our model, and demonstrate exceptional execution. Ensuro checked all the boxes. Their team's remarkable work ethic and proactive approach were instrumental in our successful product launch."
+    company: "https://www.getspot.com/"
+    logo: ./assets/logo-spot.png
 partners_and_investors:
   - logo: "./assets/logo-sosv.png"
     link: "https://sosv.com/"
