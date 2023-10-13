@@ -60,6 +60,12 @@ partners_and_investors:
     link: "https://fortunecredit.co.ke/"
   - logo: "./assets/logo-iaventures.png"
     link: "https://iasv.co/"
+  - logo: "./assets/logo-revo.png"
+    link: "https://www.revoinsurance.com/"
+  - logo: "./assets/logo-spot.png"
+    link: "https://www.getspot.com/"
+  - logo: "./assets/sancor_ventures.png"
+    link: "https://sancorsegurosventures.com/"
 team:
   - name: "Marco Mirabella"
     photo: "./assets/team_marco.png"
