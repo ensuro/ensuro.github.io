@@ -5,18 +5,30 @@ partners_quotes:
     quote: "We were looking for an agile partner to help us create innovative products in record time, and Ensuro met all our criteria. They have superb execution, understood our model quickly, and challenged it effectively. They are also very proactive.  When you choose Ensuro, you're really making the right choice."
     company: "https://hikoala.co/"
     logo: ./assets/logo-koala.png
-  - name: "Maria Mateo"
-    link: "https://www.linkedin.com/in/mariamateoiborra/"
-    photo: images/MariaMateo-Ibisa.png
-    quote: "Ensuro was a great partner on our recently launched project. They demonstrated a strong commitment to making the partnership successful and were adaptable and open to new approaches. Their technical skills and work ethic were outstanding. I would highly recommend Ensuro as a partner for any future projects and look forward to working with them again."
-    company: "https://ibisa.network/"
-    logo: images/IBISA-logo.png
   - name: "Justin Havins"
     link: "https://www.linkedin.com/in/justin-havins-4b277132/"
     photo: ./assets/partner_justin.jpg
     quote: "DeFi capital can now be used to access a new asset class, as Ensuro's innovative solution can bridge the gap between DeFi and real-world risk. Blockchain has the potential to bring more transparency and efficiency to insurance, an industry that has been reluctant to change. We are proud that they have decided to build their protocol on Polygon"
     company: "https://polygon.technology/"
     logo: ./assets/logo-polygon.png
+  - name: "Nabil Rahman"
+    link: "https://www.linkedin.com/in/nabilrahman/"
+    photo: ./assets/nabil_rahman.png
+    quote: "Bringing our CFAR product to life has been a longstanding goal at Spot. We required a nimble partner who could facilitate rapid innovation, align with our model, and demonstrate exceptional execution. Ensuro checked all the boxes. Their team's remarkable work ethic and proactive approach were instrumental in our successful product launch."
+    company: "https://www.getspot.com/"
+    logo: ./assets/logo-spot.png
+  - name: "Maria Mateo"
+    link: "https://www.linkedin.com/in/mariamateoiborra/"
+    photo: images/MariaMateo-Ibisa.png
+    quote: "Ensuro was a great partner on our recently launched project. They demonstrated a strong commitment to making the partnership successful and were adaptable and open to new approaches. Their technical skills and work ethic were outstanding. I would highly recommend Ensuro as a partner for any future projects and look forward to working with them again."
+    company: "https://ibisa.network/"
+    logo: images/IBISA-logo.png
+  - name: "Roberta Spadoni"
+    link: "https://www.linkedin.com/in/roberta-spadoni-b5443010/"
+    photo: ./assets/roberta_spadoni.png
+    quote: "We are pleased with the partnership with Ensuro because it's a company in line with our principles. Indeed, we are united by the continuous search for innovation, not just from a technological standpoint, but also in the operating model. Our expertise, combined with their blockchain-based IT architectures, represents a unique combination."
+    company: "https://www.revoinsurance.com/"
+    logo: ./assets/logo-revo.png
   - name: "Janet Kuteli"
     link: "https://www.linkedin.com/in/janetkuteli/"
     photo: ./assets/partner-janet.png
@@ -29,18 +41,6 @@ partners_quotes:
     quote: "In Ensuro, we found a partner that is helping us flourish in the decentralized finance landscape. We easily integrated our proprietary technologies with Ensuro’s accessible blockchain tools, and used their actionable and sharp perspectives during ourproduct launch. As a result, Parachute clients can now enjoy a more robust service to manage hurricane risk."
     company: "https://byparachute.com/"
     logo: ./assets/logo-parachute.png
-  - name: "Roberta Spadoni"
-    link: "https://www.linkedin.com/in/roberta-spadoni-b5443010/"
-    photo: ./assets/roberta_spadoni.png
-    quote: "We are pleased with the partnership with Ensuro because it's a company in line with our principles. Indeed, we are united by the continuous search for innovation, not just from a technological standpoint, but also in the operating model. Our expertise, combined with their blockchain-based IT architectures, represents a unique combination."
-    company: "https://www.revoinsurance.com/"
-    logo: ./assets/logo-revo.png
-  - name: "Nabil Rahman"
-    link: "https://www.linkedin.com/in/nabilrahman/"
-    photo: ./assets/nabil_rahman.png
-    quote: "Bringing our CFAR product to life has been a longstanding goal at Spot. We required a nimble partner who could facilitate rapid innovation, align with our model, and demonstrate exceptional execution. Ensuro checked all the boxes. Their team's remarkable work ethic and proactive approach were instrumental in our successful product launch."
-    company: "https://www.getspot.com/"
-    logo: ./assets/logo-spot.png
 partners_and_investors:
   - logo: "./assets/logo-sosv.png"
     link: "https://sosv.com/"
@@ -48,6 +48,8 @@ partners_and_investors:
     link: "https://sancorsegurosventures.com/"
   - logo: "./assets/logo-artesian.png"
     link: "https://www.artesianinvest.com/"
+  - logo: "./assets/logo-orbit.png"
+    link: "https://orbitstartups.com/"
   - logo: "./assets/logo-iaventures.png"
     link: "https://iasv.co/"
   - logo: "./assets/logo-koala.png"
@@ -62,8 +64,6 @@ partners_and_investors:
     link: "https://ibisa.network/"
   - logo: "./assets/logo-parachute.png"
     link: "https://byparachute.com/"
-  - logo: "./assets/logo-orbit.png"
-    link: "https://orbitstartups.com/"
   - logo: "./assets/logo-polygon.png"
     link: "https://polygon.technology/"
 team:
