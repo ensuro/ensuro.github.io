@@ -5,6 +5,12 @@ partners_quotes:
     quote: "We were looking for an agile partner to help us create innovative products in record time, and Ensuro met all our criteria. They have superb execution, understood our model quickly, and challenged it effectively. They are also very proactive.  When you choose Ensuro, you're really making the right choice."
     company: "https://hikoala.co/"
     logo: ./assets/logo-koala.png
+  - name: "Clorinda Mántaras"
+    link: "https://www.linkedin.com/in/clorinda-mantaras/"
+    photo: ./assets/clorinda-mantaras.png
+    quote: "The partnership with Ensuro reinforces our goal to remain at the forefront and build a tangible bridge between the DeFi world and the insurance industry. The anticipation of what tomorrow brings and the possibility of co-creating innovations together is exciting"
+    company: "https://sancorsegurosventures.com/"
+    logo: ./assets/sancor_ventures.png
   - name: "Justin Havins"
     link: "https://www.linkedin.com/in/justin-havins-4b277132/"
     photo: ./assets/partner_justin.jpg
