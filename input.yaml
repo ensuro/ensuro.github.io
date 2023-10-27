@@ -8,13 +8,13 @@ partners_quotes:
   - name: "Clorinda Mántaras"
     link: "https://www.linkedin.com/in/clorinda-mantaras/"
     photo: ./assets/clorinda-mantaras.png
-    quote: "The partnership with Ensuro reinforces our goal to remain at the forefront and build a tangible bridge between the DeFi world and the insurance industry. The anticipation of what tomorrow brings and the possibility of co-creating innovations together is exciting"
+    quote: "The partnership with Ensuro reinforces our goal to remain at the forefront and build a tangible bridge between the DeFi world and the insurance industry. The anticipation of what tomorrow brings and the possibility of co-creating innovations together is exciting."
     company: "https://sancorsegurosventures.com/"
     logo: ./assets/sancor_ventures.png
   - name: "Justin Havins"
     link: "https://www.linkedin.com/in/justin-havins-4b277132/"
     photo: ./assets/partner_justin.jpg
-    quote: "DeFi capital can now be used to access a new asset class, as Ensuro's innovative solution can bridge the gap between DeFi and real-world risk. Blockchain has the potential to bring more transparency and efficiency to insurance, an industry that has been reluctant to change. We are proud that they have decided to build their protocol on Polygon"
+    quote: "DeFi capital can now be used to access a new asset class, as Ensuro's innovative solution can bridge the gap between DeFi and real-world risk. Blockchain has the potential to bring more transparency and efficiency to insurance, an industry that has been reluctant to change. We are proud that they have decided to build their protocol on Polygon."
     company: "https://polygon.technology/"
     logo: ./assets/logo-polygon.png
   - name: "Nabil Rahman"
@@ -148,7 +148,7 @@ news:
   - title: "Ensuro and REVO Collaborate to Introduce Innovative Weather Protection for Italian Businesses"
     date: "October 26th, 2023"
     link: https://blog.ensuro.co/ensuro-and-revo-collaborate-to-introduce-innovative-weather-protection-for-italian-businesses-471dfaa29f87
-    image: images/revo_partnership.png
+    image: images/new-partner-revo-2.png
   - title: "Our CTO, Guillermo Narvaja, take the stage at #Expoestrategas to participate in the panel on 'Technological developments in which insurers and brokers invest'"
     date: "October 24th, 2023"
     link: https://www.linkedin.com/posts/ensuro_expoestrategas-expoestrategas-business-activity-7122612534351675392-s5WF?utm_source=share&utm_medium=member_desktop
