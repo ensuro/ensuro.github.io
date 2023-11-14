@@ -409,3 +409,15 @@ products:
     description: "ResilientGrowth is a blockchain-based insurance solution developed by Ensuro, Ibisa, and Fortune Credit to help Kenyan farmers combat the challenges posed by climate change. The product leverages smart contracts and parametric insurance to provide farmers with a reliable and affordable way to protect their investments against drought and crop losses."
     logo: ./assets/partner-fortune.svg
     video_link: https://www.youtube.com/embed/sestt_ro_4U?enablejsapi=1
+  - name: "StormStrong"
+    description: "With StormStrong, a US domiciled company, we develped a hurricane resilience program for households in the east coast of the United States. If a hurricane strikes within a certain predefined distance from the members location, Ensuro immediately pays a resilience contribution to the member."
+    logo: ./assets/StormStrong.svg
+    video_link: https://www.youtube.com/embed/CmU71h_kqfU?enablejsapi=1
+  - name: "Spot"
+    description: "Spot's CFAR (Cancel for Any Reason) product allows customers to cancel their bookings up to 24 hours before their scheduled adventure for an 80% refund, integrating smoothly into the marketplace flow to enhance the booking experience. This adaptable solution is tailored for competitive pricing and profitability, covering a wide range of activities and geographic locations."
+    logo: ./assets/spot.svg
+    video_link: https://www.youtube.com/embed/PCvVD_FHLBo?enablejsapi=1
+  - name: "Revo"
+    description: "Together with Revo we have launched a parametric insurance product that protects SME in Italy for loss of revenues connected to bad weather events. This is the first case of a public listed insurer cooperating with a protocol based on top of a public blockchain."
+    logo: ./assets/Revo.svg
+    video_link: https://www.youtube.com/embed/06yrLNgqpoE?enablejsapi=1
