@@ -145,6 +145,10 @@ advisors:
     link: "https://www.linkedin.com/in/joe-monk-81551318/"
     description: "Joe Monk is a freelance consultant having qualified as a Fellow of the Institute of Actuaries in 1999. He started his career in 1995 at Lane Clark & Peacock, a London-based actuarial consultancy, progressing to be a senior partner and practice head. In 2010 he moved in-house, joining Alterra (previously Max Capital) as Global Chief Actuary. After Alterra’s sale to Markel in 2013 he joined Pioneer Underwriters as Chief Actuary, before setting up as an independent consultant in 2018. Joe holds an MA in Economics from Cambridge University."
 news:
+  - title: "Ensuro's Expertise at #EKOPARTY: Exploring DevSecOps in Blockchain"
+    date: "November 2nd, 2023"
+    link: https://www.linkedin.com/posts/ensuro_ekoparty-devsecops-blockchain-activity-7125839127467409409-96-p?utm_source=share&utm_medium=member_desktop
+    image: images/ekoparty.png
   - title: "Ensuro and REVO Collaborate to Introduce Innovative Weather Protection for Italian Businesses"
     date: "October 26th, 2023"
     link: https://blog.ensuro.co/ensuro-and-revo-collaborate-to-introduce-innovative-weather-protection-for-italian-businesses-471dfaa29f87
@@ -153,18 +157,10 @@ news:
     date: "October 24th, 2023"
     link: https://www.linkedin.com/posts/ensuro_expoestrategas-expoestrategas-business-activity-7122612534351675392-s5WF?utm_source=share&utm_medium=member_desktop
     image: images/expoestrategas.png
-  - title: "We are happy to announce our partnership with REVO Insurance"
-    date: "October 11th, 2023"
-    link: https://www.linkedin.com/posts/ensuro_partnershipannouncement-ensuro-revo-activity-7117909722866843651-Ce-d?utm_source=share&utm_medium=member_desktop
-    image: images/revo_partnership.png
   - title: "Ensuro and Spot: Revolutionizing Adventure Booking with Innovative Solutions"
     date: "October 5th, 2023"
     link: https://blog.ensuro.co/ensuro-and-spot-revolutionizing-adventure-booking-with-innovative-solutions-81950270e2c5
     image: images/spot-adventure-booking.png
-  - title: "Partnership Announcement"
-    date: "September 28th, 2023"
-    link: https://www.linkedin.com/posts/ensuro_partnershipannouncement-ensuro-spotinsurance-activity-7113089908201664512-QACd?utm_source=share&utm_medium=member_desktop
-    image: images/spot.png
   - title: "DevSecOps Insights from Ensuro's Blockchain Experts at #Nerdearla"
     date: "September 25th, 2023"
     link: https://www.linkedin.com/posts/ensuro_nerdearla-devsecops-blockchain-activity-7112044446170402816-ww3P?utm_source=share&utm_medium=member_desktop
@@ -221,10 +217,6 @@ news:
     date: "April 6th, 2023"
     link: https://blog.ensuro.co/ensuro-ibisa-and-fortune-credit-partner-to-launch-resilientgrowth-an-innovative-6e9636ff0edd
     image: images/ResilientGrowth.jpg
-  - title: "Ensuro partners with Ibisa and Fortune Credit for ResilientGrowth: Innovative Weather Protection for Kenyan Farmers"
-    date: "March 30th, 2023"
-    link: https://www.linkedin.com/posts/ensuro_blockchain-parametricinsurance-socialimpact-activity-7047148505106132993-lZLO?utm_source=share&utm_medium=member_desktop
-    image: images/fortune-credit-partnership.png
   - title: "With great transparency comes great responsibility: auditing smart contract permissions"
     date: "February 16th, 2023"
     link: https://blog.ensuro.co/with-great-transparency-comes-great-responsibility-auditing-smart-contract-permissions-f9824d64312e
@@ -233,10 +225,6 @@ news:
     date: "February 10th, 2023"
     link: https://www.linkedin.com/posts/ensuro_ensuro-insurance-insurtech-activity-7029750576380833792-HCNi?utm_source=share&utm_medium=member_desktop
     image: images/1-5M_TVL.png
-  - title: "We have launched our new website! 🤩🥳🎉"
-    date: "January 31st, 2023"
-    link: https://www.linkedin.com/posts/ensuro_new-website-activity-7026170867449520129-ovDX?utm_source=share&utm_medium=member_desktop
-    image: images/new_web.png
   - title: "Blockchain in insurance: why the industry needs to embrace the technology"
     date: "January 24th, 2023"
     link: https://blog.ensuro.co/blockchain-in-insurance-why-the-industry-needs-to-embrace-the-technology-737462e33d9c
@@ -265,10 +253,6 @@ news:
     date: "November 16th, 2022"
     link: https://www.linkedin.com/posts/ensuro_labitconf2022-labitconf-ensuro-activity-6998687227736113153-jC3g?utm_source=share&utm_medium=member_desktop
     image: images/guillo-labitconf.jpeg
-  - title: "#LABITCONF2022"
-    date: "November 10th, 2022"
-    link: https://www.linkedin.com/mycompany/ensuro/recommendations/urn:li:activity:6996865755589832706
-    image: images/labitconf22.jpeg
   - title: "Our CEO, Marco Mirabella, was interviewed by AM Best"
     date: "October 28th, 2022"
     link: https://www.linkedin.com/posts/ensuro_ensuro-blockchain-insurance-activity-6991738502862270464-OCqS?utm_source=share&utm_medium=member_desktop
@@ -281,22 +265,10 @@ news:
     date: "October 21st, 2022"
     link: https://blog.ensuro.co/ensuro-x-parachute-how-can-blockchain-capital-improve-hurricane-protections-1ad141a38229
     image: images/Ensuro-Parachute.jpeg
-  - title: "DevCon Officially Began"
-    date: "October 12th, 2022"
-    link: https://www.linkedin.com/posts/ensuro_devcon-ensuro-ethereum-activity-6986011181664624640-fdV8?utm_source=share&utm_medium=member_desktop
-    image: images/devcon-bogota.jpeg
   - title: "Our CEO is already in Bogota for #ETHBogota and #Devcon!"
     date: "October 10th, 2022"
     link: https://www.linkedin.com/posts/ensuro_ethbogota-devcon-ensuro-activity-6985205690847903744-5ymp?utm_source=share&utm_medium=member_desktop
-    image: images/ETH-Bogota.jpeg
-  - title: "#DevconBogota is less than a week away!"
-    date: "October 6th, 2022"
-    link: https://www.linkedin.com/posts/ensuro_devconbogota-ensuro-ethereum-activity-6983794057558786048-epCC?utm_source=share&utm_medium=member_desktop
     image: images/ensuro-devcon.jpeg
-  - title: "New partnership with Parachute"
-    date: "October 3rd, 2022"
-    link: https://www.linkedin.com/feed/update/urn:li:activity:6982721368853225473?utm_source=share&utm_medium=member_desktop
-    image: images/Ensuro-Parachute.jpeg
   - title: "Hodler vault — A bridge between your crypto assets and stablecoin denominated yields"
     date: "September 28th, 2022"
     link: https://blog.ensuro.co/hodler-vault-a-bridge-between-your-crypto-assets-and-stablecoin-denominated-yields-98b6bffd50f9
@@ -305,14 +277,6 @@ news:
     date: "September 23rd, 2022"
     link: https://www.linkedin.com/feed/update/urn:li:activity:6978768769040973825?utm_source=share&utm_medium=member_desktop
     image: images/Marco-ITCVegas.jpeg
-  - title: "Our CEO is already in Las Vegas for #ITCVegas2022!"
-    date: "September 22nd, 2022"
-    link: https://www.linkedin.com/posts/ensuro_itcvegas2022-itcvegas2022-insurtech-activity-6978358464586686467-EHet?utm_source=share&utm_medium=member_desktop
-    image: images/ITCVegas.jpeg
-  - title: "Ensuro's participation in ITC Vegas"
-    date: "September 14th, 2022"
-    link: https://www.linkedin.com/feed/update/urn:li:activity:6975833437853097985?utm_source=share&utm_medium=member_desktop
-    image: images/ITC-Vegas.png
   - title: "Ensuro received an AAVE grant to build a product called Hodler Vault"
     date: "August 29th, 2022"
     link: https://www.linkedin.com/posts/ensuro_aave-ensuro-web3-activity-6969905439803092992-U6fj/?utm_source=share&utm_medium=member_desktop
@@ -409,3 +373,15 @@ products:
     description: "ResilientGrowth is a blockchain-based insurance solution developed by Ensuro, Ibisa, and Fortune Credit to help Kenyan farmers combat the challenges posed by climate change. The product leverages smart contracts and parametric insurance to provide farmers with a reliable and affordable way to protect their investments against drought and crop losses."
     logo: ./assets/partner-fortune.svg
     video_link: https://www.youtube.com/embed/sestt_ro_4U?enablejsapi=1
+  - name: "StormStrong"
+    description: "With StormStrong, a US domiciled company, we develped a hurricane resilience program for households in the east coast of the United States. If a hurricane strikes within a certain predefined distance from the members location, Ensuro immediately pays a resilience contribution to the member."
+    logo: ./assets/StormStrong.svg
+    video_link: https://www.youtube.com/embed/CmU71h_kqfU?enablejsapi=1
+  - name: "Spot"
+    description: "Spot's CFAR (Cancel for Any Reason) product allows customers to cancel their bookings up to 24 hours before their scheduled adventure for an 80% refund, integrating smoothly into the marketplace flow to enhance the booking experience. This adaptable solution is tailored for competitive pricing and profitability, covering a wide range of activities and geographic locations."
+    logo: ./assets/spot.svg
+    video_link: https://www.youtube.com/embed/PCvVD_FHLBo?enablejsapi=1
+  - name: "Revo"
+    description: "Together with Revo we have launched a parametric insurance product that protects SME in Italy for loss of revenues connected to bad weather events. This is the first case of a public listed insurer cooperating with a protocol based on top of a public blockchain."
+    logo: ./assets/Revo.svg
+    video_link: https://www.youtube.com/embed/06yrLNgqpoE?enablejsapi=1
