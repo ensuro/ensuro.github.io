@@ -297,14 +297,13 @@
       </h2>
     </header>
     <div class="w-[90vw] m-auto px-20 relative">
-      <hr class="only-desktop h-8 xl:h-16 border-none">
-      <section class="swiper-news overflow-hidden py-6">
+        <hr class="only-desktop h-8 xl:h-16 border-none">
+        <section class="swiper-news overflow-hidden py-6">
         <!--Blog-inner Start-->
-        <div class="swiffy-slider testimonial-slider-item-show3 slider-nav-outside slider-nav-dark slider-nav-lg slider-nav-visible slider-indicators-outside slider-indicators-round slider-indicators-dark slider-nav-animation slider-nav-animation-fadein slider-item-first-visible">
+        <div class="swiffy-slider products-slider-item-show3 slider-nav-outside slider-nav-dark slider-nav-lg slider-nav-visible slider-indicators-outside slider-indicators-round slider-indicators-dark slider-nav-animation slider-nav-animation-fadein slider-item-first-visible">
           <div class="slider-container">
-          {% for p in partners_quotes %}
-          <section class="swiper-slide">
-            <div class="testimonial-card">
+            {% for p in partners_quotes %}
+            <div class="product-card relative block hover:opacity-80 transition-all" style="margin: 5px !important">
               <img src="./assets/quote_icon.svg" style="height: 30px" alt="" class="absolute" />
               <br class="only-mobile">
               <br class="hidden md:block">
@@ -317,21 +316,16 @@
                 </a>
               </header>
               <hr class="h-5 xl:h-12 border-none">
-              <p class="text-alt text-right xl:padding">
-                {{p.quote }}
-              </p>
-              <hr class="h-5 xl:h-12 border-none">
+              <p class="text-gray-product text-center">{{p.quote }}</p>
+              <hr class="h-5 xl:h-8 border-none">
               <br class="hidden md:block">
-              <a href={{p.company}} target="_blank">
-                <img
-                  src={{p.logo}}
-                  alt=""
-                  class="testimonial-logo"
-                />
-              </a>
+              <div class="flex justify-center">
+                <a href={{p.company}} target="_blank">
+                  <img src={{p.logo}} alt="" class="testimonial-logo"  />
+                </a>
+              </div>
             </div>
-          </section>
-          {% endfor %}
+            {% endfor %}
           </div>
           <button type="button" class="slider-nav no-border" aria-label="Go left"></button>
           <button type="button" class="slider-nav slider-nav-next no-border" aria-label="Go left"></button>
