@@ -134,6 +134,11 @@ team:
     link: "https://www.linkedin.com/in/jinxi-l-71284817/"
     description: "Jinxi is an FIA qualified actuary with over 8 years of experience spanning across reserving, risk and pricing. She started at Deloitte Ireland as an actuarial consultant. After that she worked for UnipolRe where she provided actuarial technical pricing on reinsurance treaties and assisted the CRO in the production of Solvency II ORSA and SCR reporting."
 advisors:
+  - name: "Runhuan Feng"
+    photo: "./assets/pf_feng.png"
+    role: "Loss Reserve Specialist"
+    link: "https://www.linkedin.com/in/runhuan-feng-phd-fsa-cera-93589085/"
+    description: "State Farm Professor at University of Illinois, expert in actuarial science and analytics. Fellow of Society of Actuaries, Chartered Enterprise Risk Analyst, co-founded Illinois Risk Lab, consults for firms, and promotes industry-academic ties, serving on Society of Actuaries' Research Committee."
   - name: "Darren Camas"
     photo: "./assets/team_darren.png"
     role: "Advisor"
