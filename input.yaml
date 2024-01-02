@@ -134,6 +134,11 @@ team:
     link: "https://www.linkedin.com/in/jinxi-l-71284817/"
     description: "Jinxi is an FIA qualified actuary with over 8 years of experience spanning across reserving, risk and pricing. She started at Deloitte Ireland as an actuarial consultant. After that she worked for UnipolRe where she provided actuarial technical pricing on reinsurance treaties and assisted the CRO in the production of Solvency II ORSA and SCR reporting."
 advisors:
+  - name: "Professor Runhuan Feng"
+    photo: "./assets/pf_feng.png"
+    role: "Loss Reserve Specialist"
+    link: "https://www.linkedin.com/in/runhuan-feng-phd-fsa-cera-93589085/"
+    description: "State Farm Professor at University of Illinois, expert in actuarial science and analytics. Fellow of Society of Actuaries, Chartered Enterprise Risk Analyst, co-founded Illinois Risk Lab, consults for firms, and promotes industry-academic ties, serving on Society of Actuaries' Research Committee."
   - name: "Darren Camas"
     photo: "./assets/team_darren.png"
     role: "Advisor"
@@ -149,11 +154,6 @@ advisors:
     role: "Advisor"
     link: "https://www.linkedin.com/in/garrettkoehn/"
     description: "Garrett is the co-President of Brokerage for CRC Group, one of the largest wholesale insurance brokers in the world. He has 25+ years of complex commercial insurance experience with 20+ years’ experience in a senior executive position. As an active startup advisor and angel investor in the fintech and insurtech space, he's a former Managing Partner at The Batchery incubator in Berkeley and remains a partner."
-  - name: "Joe Monk"
-    photo: "./assets/team_joe.png"
-    role: "Actuarial Consultant"
-    link: "https://www.linkedin.com/in/joe-monk-81551318/"
-    description: "Joe Monk is a freelance consultant having qualified as a Fellow of the Institute of Actuaries in 1999. He started his career in 1995 at Lane Clark & Peacock, a London-based actuarial consultancy, progressing to be a senior partner and practice head. In 2010 he moved in-house, joining Alterra (previously Max Capital) as Global Chief Actuary. After Alterra’s sale to Markel in 2013 he joined Pioneer Underwriters as Chief Actuary, before setting up as an independent consultant in 2018. Joe holds an MA in Economics from Cambridge University."
 news:
   - title: "Ensuro Announces Investment from Sancor Seguros Group"
     date: "November 23th, 2023"
