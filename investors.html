@@ -42,7 +42,26 @@
     </script>
   </head>
   <body>
-        <header class="w-full bg-white p-3 relative z-20">
+    <div class="container-fluid bg-gradient-to-r from-bounty-800 to-bounty-500 w-full text-white justify-center items-center">
+      <div class="container-padded flex-col" onclick="window.open('https://immunefi.com/bounty/ensuro/', '_blank');" style="cursor: pointer;" >
+
+        <section class="grid grid-cols-1 gap-2 md:grid-cols-2 relative p-3">
+          <div class="flex justify-center flex-col order-2 md:order-1 font-size-18 xs:font-size-18 text-right xs:text-center">
+            <p>Get paid up to $30,000</p>
+            <p>if you discover bugs and vulnerabilities on <b>Ensuro smart contracts</b></p>
+          </div>
+
+          <div class="flex justify-center flex-col order-2 md:order-2 font-size-18 xs:font-size-18">
+            <div class="grid grid-cols-1 gap-2 md:grid-cols-2 relative p-3">
+              <p class="md:order-1 text-right xs:text-center" >Bounties via </p>
+              <img src="./assets/immunifi-logo.svg" style="height: 30px; margin: auto" class="md:order-2"  alt="Immunifi logo"/>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+    <header class="w-full bg-white p-3 relative z-20">
       <nav class="navbar navbar-expand-lg navbar-light flex justify-between container-padded">
         <div class="container-fluid">
           <a href="index.html">
@@ -58,16 +77,20 @@
           </button>
           </div>
           <div class="nav-header collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto ">
+            <ul class="navbar-nav ml-auto aligned">
               <li class="nav-item font-size-18 xl:font-size-22"><a href="index.html" class="hide-on-header">Home</a></li>
               <li class="nav-item font-size-18 xl:font-size-22"><a href="https://docs.ensuro.co/" target="_blank">Docs</a></li>
               <li class="nav-item font-size-18 xl:font-size-22"><a href="investors.html">Investors</a></li>
               <li class="nav-item font-size-18 xl:font-size-22"><a href="about.html">About Ensuro</a></li>
               <li class="nav-item font-size-18 xl:font-size-22"><a href="careers.html">Careers</a></li>
               <li class="nav-item font-size-18 xl:font-size-22"><a href="contact.html" class="hide-on-footer">Contact us</a></li>
+              <button class="btn-bounty xl:font-size-20 flex" style="margin: 10px" onclick=" window.open('https://immunefi.com/bounty/ensuro/','_blank')">
+                Bug bounty
+                <svg width="30" height="18" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.50824 11.1287L14.5718 19.337L22.5493 11.2163L29.0902 17.8746L21.4906 25.6106L19.5355 23.6735L25.2322 17.8746L22.5493 15.1435L14.5718 23.2642L6.50824 15.0559L3.85799 17.7537L9.64133 23.6409L7.68629 25.578L0 17.7537L6.50824 11.1287Z" fill="white"/><path fill-rule="evenodd" clip-rule="evenodd" d="M22.582 15.0557L14.5184 6.8474L6.54091 14.9681L2.28882e-05 8.3098L7.59967 0.573738L9.55471 2.51084L3.85801 8.3098L6.54091 11.0409L14.5184 2.92017L22.582 11.1285L25.2322 8.43066L19.4489 2.5435L21.4039 0.606395L29.0902 8.43066L22.582 15.0557Z" fill="white"/><path fill-rule="evenodd" clip-rule="evenodd" d="M13.3147 25.4178L13.3147 20.2463H15.9479L15.9479 25.4178H13.3147Z" fill="white"/><path fill-rule="evenodd" clip-rule="evenodd" d="M13.3147 5.93817L13.3147 0.766613L15.9479 0.766613L15.9479 5.93817L13.3147 5.93817Z" fill="white"/></svg>
+              </button>
               <li class="nav-item font-size-18 xl:font-size-22"><a href="PrivacyPolicy.pdf" class="hide-on-header" target="_blank">Privacy Policy</a></li>
             </ul>
-            <a href="https://app.ensuro.co" target="_blank" class="btn-secondary nav-item only-desktop xl:font-size-20">Use App</a>
+            <a href="https://app.ensuro.co" target="_blank" class="btn-secondary nav-item only-desktop xl:font-size-20 ml-auto">Use App</a>
           </div>
         </div>
       </nav>
@@ -161,6 +184,7 @@
               <li><a href="investors.html">Investors</a></li>
               <li><a href="about.html">About Ensuro</a></li>
               <li><a href="careers.html">Careers</a></li>
+              <li><a href="https://immunefi.com/bounty/ensuro/" class="hide-on-header" target="_blank">Bug Bounty</a></li>
               <li><a href="contact.html" class="hide-on-footer">Contact us</a></li>
               <li><a href="PrivacyPolicy.pdf" class="hide-on-header" target="_blank">Privacy Policy</a></li>
               <li><a href="https://drive.google.com/drive/folders/1tgXHsadLSiTjz6SjmmlktoBaqU7c3IgR?usp=sharing" class="hide-on-header" target="_blank">Press Kit</a></li>
@@ -221,6 +245,7 @@
               <li><a href="investors.html">Investors</a></li>
               <li><a href="about.html">About Ensuro</a></li>
               <li><a href="careers.html">Careers</a></li>
+              <li><a href="https://immunefi.com/bounty/ensuro/" class="hide-on-header" target="_blank">Bug Bounty</a></li>
               <li><a href="contact.html" class="hide-on-footer">Contact us</a></li>
               <li><a href="PrivacyPolicy.pdf" class="hide-on-header" target="_blank">Privacy Policy</a></li>
               <li><a href="https://drive.google.com/drive/folders/1tgXHsadLSiTjz6SjmmlktoBaqU7c3IgR?usp=sharing" class="hide-on-header" target="_blank">Press Kit</a></li>

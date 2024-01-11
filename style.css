@@ -1020,6 +1020,16 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-bounty-800 {
+  --tw-gradient-from: #F24365;
+  --tw-gradient-to: rgb(0 102 255 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-bounty-500 {
+  --tw-gradient-to: #1B1D7C;
+}
+
 .from-primary-500 {
   --tw-gradient-from: #0066ff;
   --tw-gradient-to: rgb(0 102 255 / 0);
@@ -1328,6 +1338,26 @@ footer .hide-on-footer {
   --tw-gradient-to: rgb(0 102 255 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
   --tw-gradient-to: #0066ff;
+}
+
+.aligned {
+  display: flex;
+  align-items: center;
+}
+
+.btn-bounty {
+  position: relative;
+  border-radius: 0.5rem;
+  background-color: #1B1D7C;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: white;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  align-items: center;
 }
 
 .btn-submit {
@@ -2021,7 +2051,7 @@ a:hover {
   }
 
   .xs\:text-center {
-    text-align: center;
+    text-align: center !important;
   }
 
   .xs\:text-left {
