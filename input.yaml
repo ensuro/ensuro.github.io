@@ -155,6 +155,10 @@ advisors:
     link: "https://www.linkedin.com/in/garrettkoehn/"
     description: "Garrett is the co-President of Brokerage for CRC Group, one of the largest wholesale insurance brokers in the world. He has 25+ years of complex commercial insurance experience with 20+ years’ experience in a senior executive position. As an active startup advisor and angel investor in the fintech and insurtech space, he's a former Managing Partner at The Batchery incubator in Berkeley and remains a partner."
 news:
+  - title: "Bitcoin ETFs and the Next Stage of Crypto Adoption"
+    date: "February 22th, 2024"
+    link: https://blog.ensuro.co/bitcoin-etfs-and-the-next-stage-of-crypto-adoption-ce1200094831
+    image: images/Bitcoin_ETF_Portada.png
   - title: "Ensuro Announces Investment from Sancor Seguros Group"
     date: "November 23th, 2023"
     link: https://blog.ensuro.co/ensuro-announces-investment-from-sancor-seguros-group-building-the-bridge-between-defi-and-the-c9df466c5876
