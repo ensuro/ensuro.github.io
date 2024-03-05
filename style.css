@@ -1313,6 +1313,13 @@ footer .hide-on-footer {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+@media screen and (max-width: 767px) {
+  .xs\:how-to-btn {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
 .btn-secondary {
   position: relative;
   border-radius: 0.5rem;
