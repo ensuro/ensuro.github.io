@@ -155,6 +155,14 @@ advisors:
     link: "https://www.linkedin.com/in/garrettkoehn/"
     description: "Garrett is the co-President of Brokerage for CRC Group, one of the largest wholesale insurance brokers in the world. He has 25+ years of complex commercial insurance experience with 20+ years’ experience in a senior executive position. As an active startup advisor and angel investor in the fintech and insurtech space, he's a former Managing Partner at The Batchery incubator in Berkeley and remains a partner."
 news:
+  - title: "Driving Global Insurtech Innovation with Blockchain"
+    date: "April 23rd, 2024"
+    link: https://blog.ensuro.co/ensuro-driving-global-insurtech-innovation-with-blockchain-631d132b9266
+    image: images/driving_global_insurtech.png
+  - title: "Embedded Insurance: The Future of User Protection"
+    date: "March 21st, 2024"
+    link: https://blog.ensuro.co/embedded-insurance-the-future-of-user-protection-f8385da695c3
+    image: images/embedded_insurance.png
   - title: "Bitcoin ETFs and the Next Stage of Crypto Adoption"
     date: "February 22th, 2024"
     link: https://blog.ensuro.co/bitcoin-etfs-and-the-next-stage-of-crypto-adoption-ce1200094831
