@@ -28,3 +28,4 @@ jobs:
         with:
           folder: build
           clean-exclude: pr-preview/
+          force: false # should prevent race condition with pr-preview closed pr event
