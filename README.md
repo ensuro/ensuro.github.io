@@ -25,7 +25,7 @@ sudo apt-get install imagemagick
 1. **Resize the image to 500x500 pixels and convert it to grayscale:**
 
 ```bash
-convert ./static/assets/team_lucas.png -resize 500x500^ -gravity center -extent 500x500 -colorspace Gray team_lucas_resized_grayscale.png
+convert /route/to/image.png -resize 500x500^ -gravity center -extent 500x500 -colorspace Gray resized_grayscale_image.png
 ```
 2. **Create a mask with rounded corners:**
 
@@ -35,5 +35,5 @@ convert -size 500x500 xc:none -draw "roundrectangle 0,0 499,499 50,50" mask.png
 2. **Apply the mask to the resized grayscale image:**
 
 ```bash
-convert team_lucas_resized_grayscale.png mask.png -alpha set -compose DstIn -composite team_lucas_final_fixed.png
+convert resized_grayscale_image.png mask.png -alpha set -compose DstIn -composite team_member.png
 ```
