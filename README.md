@@ -25,12 +25,12 @@ sudo apt-get install imagemagick
 1. **Resize the image to 500x500 pixels and convert it to grayscale:**
 
 ```bash
-convert /route/to/image.png -resize 500x500^ -gravity center -extent 500x500 -colorspace Gray resized_grayscale_image.png
+convert /route/to/image.png -resize 200x200^ -gravity center -extent 200x200 -colorspace Gray resized_grayscale_image.png
 ```
 2. **Create a mask with rounded corners:**
 
 ```bash
-convert -size 500x500 xc:none -draw "roundrectangle 0,0 499,499 50,50" mask.png
+convert -size 200x200 xc:none -draw "roundrectangle 0,0 199,199 50,50" mask.png
 ```
 2. **Apply the mask to the resized grayscale image:**
 
