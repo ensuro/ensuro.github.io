@@ -123,6 +123,12 @@ team:
     role: "Actuary"
     link: "https://www.linkedin.com/in/jinxi-l-71284817/"
     description: "Jinxi is an FIA qualified actuary with over 8 years of experience spanning across reserving, risk and pricing. She started at Deloitte Ireland as an actuarial consultant. After that she worked for UnipolRe where she provided actuarial technical pricing on reinsurance treaties and assisted the CRO in the production of Solvency II ORSA and SCR reporting."
+  - name: "Lucas Cambon"
+    photo: "./assets/team_lucas.png"
+    role: "Full Stack Developer"
+    link: "https://www.linkedin.com/in/lucas-cambon/"
+    description: "Lucas Cambon is an experienced fullstack developer who has applied his extensive knowledge in backend, frontend, databases, DevOps, and infrastructure for both local and international companies, as well as in freelance projects. Throughout his career, Lucas has excelled in various areas of development, contributing significantly to numerous projects and initiatives. In addition, Lucas is currently pursuing a degree in Computer Engineering."
+    
 advisors:
   - name: "Professor Runhuan Feng"
     photo: "./assets/pf_feng.png"
