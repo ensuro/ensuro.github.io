@@ -92,7 +92,7 @@ team:
     photo: "./assets/team_luca.png"
     role: "Chief Scientific Officer"
     link: "https://www.linkedin.com/in/luca-mungo-a26278103/"
-    description: "Ph.D. candidate in Mathematics at the University of Oxford. He was an Associate at the Boston Consulting Group, where he focused on data-science projects in the retail industry."
+    description: "Luca holds a Ph.D. in Mathematics from the University of Oxford. His academic background includes a double Master's degree in Physics from Politecnico di Torino and Sorbonne University, as well as a Bachelor's degree in Physics from Sapienza University in Rome. Previously, he was an Associate at the Boston Consulting Group. "
   - name: "Colin McQueen"
     photo: "./assets/team_colin.png"
     role: "Chief Financial Officer"
