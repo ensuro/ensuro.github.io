@@ -92,7 +92,7 @@ team:
     photo: "./assets/team_luca.png"
     role: "Chief Scientific Officer"
     link: "https://www.linkedin.com/in/luca-mungo-a26278103/"
-    description: "Ph.D. candidate in Mathematics at the University of Oxford. He was an Associate at the Boston Consulting Group, where he focused on data-science projects in the retail industry."
+    description: "Luca holds a Ph.D. in Mathematics from the University of Oxford. His academic background includes a double Master's degree in Physics from Politecnico di Torino and Sorbonne University, as well as a Bachelor's degree in Physics from Sapienza University in Rome. Previously, he was an Associate at the Boston Consulting Group. "
   - name: "Colin McQueen"
     photo: "./assets/team_colin.png"
     role: "Chief Financial Officer"
@@ -151,6 +151,18 @@ advisors:
     link: "https://www.linkedin.com/in/garrettkoehn/"
     description: "Garrett is the co-President of Brokerage for CRC Group, one of the largest wholesale insurance brokers in the world. He has 25+ years of complex commercial insurance experience with 20+ years’ experience in a senior executive position. As an active startup advisor and angel investor in the fintech and insurtech space, he's a former Managing Partner at The Batchery incubator in Berkeley and remains a partner."
 news:
+  - title: "Transforming reinsurance with Ethereum: Transparency and trust in a regulated world"
+    date: "September 18th, 2024"
+    link: https://blog.ensuro.co/transforming-reinsurance-with-ethereum-transparency-and-trust-in-a-regulated-world-613277ca8ce4
+    image: images/transforming-reinsurance-with-ethereum.png
+  - title: "An Insurer You Can Trust: Why On-Chain Capital Is Better Collateral"
+    date: "August 22nd, 2024"
+    link: https://blog.ensuro.co/an-insurer-you-can-trust-why-on-chain-capital-is-better-collateral-ea727105d1a3
+    image: images/on-chain-capital-better-collateral.png
+  - title: "From Risk to Resilience: 4 Blockchain Solutions for Climate-Conscious Insurance"
+    date: "July 31th, 2024"
+    link: https://blog.ensuro.co/from-risk-to-resilience-4-blockchain-solutions-for-climate-conscious-insurance-e99223118655
+    image: images/climate-conscious-insurance.png
   - title: "Ethereum ETFs: One Step Closer to Mainstream Crypto Adoption"
     date: "July 18th, 2024"
     link: https://blog.ensuro.co/ethereum-etfs-one-step-closer-to-mainstream-crypto-adoption-a244b52627ff
