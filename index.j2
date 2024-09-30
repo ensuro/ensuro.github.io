@@ -19,7 +19,7 @@
           Ensuro is a Blockchain-based (re)insurance company, licensed by the Bermuda Monetary Authority.
           We curate real-world risk and provide stablecoin-denominated capacity managed by smart contracts.
           This allows anyone to invest in insurance risk and reap its benefits.
-          By opening up the insurance market to new players, we fuel innovation for established and upcoming insurance partners. 
+          By opening up the insurance market to new players, we fuel innovation for established and upcoming insurance partners.
         </p>
       </header>
       <img
@@ -109,7 +109,7 @@
           <span class="text-center">
             <p class="text-4xl font-extralight text-secondary-500" id="apy">7,8%</p>
             <script>
-              fetch('https://offchain-v2.ensuro.co/api/etokens/apy_range/?days_from=30&etks=0x8d2Ee82c4172B2138B06b8037d769cBfAf9C0274,0x55bAe6690d46EA94D7F05DF7c80A85E322421fB6,0xF383eF2D31E1d4a19B3e04ca2937DB6A8DA9f229,0x6229D78658305a301E177f9dAEa3a0799fd1528C')
+              fetch('https://offchain-v2.ensuro.co/api/etokens/apy_range/?days_from=30&etks=0xBC33c283A37d46ABA17BC5F8C27b27242688DeC6,0xF383eF2D31E1d4a19B3e04ca2937DB6A8DA9f229,0x6229D78658305a301E177f9dAEa3a0799fd1528C')
                 .then(response => response.json())
                 .then(data => {
                   document.querySelector('#apy').innerHTML = (data.min_apy * 100 ).toFixed(0) + '% to ' + (data.max_apy * 100 ).toFixed(0) + '%';
