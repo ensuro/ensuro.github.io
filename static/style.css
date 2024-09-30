@@ -2308,3 +2308,7 @@ a:hover {
 .play-icon {
   display: initial;
 }
+
+.modal-header .close {
+  color: #000000;
+}
