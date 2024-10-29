@@ -47,6 +47,18 @@ partners_quotes:
     quote: "In Ensuro, we found a partner that is helping us flourish in the decentralized finance landscape. We easily integrated our proprietary technologies with Ensuro’s accessible blockchain tools, and used their actionable and sharp perspectives during ourproduct launch. As a result, Parachute clients can now enjoy a more robust service to manage hurricane risk."
     company: "https://byparachute.com/"
     logo: ./assets/logo-parachute.png
+  - name: "Pedro Gonzalez"
+    link: "https://www.linkedin.com/in/pdgc/"
+    photo: ./assets/partner_PedroGonzalez.png
+    quote: "Azzegura partnered with Ensuro to deliver a reliable, blockchain-powered climate assistance solution for agricultural producers. Leveraging Ensuro's advanced expertise and highly professional team, this smart contract-based product ensures that farmers can swiftly access seeds and supplies for replanting after adverse weather events. We’ve developed a straightforward yet powerful product that provides farmers with both peace of mind and resilience in the face of climate uncertainties."
+    logo: "./assets/logo-azzegura.png"
+    company: "https://www.azzegura.com/"
+  - name: "Kevin Tsui"
+    link: "https://www.linkedin.com/in/kevtsui/"
+    photo: ./assets/partner_KevinTsui.png
+    quote: "At Spot, we needed a partner to support our dynamic insurtech business with agile, innovative solutions. Ensuro not only understood our needs but also provided forward-thinking strategies by leveraging DeFi capital for real-world insurance, enhancing transparency and efficiency. Their expertise in risk management and reinsurance has been instrumental in launching a new product, making them a standout partner in driving meaningful innovation."
+    logo: "./assets/logo-spot.png"
+    company: "https://www.getspot.com/"
 partners_and_investors:
   - logo: "./assets/logo-sosv.png"
     link: "https://sosv.com/"
@@ -72,6 +84,8 @@ partners_and_investors:
     link: "https://byparachute.com/"
   - logo: "./assets/logo-polygon.png"
     link: "https://polygon.technology/"
+  - logo: "./assets/logo-azzegura.png"
+    link: "https://www.azzegura.com/"
 team:
   - name: "Marco Mirabella"
     photo: "./assets/team_marco.png"

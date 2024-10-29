@@ -22,7 +22,7 @@ sudo apt-get install imagemagick
 
 ### To format team member images using ImageMagick, follow these steps:
 
-1. **Resize the image to 500x500 pixels and convert it to grayscale:**
+1. **Resize the image to 200x200 pixels and convert it to grayscale:**
 
 ```bash
 convert /route/to/image.png -resize 200x200^ -gravity center -extent 200x200 -colorspace Gray resized_grayscale_image.png
@@ -32,8 +32,32 @@ convert /route/to/image.png -resize 200x200^ -gravity center -extent 200x200 -co
 ```bash
 convert -size 200x200 xc:none -draw "roundrectangle 0,0 199,199 50,50" mask.png
 ```
-2. **Apply the mask to the resized grayscale image:**
+3. **Apply the mask to the resized grayscale image:**
 
 ```bash
 convert resized_grayscale_image.png mask.png -alpha set -compose DstIn -composite team_member.png
+```
+
+### To format partners & investors images from jpg/jpeg to png using ImageMagick, follow these steps:
+
+```bash
+convert /route/to/image.jpg -fuzz 20% -transparent white output.png
+```
+
+### To format partner images using ImageMagick, follow these steps:
+
+1. **Resize the image to 90x90 pixels and convert it to grayscale:**
+
+```bash
+convert /route/to/image.png -resize 90x90^ -gravity center -extent 90x90 resized_image.png
+```
+2. **Create a mask with rounded corners:**
+
+```bash
+convert -size 90x90 xc:none -draw "roundrectangle 0,0 90,90 15,15" mask.png
+```
+3. **Apply the mask to the resized grayscale image:**
+
+```bash
+convert resized_image.png mask.png -alpha set -compose DstIn -composite image_rounded.png
 ```
