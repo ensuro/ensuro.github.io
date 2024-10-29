@@ -56,7 +56,7 @@ convert /route/to/image.png -resize 90x90^ -gravity center -extent 90x90 resized
 ```bash
 convert -size 90x90 xc:none -draw "roundrectangle 0,0 90,90 15,15" mask.png
 ```
-3. **Apply the mask to the resized grayscale image:**
+3. **Apply the mask to the resized image:**
 
 ```bash
 convert resized_image.png mask.png -alpha set -compose DstIn -composite image_rounded.png
