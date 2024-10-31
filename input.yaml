@@ -1,4 +1,16 @@
 partners_quotes:
+  - name: "Dante Disparte"
+    link: "https://www.linkedin.com/in/dantedisparte/"
+    photo: ./assets/partner_DanteDisparte.png
+    quote: "Ensuro is pioneering blockchain-based insurance for previously uninsurable risks, leveraging Bermuda’s robust regulatory environment to offer a trusted, fully regulated platform. It's a game-changer for investors, customers, and counterparties looking for innovative insurance solutions."
+    logo: "./assets/logo-circle.png"
+    company: "https://www.circle.com/"
+  - name: "Justin Havins"
+    link: "https://www.linkedin.com/in/justin-havins-4b277132/"
+    photo: ./assets/partner_justin.jpg
+    quote: "DeFi capital can now be used to access a new asset class, as Ensuro's innovative solution can bridge the gap between DeFi and real-world risk. Blockchain has the potential to bring more transparency and efficiency to insurance, an industry that has been reluctant to change. We are proud that they have decided to build their protocol on Polygon."
+    company: "https://polygon.technology/"
+    logo: ./assets/logo-polygon.png
   - name: "Marion Doucet"
     link: "https://www.linkedin.com/in/marion-doucet-androlus-54316930"
     photo: ./assets/partner_marion.jpg
@@ -11,12 +23,6 @@ partners_quotes:
     quote: "The partnership with Ensuro reinforces our goal to remain at the forefront and build a tangible bridge between the DeFi world and the insurance industry. The anticipation of what tomorrow brings and the possibility of co-creating innovations together is exciting."
     company: "https://sancorsegurosventures.com/"
     logo: ./assets/sancor_ventures.png
-  - name: "Justin Havins"
-    link: "https://www.linkedin.com/in/justin-havins-4b277132/"
-    photo: ./assets/partner_justin.jpg
-    quote: "DeFi capital can now be used to access a new asset class, as Ensuro's innovative solution can bridge the gap between DeFi and real-world risk. Blockchain has the potential to bring more transparency and efficiency to insurance, an industry that has been reluctant to change. We are proud that they have decided to build their protocol on Polygon."
-    company: "https://polygon.technology/"
-    logo: ./assets/logo-polygon.png
   - name: "Nabil Rahman"
     link: "https://www.linkedin.com/in/nabilrahman/"
     photo: ./assets/nabil_rahman.png
@@ -78,6 +84,10 @@ partners_quotes:
     logo: "./assets/logo-avata.png"
     company: "https://www.avata.gg/"
 partners_and_investors:
+  - logo: "./assets/logo-circle.png"
+    link: "https://www.circle.com/"
+  - logo: "./assets/logo-polygon.png"
+    link: "https://polygon.technology/"
   - logo: "./assets/logo-sosv.png"
     link: "https://sosv.com/"
   - logo: "./assets/sancor_ventures.png"
@@ -100,8 +110,6 @@ partners_and_investors:
     link: "https://ibisa.network/"
   - logo: "./assets/logo-parachute.png"
     link: "https://byparachute.com/"
-  - logo: "./assets/logo-polygon.png"
-    link: "https://polygon.technology/"
   - logo: "./assets/logo-azzegura.png"
     link: "https://www.azzegura.com/"
   - logo: "./assets/logo-clerity.png"
