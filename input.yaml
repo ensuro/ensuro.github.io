@@ -71,6 +71,12 @@ partners_quotes:
     quote: "Ensuro has redefined insurance-like offerings, from warranties to protection solutions. Their team’s deep market insight consistently delivers tailored products that align with our business goals. By merging their rigorous risk analysis and blockchain-based IT architecture with InsureHero's platform and automated claims handling, we’ve created a powerful synergy and compelling value for customers."
     logo: "./assets/logo-insurehero.png"
     company: "https://www.insurehero.io/"
+  - name: "Sung Feng Wu"
+    link: "https://www.linkedin.com/in/sungfengwu/"
+    photo: ./assets/partner_SungFengWu.png
+    quote: "It is a pleasure to work closely with the Ensuro team, building innovative, flexible, and disruptive solutions for the InsurTech industry. Their strong DeFi insurance capabilities, commitment to product innovation, and technical expertise make them a great partner in advancing secure, on-chain insurance solutions."
+    logo: "./assets/logo-avata.png"
+    company: "https://www.avata.gg/"
 partners_and_investors:
   - logo: "./assets/logo-sosv.png"
     link: "https://sosv.com/"
@@ -102,6 +108,8 @@ partners_and_investors:
     link: "https://www.clerity.fr/"
   - logo: "./assets/logo-insurehero.png"
     link: "https://www.insurehero.io/"
+  - logo: "./assets/logo-avata.png"
+    link: "https://www.avata.gg/"
 team:
   - name: "Marco Mirabella"
     photo: "./assets/team_marco.png"

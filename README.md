@@ -46,7 +46,7 @@ convert /route/to/image.jpg -fuzz 20% -transparent white output.png
 
 ### To format partner images using ImageMagick, follow these steps:
 
-1. **Resize the image to 90x90 pixels and convert it to grayscale:**
+1. **Resize the image to 90x90 pixels and rounded borders:**
 
 ```bash
 convert /route/to/image.png -resize 90x90^ -gravity center -extent 90x90 resized_image.png
