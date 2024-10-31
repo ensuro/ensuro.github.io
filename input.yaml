@@ -1,4 +1,16 @@
 partners_quotes:
+  - name: "Dante Disparte"
+    link: "https://www.linkedin.com/in/dantedisparte/"
+    photo: ./assets/partner_DanteDisparte.png
+    quote: "Ensuro is pioneering blockchain-based insurance for previously uninsurable risks, leveraging Bermuda’s robust regulatory environment to offer a trusted, fully regulated platform. It's a game-changer for investors, customers, and counterparties looking for innovative insurance solutions."
+    logo: "./assets/logo-circle.png"
+    company: "https://www.circle.com/"
+  - name: "Justin Havins"
+    link: "https://www.linkedin.com/in/justin-havins-4b277132/"
+    photo: ./assets/partner_justin.jpg
+    quote: "DeFi capital can now be used to access a new asset class, as Ensuro's innovative solution can bridge the gap between DeFi and real-world risk. Blockchain has the potential to bring more transparency and efficiency to insurance, an industry that has been reluctant to change. We are proud that they have decided to build their protocol on Polygon."
+    company: "https://polygon.technology/"
+    logo: ./assets/logo-polygon.png
   - name: "Marion Doucet"
     link: "https://www.linkedin.com/in/marion-doucet-androlus-54316930"
     photo: ./assets/partner_marion.jpg
@@ -11,12 +23,6 @@ partners_quotes:
     quote: "The partnership with Ensuro reinforces our goal to remain at the forefront and build a tangible bridge between the DeFi world and the insurance industry. The anticipation of what tomorrow brings and the possibility of co-creating innovations together is exciting."
     company: "https://sancorsegurosventures.com/"
     logo: ./assets/sancor_ventures.png
-  - name: "Justin Havins"
-    link: "https://www.linkedin.com/in/justin-havins-4b277132/"
-    photo: ./assets/partner_justin.jpg
-    quote: "DeFi capital can now be used to access a new asset class, as Ensuro's innovative solution can bridge the gap between DeFi and real-world risk. Blockchain has the potential to bring more transparency and efficiency to insurance, an industry that has been reluctant to change. We are proud that they have decided to build their protocol on Polygon."
-    company: "https://polygon.technology/"
-    logo: ./assets/logo-polygon.png
   - name: "Nabil Rahman"
     link: "https://www.linkedin.com/in/nabilrahman/"
     photo: ./assets/nabil_rahman.png
@@ -47,7 +53,41 @@ partners_quotes:
     quote: "In Ensuro, we found a partner that is helping us flourish in the decentralized finance landscape. We easily integrated our proprietary technologies with Ensuro’s accessible blockchain tools, and used their actionable and sharp perspectives during ourproduct launch. As a result, Parachute clients can now enjoy a more robust service to manage hurricane risk."
     company: "https://byparachute.com/"
     logo: ./assets/logo-parachute.png
+  - name: "Pedro Gonzalez"
+    link: "https://www.linkedin.com/in/pdgc/"
+    photo: ./assets/partner_PedroGonzalez.png
+    quote: "Azzegura partnered with Ensuro to deliver a reliable, blockchain-powered climate assistance solution for agricultural producers. With Ensuro's expertise, this smart contract-based product enables farmers to quickly access seeds and supplies after adverse weather, offering peace of mind and resilience amid climate uncertainties."
+    logo: "./assets/logo-azzegura.png"
+    company: "https://www.azzegura.com/"
+  - name: "Kevin Tsui"
+    link: "https://www.linkedin.com/in/kevtsui/"
+    photo: ./assets/partner_KevinTsui.png
+    quote: "At Spot, we needed a partner to support our dynamic insurtech business with agile, innovative solutions. Ensuro not only understood our needs but also provided forward-thinking strategies by leveraging DeFi capital for real-world insurance, enhancing transparency and efficiency. Their expertise in risk management and reinsurance has been instrumental in launching a new product, making them a standout partner in driving meaningful innovation."
+    logo: "./assets/logo-spot.png"
+    company: "https://www.getspot.com/"
+  - name: "Hamza Bouadi"
+    link: "https://www.linkedin.com/in/hamza-bouadi-864a5bab/"
+    photo: ./assets/partner_HamzaBouadi.png
+    quote: "Ensuro stands out with an accessible, responsive team that makes collaboration efficient. Their openness to bold ideas fosters innovation rarely seen elsewhere. Using cutting-edge technology, Ensuro accelerates product development, enabling faster market entry—a crucial edge in today’s landscape. This forward-thinking and agile approach positions Ensuro as a frontrunner, driving impactful results and establishing them as a true innovator."
+    logo: "./assets/logo-clerity.png"
+    company: "https://www.clerity.fr/"
+  - name: "Diego Roman"
+    link: "https://www.linkedin.com/in/daroman87/"
+    photo: ./assets/partner_DiegoRoman.png
+    quote: "Ensuro has redefined insurance-like offerings, from warranties to protection solutions. Their team’s deep market insight consistently delivers tailored products that align with our business goals. By merging their rigorous risk analysis and blockchain-based IT architecture with InsureHero's platform and automated claims handling, we’ve created a powerful synergy and compelling value for customers."
+    logo: "./assets/logo-insurehero.png"
+    company: "https://www.insurehero.io/"
+  - name: "Sung Feng Wu"
+    link: "https://www.linkedin.com/in/sungfengwu/"
+    photo: ./assets/partner_SungFengWu.png
+    quote: "It is a pleasure to work closely with the Ensuro team, building innovative, flexible, and disruptive solutions for the InsurTech industry. Their strong DeFi insurance capabilities, commitment to product innovation, and technical expertise make them a great partner in advancing secure, on-chain insurance solutions."
+    logo: "./assets/logo-avata.png"
+    company: "https://www.avata.gg/"
 partners_and_investors:
+  - logo: "./assets/logo-circle.png"
+    link: "https://www.circle.com/"
+  - logo: "./assets/logo-polygon.png"
+    link: "https://polygon.technology/"
   - logo: "./assets/logo-sosv.png"
     link: "https://sosv.com/"
   - logo: "./assets/sancor_ventures.png"
@@ -70,8 +110,14 @@ partners_and_investors:
     link: "https://ibisa.network/"
   - logo: "./assets/logo-parachute.png"
     link: "https://byparachute.com/"
-  - logo: "./assets/logo-polygon.png"
-    link: "https://polygon.technology/"
+  - logo: "./assets/logo-azzegura.png"
+    link: "https://www.azzegura.com/"
+  - logo: "./assets/logo-clerity.png"
+    link: "https://www.clerity.fr/"
+  - logo: "./assets/logo-insurehero.png"
+    link: "https://www.insurehero.io/"
+  - logo: "./assets/logo-avata.png"
+    link: "https://www.avata.gg/"
 team:
   - name: "Marco Mirabella"
     photo: "./assets/team_marco.png"
