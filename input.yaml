@@ -174,7 +174,17 @@ team:
     role: "Full Stack Developer"
     link: "https://www.linkedin.com/in/lucas-cambon/"
     description: "Lucas Cambon is an experienced fullstack developer who has applied his extensive knowledge in backend, frontend, databases, DevOps, and infrastructure for both local and international companies, as well as in freelance projects. Throughout his career, Lucas has excelled in various areas of development, contributing significantly to numerous projects and initiatives. In addition, Lucas is currently pursuing a degree in Computer Engineering."
-    
+  - name: "Ludovico Napoli"
+    photo: "./assets/team_ludovico.png"
+    role: "Data Scientist"
+    link: "https://www.linkedin.com/in/ludovico-napoli-797763220/"
+    description: "Ludovico is a last year Ph.D. candidate in Network and Data Science at Central European University in Vienna. With a physics background, he worked as a researcher and data scientist at ISI Foundation, UNICEF and UN Global Pulse."
+  - name: "Alessandro Arcuri"
+    photo: "./assets/team_alessandro.png"
+    role: "Growth and Business Development Manager"
+    link: "https://www.linkedin.com/in/alessandro-arcuri-63b062177/"
+    description: "Alessandro is a proven Strategic Business Consultant with extensive experience in growth strategy and business development, particularly in Financial Markets. His career spans roles at Jakala, Monitor Deloitte, and Nexi Group, where he has consistently driven business expansion through market analysis, omnichannel engagement models, and strategic consulting for global clients."
+          
 advisors:
   - name: "Professor Runhuan Feng"
     photo: "./assets/pf_feng.png"
