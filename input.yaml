@@ -178,7 +178,7 @@ team:
     photo: "./assets/team_ludovico.png"
     role: "Data Scientist"
     link: "https://www.linkedin.com/in/ludovico-napoli-797763220/"
-    description: "Ludovico is a last year Ph.D. candidate in Network and Data Science at Central European University in Vienna. With a physics background, he worked as a researcher and data scientist at ISI Foundation, UNICEF and UN Global Pulse."
+    description: "Ludovico holds a Ph.D. in Network and Data Science from Central European University. With a background in physics, he has worked as a researcher and data scientist at ISI Foundation, UNICEF and UN Global Pulse."
   - name: "Alessandro Arcuri"
     photo: "./assets/team_alessandro.png"
     role: "Growth and Business Development Manager"
