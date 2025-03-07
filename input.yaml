@@ -207,6 +207,34 @@ advisors:
     link: "https://www.linkedin.com/in/garrettkoehn/"
     description: "Garrett is the co-President of Brokerage for CRC Group, one of the largest wholesale insurance brokers in the world. He has 25+ years of complex commercial insurance experience with 20+ years’ experience in a senior executive position. As an active startup advisor and angel investor in the fintech and insurtech space, he's a former Managing Partner at The Batchery incubator in Berkeley and remains a partner."
 news:
+  - title: "ResilientGrowth: Empowering Kenyan Farmers Through Blockchain-Based Weather Protection"
+    date: "February 20th, 2025"
+    link: https://blog.ensuro.co/resilientgrowth-empowering-kenyan-farmers-through-blockchain-based-weather-protection-2382aac0ba85
+    image: images/RW_article.png
+  - title: "Blockchain-Powered Parametric Solutions: Redefining Insurance"
+    date: "February 14th, 2025"
+    link: https://blog.ensuro.co/blockchain-powered-parametric-solutions-redefining-insurance-f8f5e6b1a20d
+    image: images/Parametric_Solutions_1.png
+  - title: "CFAR: How blockchain is transforming travel cancellation policies"
+    date: "January 21st, 2025"
+    link: https://blog.ensuro.co/cfar-how-blockchain-is-transforming-travel-cancellation-policies-5534affaa3ec
+    image: images/CFAR_Article.png
+  - title: "Crypto and Traditional Finance: The New Era of Convergence"
+    date: "December 18th, 2024"
+    link: https://blog.ensuro.co/crypto-and-traditional-finance-the-new-era-of-convergence-b8caf114ab5c
+    image: images/Crypto_updates.png
+  - title: "AgroShield: Protecting Colombian farmers through Blockchain innovation"
+    date: "December 11th, 2024"
+    link: https://blog.ensuro.co/agroshield-protecting-colombian-farmers-through-blockchain-innovation-1817bd77a25b
+    image: images/AgroShield.png
+  - title: "Bridging DeFi and Traditional Insurance: Ensuro partners with Nexus Mutual"
+    date: "November 25th, 2024"
+    link: https://blog.ensuro.co/bridging-defi-and-traditional-insurance-ensuro-partners-with-nexus-mutual-43cfeeb956b5
+    image: images/Partnership_Nexus_Mutual.png
+  - title: "From Policy to Payout: How stablecoins are streamlining the insurance process"
+    date: "November 6th, 2024"
+    link: https://blog.ensuro.co/from-policy-to-payout-how-stablecoins-are-streamlining-the-insurance-process-396d9879ca88
+    image: images/Policy_to_Payout_1.png
   - title: "Transforming reinsurance with Ethereum: Transparency and trust in a regulated world"
     date: "September 18th, 2024"
     link: https://blog.ensuro.co/transforming-reinsurance-with-ethereum-transparency-and-trust-in-a-regulated-world-613277ca8ce4
