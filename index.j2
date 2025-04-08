@@ -1,5 +1,5 @@
 {% extends "master.j2" %}
-{% block title %}Beyond Insurance: The Future of Protection Starts Here.{% endblock title %}
+{% block title %}Ensuro | Blockchain-based, licensed, (re)insurance.{% endblock title %}
 {% block main_content %}
 <article
   id="banner"
@@ -12,19 +12,20 @@
     <section class="grid grid-cols-1 gap-2 md:grid-cols-2 relative z-10">
       <header class="flex justify-center flex-col order-2 md:order-1">
         <h1 class="font-size-56 xs:font-size-36 text-6xl">
-          Ensuro: customized protection right where your clients need them the most.
+          Blockchain-based,<br /> licensed, (re)insurance.
         </h1>
         <hr class="h-8 xl:h-16 border-none">
         <p class="font-size-22 xs:font-size-18">
-          With Ensuro, partners can offer innovative coverage guarantees that truly matter to their clients, 
-          combining understanding of customer needs and behaviors with cutting-edge technologies to maximize security, 
-          transparency, and reliability.
+          Ensuro is a Blockchain-based (re)insurance company, licensed by the Bermuda Monetary Authority.
+          We curate real-world risk and provide stablecoin-denominated capacity managed by smart contracts.
+          This allows anyone to invest in insurance risk and reap its benefits.
+          By opening up the insurance market to new players, we fuel innovation for established and upcoming insurance partners.
         </p>
       </header>
       <img
         class="only-desktop order-1 md:order-2 home-image"
         src="./assets/home_banner_front.png"
-        alt="Ensuro: customized protection right where your clients need them the most."
+        alt="Blockchain-based, licensed, (re)insurance."
       />
     </section>
     <div class="relative z-10" onclick="openPopup('https://www.youtube.com/embed/0731NrrbT2o?enablejsapi=1')">
@@ -79,10 +80,10 @@
           <span class="text-center">
             <p class="text-4xl font-extralight text-secondary-500" id="active-policies"></p>
             <script>
-              const fetchV1 = fetch('https://offchain.ensuro.co/api/policies/?limit=1')
+              const fetchV1 = fetch('https://offchain.ensuro.co/api/policies/?status=active&limit=1')
                         .then((res) => res.json());
 
-              const fetchV2 = fetch('https://offchain-v2.ensuro.co/api/policies/?limit=1')
+              const fetchV2 = fetch('https://offchain-v2.ensuro.co/api/policies/?status=active&limit=1')
                         .then((res) => res.json());
 
               const allData = Promise.all([fetchV1, fetchV2]);
@@ -108,10 +109,11 @@
           <span class="text-center">
             <p class="text-4xl font-extralight text-secondary-500" id="apy"></p>
             <script>
-              fetch('https://offchain-v2.ensuro.co/api/etokens/apy_range/?days_from=30&etks=0xF383eF2D31E1d4a19B3e04ca2937DB6A8DA9f229,0x6229D78658305a301E177f9dAEa3a0799fd1528C')
+              fetch('https://offchain-v2.ensuro.co/api/etokens/apy_range/?days_from=30&etks=0xF383eF2D31E1d4a19B3e04ca2937DB6A8DA9f229')
                 .then(response => response.json())
                 .then(data => {
-                  document.querySelector('#apy').innerHTML = (data.min_apy * 100 ).toFixed(0) + '% to ' + (data.max_apy * 100 ).toFixed(0) + '%';
+                  // document.querySelector('#apy').innerHTML = (data.min_apy * 100 ).toFixed(0) + '% to ' + (data.max_apy * 100 ).toFixed(0) + '%';
+                  document.querySelector('#apy').innerHTML = (data.min_apy * 100 ).toFixed(0) + '%';
                 });
             </script>
             <hr class="h-2 border-none">
@@ -130,7 +132,7 @@
   <hr class="h-8 xl:h-16 border-none">
   <header class="container-padded">
     <h2 class="title-md text-center">
-      Our main partners<span class="text-secondary-500">_</span>
+      Our Products<span class="text-secondary-500">_</span>
     </h2>
   </header>
   <div class="w-[90vw] m-auto px-20 relative">
@@ -175,39 +177,51 @@
     <hr class="w-full border-t border-gray-200 h-1">
 </article>
 
-<article>
-  <hr class="h-12 xl:h-24 border-none">
-  <header class="container-padded">
-    <h2 class="title-md text-center">
-      Tailored Value-Added Solutions to enhance each business model<span class="text-secondary-500">_</span>
-    </h2>
-  </header>
-  <div class="w-[90vw] m-auto px-20 relative">
-      <hr class="only-desktop h-8 xl:h-16 border-none">
-      <section class="swiper-news overflow-hidden py-6">
-      <!--Blog-inner Start-->
-      <div class="swiffy-slider products-slider-item-show3 slider-nav-outside slider-nav-dark slider-nav-lg slider-nav-visible slider-indicators-outside slider-indicators-round slider-indicators-dark slider-nav-animation slider-nav-animation-fadein slider-item-first-visible">
-        <div class="slider-container">
-          {% for s in solutions %}
-          <div class="product-card relative block hover:opacity-80 transition-all" style="margin: 5px !important">
-            <div class="flex flex-col justify-center items-center" style="border-bottom: 2px solid #0066FF;">
-              <img src={{s.logo}} alt="" class="testimonial-logo"  />
-              <p class="title-sm" style="text-align: center;">{{s.name}}</p>
-            </div>
-            <hr class="h-5 xl:h-12 border-none">
-            <p class="text-gray-product text-center">{{s.description }}</p>
-            <hr class="h-5 xl:h-8 border-none">
-            <br class="hidden md:block">
-          </div>
-          {% endfor %}
-        </div>
-        <button type="button" class="slider-nav no-border" aria-label="Go left"></button>
-        <button type="button" class="slider-nav slider-nav-next no-border" aria-label="Go left"></button>
+<article class="container-padded">
+  <div class="">
+    <hr class="h-8 xl:h-16 border-none">
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+      <div>
+        <h2 class="title-md">
+          How It Works<span class="text-secondary-500">_</span>
+        </h2>
+        <br >
+        <p class="font-size-22 xs:font-size-18 text-regular">
+          Ensuro collects capital from Liquidity Providers, both retail and
+          institutional, through a Liquidity Pool governed by smart contracts.
+          This capital, collected in the form of cryptographic stablecoins,
+          provides underwriting capacity for Insurtech companies operating in
+          the parametric insurance space.
+        </p>
+        <br class="only-mobile" >
       </div>
-      <!--Blog-inner End-->
+      <img src="./assets/aside_work1.svg" class="ml-auto" />
     </section>
+    <hr class="only-desktop h-8 xl:h-16 border-none">
+    <br class="only-mobile" >
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+      <img class="only-desktop" src="./assets/aside_work2.svg" alt="" />
+      <div>
+        <p class="font-size-22 xs:font-size-18 text-regular text-right">
+          The capital collected in the Liquidity Pool is reinvested into
+          Decentralized Finance Protocols such as AAVE and Compound.
+          These protocols offer low risk due to overcollateralized loans,
+          high liquidity, and greater returns on investment than traditional risk-free assets.
+          Therefore, Ensuro can rely on instant redemption of funds and provide both a competitive
+          capacity to Insurtech companies and additional returns to Liquidity Providers.
+          <br >
+          <br >
+          <span class="bg-secondary-500 px-3"
+            >Ensuro leverages a <b>Quality Assurance System</b></span
+          >to monitor the performance of each risk model, certifying that it
+          fits the standard parameters defined during integration.
+        </p>
+        <br class="only-mobile" >
+      </div>
+      <img class="only-mobile" src="./assets/aside_work2.svg" alt="" />
+    </section>
+    <hr class="h-28 xl:h-36 border-none">
   </div>
-  <hr class="only-desktop h-8 xl:h-16 border-none">
 </article>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>

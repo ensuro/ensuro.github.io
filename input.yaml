@@ -519,22 +519,3 @@ products:
     description: "Together with Revo we have launched a parametric insurance product that protects SME in Italy for loss of revenues connected to bad weather events. This is the first case of a public listed insurer cooperating with a protocol based on top of a public blockchain."
     logo: ./assets/Revo.svg
     video_link: https://www.youtube.com/embed/06yrLNgqpoE?enablejsapi=1
-solutions:
-  - name: "CFAR-CANCELLATION FOR ANY REASON"
-    description: "It's all about giving customers grater flexibility and confidence when booking without limits."
-    logo: "./assets/cfar_cancellation.webp"
-  - name: "WEATHER GUARANTEE"
-    description: "Turning weather disappointments into automatic refunds withoug hassle."
-    logo: "./assets/weather_guarantee.webp"
-  - name: "DEDUCTIBLE WAIVER COVERAGE"
-    description: "Eliminate security deposits while maintaining complete protection coverage."
-    logo: "./assets/deductible_coverage.webp"
-  - name: "SERVICE GUARANTEE"
-    description: "Protenction and guatentee for your sells for digital assets and service-based commitments."
-    logo: "./assets/service_guarantee.webp"
-  - name: "PRODUCT GUARANTEE"
-    description: "Securing your physical and online commerce guarantying physical product deliveries."
-    logo: "./assets/product_guarantee.webp"
-  - name: "REINSURANCE"
-    description: "On demand capital and risk capacity for insurance, brokers and MGAs partners."
-    logo: "./assets/reinsurance.webp"
