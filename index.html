@@ -82,8 +82,8 @@
         </h1>
         <hr class="h-8 xl:h-16 border-none">
         <p class="font-size-22 xs:font-size-18">
-          With Ensuro, partners can offer innovative coverage guarantees that truly matter to their clients, 
-          combining an understanding of customer needs and behaviors with cutting-edge technologies to maximize security, 
+          With Ensuro, partners can offer innovative coverage guarantees that truly matter to their clients,
+          combining an understanding of customer needs and behaviors with cutting-edge technologies to maximize security,
           transparency, and reliability.
         </p>
       </header>
@@ -174,10 +174,12 @@
           <span class="text-center">
             <p class="text-4xl font-extralight text-secondary-500" id="apy"></p>
             <script>
-              fetch('https://offchain-v2.ensuro.co/api/etokens/apy_range/?days_from=30&etks=0xF383eF2D31E1d4a19B3e04ca2937DB6A8DA9f229,0x6229D78658305a301E177f9dAEa3a0799fd1528C')
+              // fetch('https://offchain-v2.ensuro.co/api/etokens/apy_range/?days_from=30&etks=0xF383eF2D31E1d4a19B3e04ca2937DB6A8DA9f229,0x6229D78658305a301E177f9dAEa3a0799fd1528C')
+              fetch('https://offchain-v2.ensuro.co/api/etokens/apy_range/?days_from=30&etks=0xF383eF2D31E1d4a19B3e04ca2937DB6A8DA9f229')
                 .then(response => response.json())
                 .then(data => {
-                  document.querySelector('#apy').innerHTML = (data.min_apy * 100 ).toFixed(0) + '% to ' + (data.max_apy * 100 ).toFixed(0) + '%';
+                  // document.querySelector('#apy').innerHTML = (data.min_apy * 100 ).toFixed(0) + '% to ' + (data.max_apy * 100 ).toFixed(0) + '%';
+                  document.querySelector('#apy').innerHTML = (data.min_apy * 100 ).toFixed(0) + '%';
                 });
             </script>
             <hr class="h-2 border-none">
