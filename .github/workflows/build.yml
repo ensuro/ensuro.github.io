@@ -36,6 +36,6 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: build
+          folder: output
           clean-exclude: pr-preview/
           force: false # should prevent race condition with pr-preview closed pr event
