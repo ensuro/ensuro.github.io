@@ -23,13 +23,23 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
-      - name: Build 🔧
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
         run: |
-          ./generate.sh
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build with Pelican 🔧
+        run: |
+          make html
 
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
         with:
-          source-dir: build
+          source-dir: output
