@@ -12,6 +12,7 @@ PATH = "content"
 TIMEZONE = 'America/Argentina/Buenos_Aires'
 DEFAULT_LANG = 'en'
 DEFAULT_PAGINATION = 10
+RELATIVE_URLS = True
 
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
