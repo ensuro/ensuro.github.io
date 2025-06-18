@@ -52,12 +52,10 @@ EXTRA_PATH_METADATA = {
     **{f"rendered/{name}": {"path": name} for name in template_files}
 }
 
-STATIC_PATHS = ['static', 'rendered', 'data']
-
-def copy_static_dirs():
-    src = os.path.join(PATH, "data", "input.yaml")
-    dst = os.path.join(PATH, "static", "admin", "input.yaml")
-    os.makedirs(os.path.dirname(dst), exist_ok=True)
-    shutil.copy2(src, dst)
-
-copy_static_dirs()
+STATIC_PATHS = [
+    'rendered',
+    'assets',
+    'font',
+    'images',
+    '',
+]

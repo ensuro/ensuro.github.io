@@ -8,7 +8,7 @@ This repository contains the source for the [Ensuro website](https://ensuro.co),
 
 - **Content source:**  
   - The input parameters for the Jinja2 templates are defined in the file [`content/data/input.yaml`](content/data/input.yaml).
-  - Static assets (images, CSS, JS) live in [`content/static/`](content/static/).
+  - Static assets (images, CSS, JS) live in [`content/`](content/).
 
 - **Templates:**  
   - Jinja2 templates are stored in the [`templates/`](templates/) folder as HTML file to ensure Pelican works correctly.
