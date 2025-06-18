@@ -1,7 +1,7 @@
 import os
 import yaml
-import shutil
-from jinja2 import Environment, FileSystemLoader
+import glob
+from pelican.plugins import webassets
 
 AUTHOR = 'Ensuro'
 SITENAME = 'Ensuro'
@@ -29,33 +29,25 @@ yaml_path = os.path.join(PATH, "data", "input.yaml")
 with open(yaml_path, encoding="utf-8") as f:
     site_data = yaml.safe_load(f)
 
-JINJA_GLOBALS = {'data': site_data}
+JINJA_GLOBALS = site_data
 
-template_dir = "templates"
-rendered_dir = os.path.join(PATH, "rendered")
-os.makedirs(rendered_dir, exist_ok=True)
-
-env = Environment(loader=FileSystemLoader(template_dir))
-template_files = [
-    f for f in os.listdir(template_dir)
-    if f.endswith(".html") and f != "master.html"
-]
-
-for template_name in template_files:
-    template = env.get_template(template_name)
-    output = template.render(**site_data)
-    output_path = os.path.join(rendered_dir, template_name)
-    with open(output_path, "w", encoding="utf-8") as f:
-        f.write(output)
+PDFS_DIR = os.path.join(PATH, "pdfs")
+pdf_files = glob.glob(os.path.join(PDFS_DIR, "*.pdf"))
 
 EXTRA_PATH_METADATA = {
-    **{f"rendered/{name}": {"path": name} for name in template_files}
+    **{f"pdfs/{os.path.basename(f)}": {"path": os.path.basename(f)} for f in pdf_files}
 }
 
 STATIC_PATHS = [
-    'rendered',
     'assets',
     'font',
     'images',
-    '',
+    'pdfs',
 ]
+
+WEBASSETS_SOURCE_PATHS = ['content/assets']
+PLUGINS = [webassets]
+
+THEME = '.'
+THEME_TEMPLATES_OVERRIDES = ['templates']
+DIRECT_TEMPLATES = ['index', 'about', 'careers', 'contact', 'investors']
