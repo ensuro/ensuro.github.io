@@ -1,8 +1,8 @@
+import datetime
 import os
 import shlex
 import shutil
 import sys
-import datetime
 
 from invoke import task
 from invoke.main import program
@@ -92,13 +92,19 @@ def preview(c):
     """Build production version of site"""
     pelican_run("-s {settings_publish}".format(**CONFIG))
 
+
 @task
 def livereload(c):
     """Automatically reload browser tab upon file modification."""
     from livereload import Server
 
     def cached_build():
-        cmd = "-s {settings_base} -e CACHE_CONTENT=true LOAD_CONTENT_CACHE=true"
+        cmd = " ".join(
+            [
+                "-s {settings_base}",
+                "-e CACHE_CONTENT=true LOAD_CONTENT_CACHE=true",
+            ]
+        )
         pelican_run(cmd.format(**CONFIG))
 
     cached_build()
@@ -128,7 +134,11 @@ def livereload(c):
 
         webbrowser.open("http://{host}:{port}".format(**CONFIG))
 
-    server.serve(host=CONFIG["host"], port=CONFIG["port"], root=CONFIG["deploy_path"])
+    server.serve(
+        host=CONFIG["host"],
+        port=CONFIG["port"],
+        root=CONFIG["deploy_path"],
+    )
 
 
 @task
@@ -143,6 +153,7 @@ def publish(c):
         )
     )
 
+
 @task
 def gh_pages(c):
     """Publish to GitHub Pages"""
@@ -153,6 +164,8 @@ def gh_pages(c):
         "{deploy_path} -p".format(**CONFIG)
     )
 
+
 def pelican_run(cmd):
-    cmd += " " + program.core.remainder  # allows to pass-through args to pelican
+    # allows to pass-through args to pelican
+    cmd += " " + program.core.remainder
     pelican_main(shlex.split(cmd))

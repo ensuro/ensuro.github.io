@@ -4,8 +4,11 @@
 import os
 import sys
 
+import pelicanconf
+
+globals().update(vars(pelicanconf))
+
 sys.path.append(os.curdir)
-from pelicanconf import *
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
 SITEURL = "https://ensuro.co"

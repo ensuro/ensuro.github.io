@@ -184,7 +184,7 @@ team:
     role: "Growth and Business Development Manager"
     link: "https://www.linkedin.com/in/alessandro-arcuri-63b062177/"
     description: "Alessandro is a proven Strategic Business Consultant with extensive experience in growth strategy and business development, particularly in Financial Markets. His career spans roles at Jakala, Monitor Deloitte, and Nexi Group, where he has consistently driven business expansion through market analysis, omnichannel engagement models, and strategic consulting for global clients."
-          
+
 advisors:
   - name: "Professor Runhuan Feng"
     photo: "assets/pf_feng.png"
@@ -265,7 +265,7 @@ news:
     image: images/ETH_ETFs.png
   - title: "Guide to the DeFi Secondary Market: Understanding, Benefits, and How to Invest"
     date: "June 27th, 2024"
-    link: https://blog.ensuro.co/guide-to-the-defi-secondary-market-understanding-benefits-and-how-to-invest-882cfbc9d78a 
+    link: https://blog.ensuro.co/guide-to-the-defi-secondary-market-understanding-benefits-and-how-to-invest-882cfbc9d78a
     image: images/secondary_market.png
   - title: "Boosting Profitability Through Embedded Insurance"
     date: "June 14th, 2024"

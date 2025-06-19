@@ -6,15 +6,15 @@ This repository contains the source for the [Ensuro website](https://ensuro.co),
 
 ## 📌 How it works
 
-- **Content source:**  
+- **Content source:**
   - The input parameters for the Jinja2 templates are defined in the file [`content/data/input.yaml`](content/data/input.yaml).
   - Static assets (images, CSS, JS) live in [`content/`](content/).
 
-- **Templates:**  
+- **Templates:**
   - Jinja2 templates are stored in the [`templates/`](templates/) folder as HTML file to ensure Pelican works correctly.
   - A custom script inside `pelicanconf.py` renders these templates to static HTML files before Pelican builds the final site.
 
-- **Build output:**  
+- **Build output:**
   - The generated HTML files are placed in a temporary [`content/rendered/`](content/rendered/) folder (not committed).
   - Pelican copies these rendered pages and all static assets into [`output/`](output/).
   - The `output/` folder is **not versioned**; it is created on each build.

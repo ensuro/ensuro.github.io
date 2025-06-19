@@ -1,16 +1,17 @@
-import os
-import yaml
 import glob
+import os
+
+import yaml
 from pelican.plugins import webassets
 
-AUTHOR = 'Ensuro'
-SITENAME = 'Ensuro'
+AUTHOR = "Ensuro"
+SITENAME = "Ensuro"
 SITEURL = ""
 
 PATH = "content"
 
-TIMEZONE = 'America/Argentina/Buenos_Aires'
-DEFAULT_LANG = 'en'
+TIMEZONE = "America/Argentina/Buenos_Aires"
+DEFAULT_LANG = "en"
 DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 
@@ -22,7 +23,7 @@ AUTHOR_FEED_RSS = None
 LINKS = ()
 SOCIAL = ()
 
-DIRECT_TEMPLATES = [] 
+DIRECT_TEMPLATES = []
 READERS = {"html": None}
 
 yaml_path = os.path.join(PATH, "data", "input.yaml")
@@ -34,20 +35,22 @@ JINJA_GLOBALS = site_data
 PDFS_DIR = os.path.join(PATH, "pdfs")
 pdf_files = glob.glob(os.path.join(PDFS_DIR, "*.pdf"))
 
-EXTRA_PATH_METADATA = {
-    **{f"pdfs/{os.path.basename(f)}": {"path": os.path.basename(f)} for f in pdf_files}
-}
+pdfs_meta = {}
+for f in pdf_files:
+    pdfs_meta[f"pdfs/{os.path.basename(f)}"] = {"path": os.path.basename(f)}
+
+EXTRA_PATH_METADATA = pdfs_meta
 
 STATIC_PATHS = [
-    'assets',
-    'font',
-    'images',
-    'pdfs',
+    "assets",
+    "font",
+    "images",
+    "pdfs",
 ]
 
-WEBASSETS_SOURCE_PATHS = ['content/assets']
+WEBASSETS_SOURCE_PATHS = ["content/assets"]
 PLUGINS = [webassets]
 
-THEME = '.'
-THEME_TEMPLATES_OVERRIDES = ['templates']
-DIRECT_TEMPLATES = ['index', 'about', 'careers', 'contact', 'investors']
+THEME = "."
+THEME_TEMPLATES_OVERRIDES = ["templates"]
+DIRECT_TEMPLATES = ["index", "about", "careers", "contact", "investors"]
