@@ -4,9 +4,7 @@
 import os
 import sys
 
-import pelicanconf
-
-globals().update(vars(pelicanconf))
+from pelicanconf import *  # noqa: F403 F401
 
 sys.path.append(os.curdir)
 
