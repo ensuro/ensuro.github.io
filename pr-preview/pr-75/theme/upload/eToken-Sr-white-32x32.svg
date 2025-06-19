@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #eee;
+      }
+
+      .cls-2 {
+        font-size: 51px;
+        fill: #0055b2;
+        font-family: Jost;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="_4b" data-name="4b">
+    <g id="Grupo_3" data-name="Grupo 3">
+      <circle id="Elipse_1" data-name="Elipse 1" class="cls-1" cx="15.905" cy="15.907" r="15.315"/>
+      <g id="Grupo_1" data-name="Grupo 1">
+        <image id="Logo_Mark" x="6" y="7" width="15" height="16" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAQCAYAAADJViUEAAADhklEQVQokWJkCN3Ux8DAkMLAwMDMwMDAyIAb/GdgYPjL8O3PLiZO5pB701wYAAAAAP//YmFgYHBkYGDgxaMJFbAzW/97/5PhzouvDAAAAAD//wJpFgPLsjLVMrz7cZLh409MDQIcDAyC7PoMv/91MzAycDL8+sf29vPvXwAAAAD//wJpFgUreP19kY2F5CNfY3GIBkZGhn8MDAw3n3xmOHT9LcO9ex9vMHCzdjMwMbIz/PzDxszE8AsAAAD//2JiYGAAGcDA8PsfqwA3K4OSODcEC7Az6IpzMczPMmDIcFVgYHj2RZ+BiZGB4csvVgZuli+vvvxjAAAAAP//Amn8wMDAIMggxW2+5cDjX1s23oHY/Pc/A8PnXz9LKs1fPXz9nYGBj52V4cvPJwz//9+Lj9KX+fybhRUAAAD//wKF9gUGBgZ9DH+Cwv37n1MMbMzmE5J0GaoWX2Vg/svAkByg5aQvL7D32btvnwEAAAD//wI5+yrWUAVFDBOTEDcnC8Px2+8Zfn/7zcAlwMFgIC9g++HrL4Y/f/8/BQAAAP//AtmcyMDAMI+BgeETAzOjPcPvfywMz75AnM3B8oVVmufG79ffOBkE2PcxfPzBb2wi0xloqXjtw9dfLwAAAAD//2Jk8FnHx8DL9pHhzz+QM60FxLmP5bvJM7z78JNBWYaXYeqehwy3r73NZ+Bnm8Dw+x8Dw7sfjBMqrBgs1YQYAAAAAP//AD0Awv8BB1q0APnt+JkAEAdmAPb76wj4/RbdqUwAGhEIANvn9QAoWbQA/hAH8AAIBA8A5vSGFCMPe+ufSAAAAAEAAAAA//9impqky8Dw9HMlw99/DAzcrKI/fv9dbFl9hGHL2ZcMljVHGP4xM64Ga/z97w/Dx5+t09INIKHJwMAAAAAA//9i/P//P4Nt/TGGIxtuJzJoicwDi3/6Vcnw408HAztzNwM/ewnD//8MDFfehLtFaa7aWWkOCVAGBgYAAAAA//8Ca/766y+DavJOhuc33k1nUBXMAPvt778bDCxMGgwsTAwMN9/1KhuJl1yf4crAygzNOwwMDAAAAAD//wJrBoEnn34yGKbsYnjz9MssBnm+VHAAgjTe/dAhqy5UeWGWK4MQByQxggEDAwMAAAD//4JrBoEH738w2OftY3j05nsFAy9bKMPHn+2acnxrDkxwZBDjZkVNBwwMDAAAAAD//wMAds0bCgr5xbAAAAAASUVORK5CYII="/>
+        <text id="Sr" class="cls-2" transform="translate(16.447 25.813) scale(0.202)">Sr</text>
+      </g>
+    </g>
+  </g>
+</svg>
