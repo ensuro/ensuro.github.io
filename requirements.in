@@ -1,0 +1,6 @@
+pelican
+pelican-webassets
+cssmin
+jsmin
+Jinja2
+PyYAML

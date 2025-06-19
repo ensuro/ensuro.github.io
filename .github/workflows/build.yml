@@ -17,15 +17,25 @@ jobs:
 
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Install and Build 🔧
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
         run: |
-          ./generate.sh
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build production site with Pelican 🔧
+        run: |
+          make publish
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: build
+          folder: output
           clean-exclude: pr-preview/
           force: false # should prevent race condition with pr-preview closed pr event

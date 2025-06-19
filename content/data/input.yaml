@@ -1,0 +1,552 @@
+partners_quotes:
+  - name: "Dante Disparte"
+    link: "https://www.linkedin.com/in/dantedisparte/"
+    photo: assets/partner_DanteDisparte.png
+    quote: "Ensuro is pioneering blockchain-based insurance for previously uninsurable risks, leveraging Bermuda’s robust regulatory environment to offer a trusted, fully regulated platform. It's a game-changer for investors, customers, and counterparties looking for innovative insurance solutions."
+    logo: "assets/logo-circle.png"
+    company: "https://www.circle.com/"
+  - name: "Justin Havins"
+    link: "https://www.linkedin.com/in/justin-havins-4b277132/"
+    photo: assets/partner_justin.jpg
+    quote: "DeFi capital can now be used to access a new asset class, as Ensuro's innovative solution can bridge the gap between DeFi and real-world risk. Blockchain has the potential to bring more transparency and efficiency to insurance, an industry that has been reluctant to change. We are proud that they have decided to build their protocol on Polygon."
+    company: "https://polygon.technology/"
+    logo: assets/logo-polygon.png
+  - name: "Marion Doucet"
+    link: "https://www.linkedin.com/in/marion-doucet-androlus-54316930"
+    photo: assets/partner_marion.jpg
+    quote: "We were looking for an agile partner to help us create innovative products in record time, and Ensuro met all our criteria. They have superb execution, understood our model quickly, and challenged it effectively. They are also very proactive.  When you choose Ensuro, you're really making the right choice."
+    company: "https://hikoala.co/"
+    logo: assets/logo-koala.png
+  - name: "Clorinda Mántaras"
+    link: "https://www.linkedin.com/in/clorinda-mantaras/"
+    photo: assets/clorinda-mantaras.png
+    quote: "The partnership with Ensuro reinforces our goal to remain at the forefront and build a tangible bridge between the DeFi world and the insurance industry. The anticipation of what tomorrow brings and the possibility of co-creating innovations together is exciting."
+    company: "https://sancorsegurosventures.com/"
+    logo: assets/sancor_ventures.png
+  - name: "Nabil Rahman"
+    link: "https://www.linkedin.com/in/nabilrahman/"
+    photo: assets/nabil_rahman.png
+    quote: "Bringing our CFAR product to life has been a longstanding goal at Spot. We required a nimble partner who could facilitate rapid innovation, align with our model, and demonstrate exceptional execution. Ensuro checked all the boxes. Their team's remarkable work ethic and proactive approach were instrumental in our successful product launch."
+    company: "https://www.getspot.com/"
+    logo: assets/logo-spot.png
+  - name: "Maria Mateo"
+    link: "https://www.linkedin.com/in/mariamateoiborra/"
+    photo: images/MariaMateo-Ibisa.png
+    quote: "Ensuro was a great partner on our recently launched project. They demonstrated a strong commitment to making the partnership successful and were adaptable and open to new approaches. Their technical skills and work ethic were outstanding. I would highly recommend Ensuro as a partner for any future projects and look forward to working with them again."
+    company: "https://ibisa.network/"
+    logo: images/IBISA-logo.png
+  - name: "Roberta Spadoni"
+    link: "https://www.linkedin.com/in/roberta-spadoni-b5443010/"
+    photo: assets/roberta_spadoni.png
+    quote: "We are pleased with the partnership with Ensuro because it's a company in line with our principles. Indeed, we are united by the continuous search for innovation, not just from a technological standpoint, but also in the operating model. Our expertise, combined with their blockchain-based IT architectures, represents a unique combination."
+    company: "https://www.revoinsurance.com/"
+    logo: assets/logo-revo.png
+  - name: "Janet Kuteli"
+    link: "https://www.linkedin.com/in/janetkuteli/"
+    photo: assets/partner-janet.png
+    quote: "Not only did Ensuro help us create a distinctive product quickly, but they also challenged our initial approach, resulting in significant improvements. Their exceptional work ethic and technical proficiency were impressive. Ensuro's proactive and committed approach enabled us to launch our project successfully. We strongly recommend them as a dependable partner."
+    company: "https://fortunecredit.co.ke/"
+    logo: assets/fortune-credit-logo.png
+  - name: "Edwin Campos"
+    link: "https://www.linkedin.com/in/camposedwin/"
+    photo: assets/partner_edwin.jpg
+    quote: "In Ensuro, we found a partner that is helping us flourish in the decentralized finance landscape. We easily integrated our proprietary technologies with Ensuro’s accessible blockchain tools, and used their actionable and sharp perspectives during ourproduct launch. As a result, Parachute clients can now enjoy a more robust service to manage hurricane risk."
+    company: "https://byparachute.com/"
+    logo: assets/logo-parachute.png
+  - name: "Pedro Gonzalez"
+    link: "https://www.linkedin.com/in/pdgc/"
+    photo: assets/partner_PedroGonzalez.png
+    quote: "Azzegura partnered with Ensuro to deliver a reliable, blockchain-powered climate assistance solution for agricultural producers. With Ensuro's expertise, this smart contract-based product enables farmers to quickly access seeds and supplies after adverse weather, offering peace of mind and resilience amid climate uncertainties."
+    logo: "assets/logo-azzegura.png"
+    company: "https://www.azzegura.com/"
+  - name: "Kevin Tsui"
+    link: "https://www.linkedin.com/in/kevtsui/"
+    photo: assets/partner_KevinTsui.png
+    quote: "At Spot, we needed a partner to support our dynamic insurtech business with agile, innovative solutions. Ensuro not only understood our needs but also provided forward-thinking strategies by leveraging DeFi capital for real-world insurance, enhancing transparency and efficiency. Their expertise in risk management and reinsurance has been instrumental in launching a new product, making them a standout partner in driving meaningful innovation."
+    logo: "assets/logo-spot.png"
+    company: "https://www.getspot.com/"
+  - name: "Hamza Bouadi"
+    link: "https://www.linkedin.com/in/hamza-bouadi-864a5bab/"
+    photo: assets/partner_HamzaBouadi.png
+    quote: "Ensuro stands out with an accessible, responsive team that makes collaboration efficient. Their openness to bold ideas fosters innovation rarely seen elsewhere. Using cutting-edge technology, Ensuro accelerates product development, enabling faster market entry—a crucial edge in today’s landscape. This forward-thinking and agile approach positions Ensuro as a frontrunner, driving impactful results and establishing them as a true innovator."
+    logo: "assets/logo-clerity.png"
+    company: "https://www.clerity.fr/"
+  - name: "Diego Roman"
+    link: "https://www.linkedin.com/in/daroman87/"
+    photo: assets/partner_DiegoRoman.png
+    quote: "Ensuro has redefined insurance-like offerings, from warranties to protection solutions. Their team’s deep market insight consistently delivers tailored products that align with our business goals. By merging their rigorous risk analysis and blockchain-based IT architecture with InsureHero's platform and automated claims handling, we’ve created a powerful synergy and compelling value for customers."
+    logo: "assets/logo-insurehero.png"
+    company: "https://www.insurehero.io/"
+  - name: "Sung Feng Wu"
+    link: "https://www.linkedin.com/in/sungfengwu/"
+    photo: assets/partner_SungFengWu.png
+    quote: "It is a pleasure to work closely with the Ensuro team, building innovative, flexible, and disruptive solutions for the InsurTech industry. Their strong DeFi insurance capabilities, commitment to product innovation, and technical expertise make them a great partner in advancing secure, on-chain insurance solutions."
+    logo: "assets/logo-avata.png"
+    company: "https://www.avata.gg/"
+partners_and_investors:
+  - logo: "assets/logo-circle.png"
+    link: "https://www.circle.com/"
+  - logo: "assets/logo-polygon.png"
+    link: "https://polygon.technology/"
+  - logo: "assets/logo-sosv.png"
+    link: "https://sosv.com/"
+  - logo: "assets/sancor_ventures.png"
+    link: "https://sancorsegurosventures.com/"
+  - logo: "assets/logo-artesian.png"
+    link: "https://www.artesianinvest.com/"
+  - logo: "assets/logo-orbit.png"
+    link: "https://orbitstartups.com/"
+  - logo: "assets/logo-iaventures.png"
+    link: "https://iasv.co/"
+  - logo: "assets/logo-koala.png"
+    link: "https://hikoala.co/"
+  - logo: "assets/logo-revo.png"
+    link: "https://www.revoinsurance.com/"
+  - logo: "assets/logo-spot.png"
+    link: "https://www.getspot.com/"
+  - logo: "assets/fortune-credit-logo.png"
+    link: "https://fortunecredit.co.ke/"
+  - logo: images/IBISA-logo.png
+    link: "https://ibisa.network/"
+  - logo: "assets/logo-parachute.png"
+    link: "https://byparachute.com/"
+  - logo: "assets/logo-azzegura.png"
+    link: "https://www.azzegura.com/"
+  - logo: "assets/logo-clerity.png"
+    link: "https://www.clerity.fr/"
+  - logo: "assets/logo-insurehero.png"
+    link: "https://www.insurehero.io/"
+  - logo: "assets/logo-avata.png"
+    link: "https://www.avata.gg/"
+team:
+  - name: "Marco Mirabella"
+    photo: "assets/team_marco.png"
+    role: "Chief Executive Officer"
+    link: "https://www.linkedin.com/in/marco-mirabella/"
+    description: "He was the CSO for BigGo, the biggest price comparison in SEA. Before that he founded a blockchain company called Cartesi and worked as investment analyst for SOSV."
+  - name: "Guillermo Narvaja"
+    photo: "assets/team_guillermo.png"
+    role: "Chief Technology Officer"
+    link: "https://www.linkedin.com/in/guillermonarvaja/"
+    description: "He has over 20 years of experience developing software. He was the founder and CEO of two cash flow positive startups: Fierro and Radiocut, where he developed the entire solutions stack."
+  - name: "Gian Giacomo della Torre"
+    photo: "assets/team_gian.png"
+    role: "Chief Risk Officer"
+    link: "https://www.linkedin.com/in/gian-giacomo-della-torre-575b02114/"
+    description: "Lead Data Scientist at FNA. Previously: Quantitative Risk Analyst for the Non-Retail Credit Risk modeling team of ABN AMRO Bank, and Data Analyst at Booking.com. Background in Physics."
+  - name: "Luca Mungo"
+    photo: "assets/team_luca.png"
+    role: "Chief Scientific Officer"
+    link: "https://www.linkedin.com/in/luca-mungo-a26278103/"
+    description: "Luca holds a Ph.D. in Mathematics from the University of Oxford. His academic background includes a double Master's degree in Physics from Politecnico di Torino and Sorbonne University, as well as a Bachelor's degree in Physics from Sapienza University in Rome. Previously, he was an Associate at the Boston Consulting Group. "
+  - name: "Colin McQueen"
+    photo: "assets/team_colin.png"
+    role: "Chief Financial Officer"
+    link: "https://www.linkedin.com/in/colin-mcqueen-55454b13/"
+    description: "Colin is a finance professional who has been working in international re/insurance markets for over 30 years in various senior roles. His previous employers include Marsh, XL Re, Equator Re and Markel Latin America where he served as CFO."
+  - name: "Mario David Tabares"
+    photo: "assets/team_mario.png"
+    role: "Operations Manager"
+    link: "https://www.linkedin.com/in/mariodavidtabares/"
+    description: "Mario is a professional specialized in operations. He is a certified lawyer, a specialist in Human Resources, and has a Master's degree in Management and Development of organizations and another in Data Analytics. He has experience working in the operations departments of non-governmental, public, and private organizations in Argentina, Germany, Norway, and Sweden."
+  - name: "Gabriel Parrondo"
+    photo: "assets/team_gabriel.png"
+    role: "Chief Information Security Officer"
+    link: "https://www.linkedin.com/in/gnpar/"
+    description: "Gabriel is a software developer with a strong background in infrastructure. He has over 10 years of experience in the IT sector during which he's worked as a sysadmin, network engineer, security analyst and full stack developer."
+  - name: "Zorely Eljouri"
+    photo: "assets/team_zorely.png"
+    role: "Digital Marketing Specialist"
+    link: "https://www.linkedin.com/in/zorely-eljouri-/"
+    description: "Zorely is an accomplished Content Manager with over 14 years of experience in the finance and investment sector, specializing in creating strategic content deliverables across project lifecycles. With a talent for crafting engaging, high-level content for web, mobile, and social platforms, Zorely excels in communication and marketing strategy."
+  - name: "Johanna Núñez"
+    photo: "assets/team_johanna.png"
+    role: "Blockchain Operations and Cybersecurity Specialist"
+    link: "https://www.linkedin.com/in/johanna-nunez/"
+    description: "Johanna has a degree in Information Systems, graduated from the University of Buenos Aires (UBA). She holds a Master's degree in Information Security (UBA) and is currently specializing in Data Management and Analysis (UBA). She has experience working in the technological field in private organizations and international consulting firms."
+  - name: "Jinxi Liu"
+    photo: "assets/team_jinxi.png"
+    role: "Actuary"
+    link: "https://www.linkedin.com/in/jinxi-l-71284817/"
+    description: "Jinxi is an FIA qualified actuary with over 8 years of experience spanning across reserving, risk and pricing. She started at Deloitte Ireland as an actuarial consultant. After that she worked for UnipolRe where she provided actuarial technical pricing on reinsurance treaties and assisted the CRO in the production of Solvency II ORSA and SCR reporting."
+  - name: "Lucas Cambon"
+    photo: "assets/team_lucas.png"
+    role: "Full Stack Developer"
+    link: "https://www.linkedin.com/in/lucas-cambon/"
+    description: "Lucas Cambon is an experienced fullstack developer who has applied his extensive knowledge in backend, frontend, databases, DevOps, and infrastructure for both local and international companies, as well as in freelance projects. Throughout his career, Lucas has excelled in various areas of development, contributing significantly to numerous projects and initiatives. In addition, Lucas is currently pursuing a degree in Computer Engineering."
+  - name: "Ludovico Napoli"
+    photo: "assets/team_ludovico.png"
+    role: "Data Scientist"
+    link: "https://www.linkedin.com/in/ludovico-napoli-797763220/"
+    description: "Ludovico holds a Ph.D. in Network and Data Science from Central European University. With a background in physics, he has worked as a researcher and data scientist at ISI Foundation, UNICEF and UN Global Pulse."
+  - name: "Alessandro Arcuri"
+    photo: "assets/team_alessandro.png"
+    role: "Growth and Business Development Manager"
+    link: "https://www.linkedin.com/in/alessandro-arcuri-63b062177/"
+    description: "Alessandro is a proven Strategic Business Consultant with extensive experience in growth strategy and business development, particularly in Financial Markets. His career spans roles at Jakala, Monitor Deloitte, and Nexi Group, where he has consistently driven business expansion through market analysis, omnichannel engagement models, and strategic consulting for global clients."
+
+advisors:
+  - name: "Professor Runhuan Feng"
+    photo: "assets/pf_feng.png"
+    role: "Loss Reserve Specialist"
+    link: "https://www.linkedin.com/in/runhuan-feng-phd-fsa-cera-93589085/"
+    description: "State Farm Professor at University of Illinois, expert in actuarial science and analytics. Fellow of Society of Actuaries, Chartered Enterprise Risk Analyst, co-founded Illinois Risk Lab, consults for firms, and promotes industry-academic ties, serving on Society of Actuaries' Research Committee."
+  - name: "Darren Camas"
+    photo: "assets/team_darren.png"
+    role: "Advisor"
+    link: "https://www.linkedin.com/in/dcamas/"
+    description: "Darren Camas has been involved with crypto & blockchain since 2011 advising, building, and investing in multiple projects. Currently he is CEO of IPOR Labs. He is also Co-founder of FoolFarm, the first AI venture builder in Europe. Previously he served as an advisor for the Cardano (ADA) blockchain."
+  - name: "Christopher Lowell"
+    photo: "assets/team_chris.png"
+    role: "Advisor"
+    link: "https://www.linkedin.com/in/christopher-lowell/"
+    description: "Former Head of Innovation at The Hartford and Managing Director of Corporate Strategy at Liberty. Founding member of the RiskBlock Alliance (now RiskStream Collaborative) - the leading insurance industry consortium focused on blockchain and DLT."
+  - name: "Garrett Koehn"
+    photo: "assets/team_garret.png"
+    role: "Advisor"
+    link: "https://www.linkedin.com/in/garrettkoehn/"
+    description: "Garrett is the co-President of Brokerage for CRC Group, one of the largest wholesale insurance brokers in the world. He has 25+ years of complex commercial insurance experience with 20+ years’ experience in a senior executive position. As an active startup advisor and angel investor in the fintech and insurtech space, he's a former Managing Partner at The Batchery incubator in Berkeley and remains a partner."
+news:
+  - title: "Parametric Protection: Ensuro, One Acre Fund, and Ibisa Support Kenyan Farmers"
+    date: "April 24th, 2025"
+    link: https://blog.ensuro.co/parametric-protection-ensuro-one-acre-fund-and-ibisa-support-kenyan-farmers-9025cdebff9b
+    image: images/Ensuro_and_OneAcre.png
+  - title: "Ensuro and Avata Open New Possibilities for Digital Asset Protection"
+    date: "March 28th, 2025"
+    link: https://blog.ensuro.co/ensuro-and-avata-open-new-possibilities-for-digital-asset-protection-e99bfc9ddf13
+    image: images/Ensuro_and_Avata_Cover.png
+  - title: "Ensuro and Covest Finance Partner to Deliver Smart Screen Protection in Thailand"
+    date: "March 14th, 2025"
+    link: https://blog.ensuro.co/ensuro-and-covest-finance-partner-to-deliver-smart-screen-protection-in-thailand-30e46c5f646d
+    image: images/Ensuro_and_Covest.png
+  - title: "ResilientGrowth: Empowering Kenyan Farmers Through Blockchain-Based Weather Protection"
+    date: "February 20th, 2025"
+    link: https://blog.ensuro.co/resilientgrowth-empowering-kenyan-farmers-through-blockchain-based-weather-protection-2382aac0ba85
+    image: images/RW_article.png
+  - title: "Blockchain-Powered Parametric Solutions: Redefining Insurance"
+    date: "February 14th, 2025"
+    link: https://blog.ensuro.co/blockchain-powered-parametric-solutions-redefining-insurance-f8f5e6b1a20d
+    image: images/Parametric_Solutions_1.png
+  - title: "CFAR: How blockchain is transforming travel cancellation policies"
+    date: "January 21st, 2025"
+    link: https://blog.ensuro.co/cfar-how-blockchain-is-transforming-travel-cancellation-policies-5534affaa3ec
+    image: images/CFAR_Article.png
+  - title: "Crypto and Traditional Finance: The New Era of Convergence"
+    date: "December 18th, 2024"
+    link: https://blog.ensuro.co/crypto-and-traditional-finance-the-new-era-of-convergence-b8caf114ab5c
+    image: images/Crypto_updates.png
+  - title: "AgroShield: Protecting Colombian farmers through Blockchain innovation"
+    date: "December 11th, 2024"
+    link: https://blog.ensuro.co/agroshield-protecting-colombian-farmers-through-blockchain-innovation-1817bd77a25b
+    image: images/AgroShield.png
+  - title: "Bridging DeFi and Traditional Insurance: Ensuro partners with Nexus Mutual"
+    date: "November 25th, 2024"
+    link: https://blog.ensuro.co/bridging-defi-and-traditional-insurance-ensuro-partners-with-nexus-mutual-43cfeeb956b5
+    image: images/Partnership_Nexus_Mutual.png
+  - title: "From Policy to Payout: How stablecoins are streamlining the insurance process"
+    date: "November 6th, 2024"
+    link: https://blog.ensuro.co/from-policy-to-payout-how-stablecoins-are-streamlining-the-insurance-process-396d9879ca88
+    image: images/Policy_to_Payout_1.png
+  - title: "Transforming reinsurance with Ethereum: Transparency and trust in a regulated world"
+    date: "September 18th, 2024"
+    link: https://blog.ensuro.co/transforming-reinsurance-with-ethereum-transparency-and-trust-in-a-regulated-world-613277ca8ce4
+    image: images/transforming-reinsurance-with-ethereum.png
+  - title: "An Insurer You Can Trust: Why On-Chain Capital Is Better Collateral"
+    date: "August 22nd, 2024"
+    link: https://blog.ensuro.co/an-insurer-you-can-trust-why-on-chain-capital-is-better-collateral-ea727105d1a3
+    image: images/on-chain-capital-better-collateral.png
+  - title: "From Risk to Resilience: 4 Blockchain Solutions for Climate-Conscious Insurance"
+    date: "July 31th, 2024"
+    link: https://blog.ensuro.co/from-risk-to-resilience-4-blockchain-solutions-for-climate-conscious-insurance-e99223118655
+    image: images/climate-conscious-insurance.png
+  - title: "Ethereum ETFs: One Step Closer to Mainstream Crypto Adoption"
+    date: "July 18th, 2024"
+    link: https://blog.ensuro.co/ethereum-etfs-one-step-closer-to-mainstream-crypto-adoption-a244b52627ff
+    image: images/ETH_ETFs.png
+  - title: "Guide to the DeFi Secondary Market: Understanding, Benefits, and How to Invest"
+    date: "June 27th, 2024"
+    link: https://blog.ensuro.co/guide-to-the-defi-secondary-market-understanding-benefits-and-how-to-invest-882cfbc9d78a
+    image: images/secondary_market.png
+  - title: "Boosting Profitability Through Embedded Insurance"
+    date: "June 14th, 2024"
+    link: https://blog.ensuro.co/boosting-profitability-through-embedded-insurance-31d8ed9be62e
+    image: images/Embedded_Insurance.png
+  - title: "Driving Global Insurtech Innovation with Blockchain"
+    date: "April 23rd, 2024"
+    link: https://blog.ensuro.co/ensuro-driving-global-insurtech-innovation-with-blockchain-631d132b9266
+    image: images/driving_global_insurtech.png
+  - title: "Embedded Insurance: The Future of User Protection"
+    date: "March 21st, 2024"
+    link: https://blog.ensuro.co/embedded-insurance-the-future-of-user-protection-f8385da695c3
+    image: images/embedded_insurance.png
+  - title: "Bitcoin ETFs and the Next Stage of Crypto Adoption"
+    date: "February 22th, 2024"
+    link: https://blog.ensuro.co/bitcoin-etfs-and-the-next-stage-of-crypto-adoption-ce1200094831
+    image: images/Bitcoin_ETF_Portada.png
+  - title: "Ensuro Announces Investment from Sancor Seguros Group"
+    date: "November 23th, 2023"
+    link: https://blog.ensuro.co/ensuro-announces-investment-from-sancor-seguros-group-building-the-bridge-between-defi-and-the-c9df466c5876
+    image: images/sancor_ventures.png
+  - title: "Ensuro has been chosen as one of the #TOP5 insurtechs for #Batch02!"
+    date: "November 16th, 2023"
+    link: https://www.linkedin.com/posts/ensuro_top5-batch02-ensuro-activity-7130936623877210114-YzXJ?utm_source=share&utm_medium=member_desktop
+    image: images/Insurtech23.png
+  - title: "Ensuro's Expertise at #EKOPARTY: Exploring DevSecOps in Blockchain"
+    date: "November 2nd, 2023"
+    link: https://www.linkedin.com/posts/ensuro_ekoparty-devsecops-blockchain-activity-7125839127467409409-96-p?utm_source=share&utm_medium=member_desktop
+    image: images/ekoparty.png
+  - title: "Ensuro and REVO Collaborate to Introduce Innovative Weather Protection for Italian Businesses"
+    date: "October 26th, 2023"
+    link: https://blog.ensuro.co/ensuro-and-revo-collaborate-to-introduce-innovative-weather-protection-for-italian-businesses-471dfaa29f87
+    image: images/new-partner-revo-2.png
+  - title: "Our CTO, Guillermo Narvaja, take the stage at #Expoestrategas to participate in the panel on 'Technological developments in which insurers and brokers invest'"
+    date: "October 24th, 2023"
+    link: https://www.linkedin.com/posts/ensuro_expoestrategas-expoestrategas-business-activity-7122612534351675392-s5WF?utm_source=share&utm_medium=member_desktop
+    image: images/expoestrategas.png
+  - title: "Ensuro and Spot: Revolutionizing Adventure Booking with Innovative Solutions"
+    date: "October 5th, 2023"
+    link: https://blog.ensuro.co/ensuro-and-spot-revolutionizing-adventure-booking-with-innovative-solutions-81950270e2c5
+    image: images/spot-adventure-booking.png
+  - title: "DevSecOps Insights from Ensuro's Blockchain Experts at #Nerdearla"
+    date: "September 25th, 2023"
+    link: https://www.linkedin.com/posts/ensuro_nerdearla-devsecops-blockchain-activity-7112044446170402816-ww3P?utm_source=share&utm_medium=member_desktop
+    image: images/nerdearla.jpeg
+  - title: "Ensuro has been chosen as one of the #TOP10 insurtechs for #Batch02!"
+    date: "September 6th, 2023"
+    link: https://www.linkedin.com/posts/ensuro_top10-batch02-ensuro-activity-7105119454518243328-kD0w?utm_source=share&utm_medium=member_desktop
+    image: images/top10-insurtech.png
+  - title: "Our CTO, Guillermo Narvaja, was interviewed by Prensa Aseguradora"
+    date: "August 14th, 2023"
+    link: https://open.spotify.com/episode/1WB6M2Z7rqL302Y2b2ulPZ?si=-5riMuFVQYuan_3JWp7SQw&nd=1
+    image: images/Prensa_Aseguradora.png
+  - title: "Exploring the Future of Insurtech: Our CEO, Marco Mirabella, Discusses Blockchain, Parametric Insurance, and Innovation with Michael Waitze on the Asia InsurTech Podcast"
+    date: "August 7th, 2023"
+    link: https://asiainsurtechpodcast.com/ep-213-marco-mirabells-ensuro-certainty-of-payment-and-a-simple-claims-process/
+    image: images/marco-asia-insurtech-podcast.png
+  - title: "Yet more evidence of the need for blockchain-based insurance."
+    date: "July 26th, 2023"
+    link: https://blog.ensuro.co/yet-more-evidence-of-the-need-for-blockchain-based-insurance-a01827c8dadc
+    image: images/blockchain_ensuro.png
+  - title: "Unleashing the Power of Multisigs and Timelocks: Ensuro Governance and Security"
+    date: "June 29th, 2023"
+    link: https://blog.ensuro.co/unleashing-the-power-of-multisigs-and-timelocks-ensuro-governance-and-security-947b557556a6
+    image: images/ensuro-security.png
+  - title: "DeFi and the new financial paradigm: our CTO, Guillermo Narvaja, participated in #Modular's panel discussion in Buenos Aires on the impact of Blockchain in finance."
+    date: "June 20th, 2023"
+    link: https://www.linkedin.com/posts/ensuro_modular-modular-ensuro-activity-7076904302564274176-0vSr?utm_source=share&utm_medium=member_desktop
+    image: images/Modular.png
+  - title: "Ensuro recognized at Insurtech Meetday: A reflection of commitment to innovation"
+    date: "June 19th, 2023"
+    link: https://www.linkedin.com/posts/ensuro_insurtech-innovation-startups-activity-7076551819509817344-pHJC?utm_source=share&utm_medium=member_desktop
+    image: images/insurtech-meetday.png
+  - title: "Ensuro Secures a Spot on the InsureTech Connect Forward50 APAC List!"
+    date: "June 5th, 2023"
+    link: https://www.linkedin.com/posts/ensuro_forward50-ensuro-insurance-activity-7071434104679858177-UJn0?utm_source=share&utm_medium=member_desktop
+    image: images/ensuro-insuretech.jpeg
+  - title: "Ensuro Featured in Cryptotendencias"
+    date: "June 2nd, 2023"
+    link: https://www.linkedin.com/posts/ensuro_cryptotendencias-ensuro-cryptotendencias-activity-7070339150838685696-B2Qb?utm_source=share&utm_medium=member_desktop
+    image: images/ensuro-cryptotendencias.png
+  - title: "Ensuro Listed on InsurAce.io"
+    date: "May 26th, 2023"
+    link: https://www.linkedin.com/feed/update/urn:li:activity:7067831738651013123?utm_source=share&utm_medium=member_desktop
+    image: images/ensuro-insurace.png
+  - title: "Panel Discussion on the Future of Decentralized Insurance"
+    date: "May 12th, 2023"
+    link: https://www.linkedin.com/posts/ensuro_2023-blockchain-summit-panel-practical-activity-7062795327430397954-uF2O?utm_source=share&utm_medium=member_desktop
+    image: images/blockchain-based-insurance.png
+  - title: "Ensuro Implements Quadrata for Improved KYC Process"
+    date: "April 28th, 2023"
+    link: https://blog.ensuro.co/ensuro-implements-quadrata-for-improved-kyc-process-a25c6fb32945
+    image: images/quadrata.png
+  - title: "ResilientGrowth: a Blockchain-based solution for Kenyan farmers to fight climate change"
+    date: "April 6th, 2023"
+    link: https://blog.ensuro.co/ensuro-ibisa-and-fortune-credit-partner-to-launch-resilientgrowth-an-innovative-6e9636ff0edd
+    image: images/ResilientGrowth.jpg
+  - title: "With great transparency comes great responsibility: auditing smart contract permissions"
+    date: "February 16th, 2023"
+    link: https://blog.ensuro.co/with-great-transparency-comes-great-responsibility-auditing-smart-contract-permissions-f9824d64312e
+    image: images/auditing_smart_contract.png
+  - title: "Ensuro has reached $1.5 M USDC in Total Value Locked (TVL)"
+    date: "February 10th, 2023"
+    link: https://www.linkedin.com/posts/ensuro_ensuro-insurance-insurtech-activity-7029750576380833792-HCNi?utm_source=share&utm_medium=member_desktop
+    image: images/1-5M_TVL.png
+  - title: "Blockchain in insurance: why the industry needs to embrace the technology"
+    date: "January 24th, 2023"
+    link: https://blog.ensuro.co/blockchain-in-insurance-why-the-industry-needs-to-embrace-the-technology-737462e33d9c
+    image: images/blockchain_insurance.png
+  - title: "We have reached $1M USD in Total Fee Collected"
+    date: "January 17th, 2023"
+    link: https://www.linkedin.com/posts/ensuro_ensuro-activity-7021049473858424834-6lcb?utm_source=share&utm_medium=member_desktop
+    image: images/1M-Total-Fee.png
+  - title: "Ensuro 2.0 is here!"
+    date: "December 12th, 2022"
+    link: https://blog.ensuro.co/ensuro-2-0-is-here-df401555a65f
+    image: images/ensuro2-0.png
+  - title: "Third episode of Breadcrumbs"
+    date: "December 2nd, 2022"
+    link: https://www.linkedin.com/mycompany/ensuro/recommendations/urn:li:activity:7003781872652582912
+    image: images/breadcrumbs-podcast.png
+  - title: "Why would the development of a global standard and regulation on compliance and AML drive growth and encourage the adoption of Defi?"
+    date: "November 25th, 2022"
+    link: https://blog.ensuro.co/why-would-the-development-of-a-global-standard-and-regulation-on-compliance-and-aml-drive-growth-e6f5a313b651
+    image: images/jaliah-article.png
+  - title: "Taipei Entrepreneurs Hub - Demo Day"
+    date: "November 23th, 2022"
+    link: https://www.linkedin.com/posts/ensuro_softsolverssolutions-likeitformosa-ensuro-activity-7001172286678388737-yP1i?utm_source=share&utm_medium=member_desktop
+    image: images/giacomo-taipei.png
+  - title: "Our CTO, Guillermo Narvaja, presented Ensuro and what we are doing at #LABITCONF2022"
+    date: "November 16th, 2022"
+    link: https://www.linkedin.com/posts/ensuro_labitconf2022-labitconf-ensuro-activity-6998687227736113153-jC3g?utm_source=share&utm_medium=member_desktop
+    image: images/guillo-labitconf.jpeg
+  - title: "Our CEO, Marco Mirabella, was interviewed by AM Best"
+    date: "October 28th, 2022"
+    link: https://www.linkedin.com/posts/ensuro_ensuro-blockchain-insurance-activity-6991738502862270464-OCqS?utm_source=share&utm_medium=member_desktop
+    image: images/marco-interview.png
+  - title: "No Blockchain reaction in Insurance?"
+    date: "October 26th, 2022"
+    link: https://blog.ensuro.co/no-blockchain-reaction-in-insurance-87c0b987411b
+    image: images/blockchain-insurance.jpeg
+  - title: "Ensuro x Parachute: How can blockchain capital improve hurricane protections"
+    date: "October 21st, 2022"
+    link: https://blog.ensuro.co/ensuro-x-parachute-how-can-blockchain-capital-improve-hurricane-protections-1ad141a38229
+    image: images/Ensuro-Parachute.jpeg
+  - title: "Our CEO is already in Bogota for #ETHBogota and #Devcon!"
+    date: "October 10th, 2022"
+    link: https://www.linkedin.com/posts/ensuro_ethbogota-devcon-ensuro-activity-6985205690847903744-5ymp?utm_source=share&utm_medium=member_desktop
+    image: images/ensuro-devcon.jpeg
+  - title: "Hodler vault — A bridge between your crypto assets and stablecoin denominated yields"
+    date: "September 28th, 2022"
+    link: https://blog.ensuro.co/hodler-vault-a-bridge-between-your-crypto-assets-and-stablecoin-denominated-yields-98b6bffd50f9
+    image: images/hodler-vault.jpeg
+  - title: "Presentation of Ensuro case #ITCVegas2022"
+    date: "September 23rd, 2022"
+    link: https://www.linkedin.com/feed/update/urn:li:activity:6978768769040973825?utm_source=share&utm_medium=member_desktop
+    image: images/Marco-ITCVegas.jpeg
+  - title: "Ensuro received an AAVE grant to build a product called Hodler Vault"
+    date: "August 29th, 2022"
+    link: https://www.linkedin.com/posts/ensuro_aave-ensuro-web3-activity-6969905439803092992-U6fj/?utm_source=share&utm_medium=member_desktop
+    image: images/aave-ensuro.jpeg
+  - title: "Ensuro won the Web3 Innovation Fintech Challenge"
+    date: "August 22nd, 2022"
+    link: https://www.linkedin.com/posts/ensuro_ensuro-backedbysosv-defi-activity-6966407798653898752-atEL?utm_source=share&utm_medium=member_desktop
+    image: images/w3FintechChallenge.jpeg
+  - title: "Insurance as a source of attractive (and realistic) returns for DeFi investors"
+    date: "July 28th, 2022"
+    link: https://blog.ensuro.co/insurance-as-a-source-of-attractive-and-realistic-returns-for-defi-investors-f600be13e5b4
+    image: images/ensuro-defi.jpeg
+  - title: "Case Study: Ensuro x Koala"
+    date: "June 14th, 2022"
+    link: https://blog.ensuro.co/case-study-ensuro-x-koala-13fcdb7cfe7b
+    image: images/ensuro-koala.png
+  - title: Ensuro - The first licensed decentralized reinsurance
+    date: "January 31st, 2022"
+    link: https://blog.ensuro.co/ensuro-the-first-licensed-decentralized-reinsurance-3293ada230f7
+    image: images/ensuro-bma.jpeg
+  - title: Ensuro selected as part of the First Cohort of Cypher Accelerator - Blockchain accelerator by The Wharton School of the University of Pennsylvania
+    date: "January 26th, 2022"
+    link: https://stevenscenter.wharton.upenn.edu/accelerator/#cohort
+    image: images/cypher-big.jpeg
+  - title: Ensuro Is Integrating Chainlink to Bridge DeFi and InsurTech With Secure Parametric Insurance Products
+    date: "November 16th, 2021"
+    link: https://blog.ensuro.co/ensuro-is-integrating-chainlink-to-bridge-defi-and-insurtech-with-secure-parametric-insurance-cb463eef3b1a
+    image: images/ensuro-chainlink.png
+  - title: "Interview in Instech London Podcast - Marco Mirabella: Founder & CEO, Ensuro: Crypto capital for insurance start-ups"
+    date: "November 12th, 2021"
+    link: https://www.instech.london/podcast/marco-mirabella-founder-and-ceo-ensuro-crypto-capital-for-insurance-start-ups
+    image: images/instech-london-podcast-164-marco-mirabella-website.jpg
+  - title: 'Marco Mirabella at the University of Illinois: "Blockchain and Decentralized Finance in the (Re)Insurance space"'
+    date: "October 5th, 2021"
+    link: https://www.youtube.com/watch?v=Ghksp9Rq4NA
+    image: images/video-illinois.png
+  - title: Meet the team behind Ensuro
+    date: "October 1st, 2021"
+    link: https://blog.ensuro.co/meet-the-team-behind-ensuro-90c761120cff
+    image: images/ensuro-full-horiz-logo.jpeg
+  - title: Welcome to Ensuro-Decentralized Capital Provider for Insurance Risks - Blog presentation post
+    date: "July 25th, 2021"
+    link: https://blog.ensuro.co/welcome-to-ensuro-decentralized-capital-provider-for-insurance-risks-23ee61236d54
+    image: images/ensuro-full-horiz-logo.jpeg
+  - title: Cryptocurrency - the next capital pool for parametric insurance?
+    date: "May 18th, 2021"
+    link: https://www.instech.london/insight/cryptocurrency-next-capital-pool-parametric-insurance
+    image: images/cryptocurrency-next-capital-pool-parametric-insurance-article.jpg
+  - title: "<i>Innovating On Money</i> award for Ensuro after participation in Celo Camp Batch 3"
+    date: June 19th, 2021
+    link: https://medium.com/celoorg/announcing-the-grand-prize-winners-of-celo-camp-batch-3-58dd0eef19fc
+    image: images/celo-batch3-prize.jpeg
+  - title: "1st Prize in <i>The Future is Now</i> Binance / Gitcoin Hackathon"
+    date: "March 1st, 2021"
+    link: https://binancex.dev/blog.html?p=hackathon-winners-encode-hackathon-and-gitcoin-the-future-is-now
+    image: images/BinanceHackLogoSquareDarker.png
+tweets:
+  - text: "Every other day it seems we're reading about more industries and large corporations investing in blockchain technology. 🧵"
+    link: https://twitter.com/Ensuroproject/status/1585264997210488832?s=20&t=7_D8sAMJ5vW5Pv8YN4OBmA
+  - text: "📢 We recently announced a partnership between Ensuro and Parachute. In this article our CEO @marcomirabe sheds some more light on this new product.🤩🧵 #ensuro #parachute #reinsurance #parametricinsurance"
+    link: https://twitter.com/Ensuroproject/status/1583497302333067265?s=20&t=7_D8sAMJ5vW5Pv8YN4OBmA
+  - text: "Yesterday was day one - #Devcon officially began after a three-year break with an energetic opening ceremony 🥳🎉 . We are ready for the second day! Let us know if you are there! We'd love to meet you! #ensuro #ethereum #devconbogota #defi"
+    link: https://twitter.com/Ensuroproject/status/1580246636780867584?s=20&t=7_D8sAMJ5vW5Pv8YN4OBmA
+  - text: "Our CEO @marcomirabe is already in Bogota 🚀🔥. He participated in  #ETHBogota this past weekend and is now ready for #Devcon.🤩 #ensuro #ethereum #ethbogota #defi"
+    link: https://twitter.com/Ensuroproject/status/1579446752364892160?s=20&t=D0CiNXPAGjlbAmspOqOY0w
+  - text: "The excitement is building for #DevconBogota! 🤩 We are less than a week away from one of the biggest conferences for the Ethereum community. Devcon is the Ethereum conference for developers, researchers, thinkers, and makers."
+    link: https://twitter.com/Ensuroproject/status/1578029832520097792?s=20&t=IYqA4ZpXXb6rYf5C1_oVOA
+  - text: "📢We're excited to announce a new partnership with Parachute!🪂 @Ensuroproject will provide capacity for Parachute's Hurricane Resilience Program. 🌪️ 🧵"
+    link: https://twitter.com/Ensuroproject/status/1576968081968353281?s=20&t=kcWs3EvcWjABGBkT65uHNQ
+  - text: "@Ensuroproject recently announced a grant from the @AaveAave DAO for a project called Hodler Vault. In this article our CEO @marcomirabe sheds some more light on what Hodler Vault is and why we have decided to develop it. 🧵"
+    link: https://twitter.com/Ensuroproject/status/1575126338335375362?s=20&t=Tk4k9OHhGyGdW1kgrXgjqg
+  - text: "Our CEO, Marco Mirabella, is already in Las Vegas for #ITCVegas2022! Today at 11.50 am (GMT-7), at the Demo Stage, he will participate in presenting the @Ensuroproject and what we are doing. Come and ask anything you want to know! #ITCVegas2022 #insurtech #Ensuro"
+    link: https://twitter.com/Ensuroproject/status/1572594751224053760?s=20&t=A2WPUnzY5k2FbqvgbirqRA
+  - text: "Thank you so much, @Aave, for this great opportunity! We look forward to contributing value to Aave users and the community! 🙌"
+    link: https://twitter.com/Ensuroproject/status/1570816464780922880?s=20&t=auW8e3K7nfV_6CRMGLhDsA
+  - text: "ITC Vegas is just a week away and it’s shaping up to be a memorable event! #Insurtech is a vast market, and ITC Vegas is a pinnacle event that provides tech entrepreneurs, investors, and key insurance industry players with a place to connect and share expertise. 🧵"
+    link: https://twitter.com/Ensuroproject/status/1570070874702884865?s=20&t=JxwNjkF43HXbbC2OPOJQwA
+  - text: "We have exciting news to share! Ensuro has received a Grant from Aave Grants DAO to build a product called Holder Vault. 🤩 🥳 🧵"
+    link: https://twitter.com/Ensuroproject/status/1564142440457682944
+  - text: "We are delighted to announce that Ensuro won the Web3 Innovation Fintech Challenge.🤩🎉🎖🎊.  #Ensuro #BackedbySosv #DeFi #Innovation #Insurtech"
+    link: https://twitter.com/Ensuroproject/status/1560647177235361792
+  - text: "Sadly, we saw a widespread hack in the #Solana blockchain this week. Every day we see scams, front-end hacks, and not-so-frequent (but lethal) wallet hacks like this one. However, it is clear that these are not isolated issues but instead produced by coupled wallet design. 🧵"
+    link: https://twitter.com/Ensuroproject/status/1555152612789452801
+  - text: "We are delighted to have received the 1000 fans award from InsTech! Podcast #164!  Thanks to the listeners for their time and for wanting to learn more about what we are building at Ensuro. More to come...! #defi #ensuro #decentralizedinsurance #podcast"
+    link: https://twitter.com/Ensuroproject/status/1551579315363520512
+  - text: "An interesting point is stated in Pantera Capital’s blockchain letter; that clarifies and sheds light on the current situation in the DeFi space. #defi #reinsurance #decentralizedinsurance #ensuro"
+    link: https://twitter.com/Ensuroproject/status/1550051894030209025
+products:
+  - name: "Koala Flex"
+    description: "Koala Flex is an innovative product developed by Ensuro and Koala. It offers ultimate flexibility to travelers, allowing them to cancel their bookings for any reason without justification and receive 80% of the trip price. Koala Flex also offers automatic and instant claim management, with no need to provide proof or reasons for cancellation."
+    logo: assets/product-koala.svg
+    video_link: https://www.youtube.com/embed/7i3P5xeG0f0?enablejsapi=1
+  - name: "ResilientGrowth"
+    description: "ResilientGrowth is a blockchain-based insurance solution developed by Ensuro, Ibisa, and Fortune Credit to help Kenyan farmers combat the challenges posed by climate change. The product leverages smart contracts and parametric insurance to provide farmers with a reliable and affordable way to protect their investments against drought and crop losses."
+    logo: assets/partner-fortune.svg
+    video_link: https://www.youtube.com/embed/sestt_ro_4U?enablejsapi=1
+  - name: "StormStrong"
+    description: "With StormStrong, a US domiciled company, we develped a hurricane resilience program for households in the east coast of the United States. If a hurricane strikes within a certain predefined distance from the members location, Ensuro immediately pays a resilience contribution to the member."
+    logo: assets/StormStrong.svg
+    video_link: https://www.youtube.com/embed/CmU71h_kqfU?enablejsapi=1
+  - name: "Spot"
+    description: "Spot's CFAR (Cancel for Any Reason) product allows customers to cancel their bookings up to 24 hours before their scheduled adventure for an 80% refund, integrating smoothly into the marketplace flow to enhance the booking experience. This adaptable solution is tailored for competitive pricing and profitability, covering a wide range of activities and geographic locations."
+    logo: assets/spot.svg
+    video_link: https://www.youtube.com/embed/1JqFIJnqfCg?enablejsapi=1
+  - name: "Revo"
+    description: "Together with Revo we have launched a parametric insurance product that protects SME in Italy for loss of revenues connected to bad weather events. This is the first case of a public listed insurer cooperating with a protocol based on top of a public blockchain."
+    logo: assets/Revo.svg
+    video_link: https://www.youtube.com/embed/06yrLNgqpoE?enablejsapi=1
+solutions:
+  - name: "CFAR-CANCELLATION FOR ANY REASON"
+    description: "It's all about giving customers grater flexibility and confidence when booking without limits."
+    logo: "assets/cfar_cancellation.webp"
+  - name: "WEATHER GUARANTEE"
+    description: "Turning weather disappointments into automatic refunds withoug hassle."
+    logo: "assets/weather_guarantee.webp"
+  - name: "DEDUCTIBLE WAIVER COVERAGE"
+    description: "Eliminate security deposits while maintaining complete protection coverage."
+    logo: "assets/deductible_coverage.webp"
+  - name: "SERVICE GUARANTEE"
+    description: "Protenction and guatentee for your sells for digital assets and service-based commitments."
+    logo: "assets/service_guarantee.webp"
+  - name: "PRODUCT GUARANTEE"
+    description: "Securing your physical and online commerce guarantying physical product deliveries."
+    logo: "assets/product_guarantee.webp"
+  - name: "REINSURANCE"
+    description: "On demand capital and risk capacity for insurance, brokers and MGAs partners."
+    logo: "assets/reinsurance.webp"
