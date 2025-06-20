@@ -46,7 +46,15 @@ STATIC_PATHS = [
     "font",
     "images",
     "pdfs",
+    "admin",
 ]
+
+EXTRA_PATH_METADATA.update(
+    {
+        "admin/index.html": {"path": "admin/index.html"},
+        "admin/config.yml": {"path": "admin/config.yml"},
+    }
+)
 
 WEBASSETS_SOURCE_PATHS = ["content/assets"]
 PLUGINS = [webassets]
