@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00263d;
+      }
+
+      .cls-2 {
+        font-size: 51px;
+        fill: #fff;
+        font-family: Jost;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="_3b" data-name="3b">
+    <g id="Grupo_3" data-name="Grupo 3">
+      <circle id="Elipse_1" data-name="Elipse 1" class="cls-1" cx="15.905" cy="15.906" r="15.315"/>
+      <g id="Grupo_1" data-name="Grupo 1">
+        <image id="White_Logo_Mark" x="6" y="7" width="15" height="16" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAQCAYAAADJViUEAAABxUlEQVQokXzKsQkAMAwEsd+/8CKZLhDcyniBFFfpgsLFQ39a3+8gyAAAAP//AhHn/pMGnoE1///PAAAAAP//YmFgYBBngIA6BgaGE1A2NmDAwMDQxcDAwMHAwMDKwMDwGwAAAP//ApnwE2qxHMxEHBgkDwJf////z/X//38GAAAAAP//YmJgYADZDgIg0/ABfSR13xgYGBgAAAAA//9cyyESABAQAMANXiDfP/z/IZImqScZzdi+Ny5UNOxvJ+aTBjoC5QAAAP//AjnnAp7wOonFC85gmf//PwIAAAD//wI5+woet4JchA5swQIMDE8BAAAA//8COXsPAwNDNAMDw2cGBgZ7BgYGZiTVX6A0F1QdPwMDQyfYiwwMzwEAAAD//wI5gw/JmZY4QroASQ1E7P9/BgAAAAD//4IxZkIlXuLQ/B4q3wIX+/+fAQAAAP//gjGEkExehKYRlBxB4BcsfsH4/38GAAAAAP//QlaUiGRAOVSsB0ksFMXQ//8ZAAAAAP//QnfeDCTF15DY3Rhe+f+fAQAAAP//wua/WWhx3YY1HP7/ZwAAAAD//8KVjiv///9/9v///8E40/r//wwAAAAA//8DAMuLRhURzxDIAAAAAElFTkSuQmCC"/>
+        <text id="Sr" class="cls-2" transform="translate(16.447 25.813) scale(0.202)">Sr</text>
+      </g>
+    </g>
+  </g>
+</svg>
