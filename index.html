@@ -142,16 +142,14 @@
           <span class="text-center">
             <p class="text-4xl font-extralight text-secondary-500" id="active-policies"></p>
             <script>
-              const fetchV1 = fetch('https://offchain.ensuro.co/api/policies/?limit=1')
-                        .then((res) => res.json());
-
-              const fetchV2 = fetch('https://offchain-v2.ensuro.co/api/policies/?limit=1')
-                        .then((res) => res.json());
-
-              const allData = Promise.all([fetchV1, fetchV2]);
-              allData.then((res) => {
-                document.querySelector('#active-policies').innerHTML = (res[0].count + res[1].count).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-              });
+              const ensuroV1Policies = 25028;
+              fetch('https://offchain-v2.ensuro.co/api/policies/?limit=1')
+                .then(res => res.json())
+                .then(dataV2 => {
+                  const total = ensuroV1Policies + dataV2.count;
+                  document.querySelector('#active-policies').innerHTML =
+                    total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+              })
             </script>
             <hr class="h-2 border-none">
             <small class="mx-auto block text-xl opacity-80">Policies sold</small>
