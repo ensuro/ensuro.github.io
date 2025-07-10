@@ -1,0 +1,93 @@
+backend:
+  name: github
+  repo: ensuro/ensuro.github.io
+  branch: main
+  base_url: "https://oauth-proxy-sigma.vercel.app"
+  workflow_branch_name: "cms-${slug}"
+
+publish_mode: editorial_workflow
+media_folder: "content/static/images"
+public_folder: "/static/images"
+
+collections:
+  - name: "site_data"
+    label: "Site Data"
+    format: "yaml"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - file: "content/data/input.yaml"
+        name: "input"
+        label: "Site Content"
+        fields:
+          - name: partners_quotes
+            label: Partner Quotes
+            widget: list
+            fields:
+              - { name: name, label: Name, widget: string }
+              - { name: link, label: Link, widget: string }
+              - { name: photo, label: Photo, widget: image }
+              - { name: quote, label: Quote, widget: text }
+              - { name: logo, label: Logo, widget: image }
+              - { name: company, label: Company, widget: string }
+
+          - name: partners_and_investors
+            label: Partners and Investors
+            widget: list
+            fields:
+              - { name: logo, label: Logo, widget: image }
+              - { name: link, label: Link, widget: string }
+
+          - name: team
+            label: Team
+            widget: list
+            fields:
+              - { name: name, label: Name, widget: string }
+              - { name: photo, label: Photo, widget: image }
+              - { name: role, label: Role, widget: string }
+              - { name: link, label: LinkedIn, widget: string }
+              - { name: description, label: Description, widget: text }
+
+          - name: advisors
+            label: Advisors
+            widget: list
+            fields:
+              - { name: name, label: Name, widget: string }
+              - { name: photo, label: Photo, widget: image }
+              - { name: role, label: Role, widget: string }
+              - { name: link, label: LinkedIn, widget: string }
+              - { name: description, label: Description, widget: text }
+
+          - name: news
+            label: News
+            widget: list
+            fields:
+              - { name: title, label: Title, widget: string }
+              - { name: date, label: Date, widget: datetime }
+              - { name: link, label: Link, widget: string }
+              - { name: image, label: Image, widget: image }
+
+          - name: tweets
+            label: Tweets
+            widget: list
+            fields:
+              - { name: text, label: Text, widget: text }
+              - { name: links, label: Links, widget: list }
+
+          - name: products
+            label: Products
+            widget: list
+            fields:
+              - { name: name, label: Name, widget: string }
+              - { name: description, label: Description, widget: text }
+              - { name: logo, label: Logo, widget: image }
+              - { name: video_link, label: Video Link, widget: string }
+
+          - name: solutions
+            label: Solutions
+            widget: list
+            fields:
+              - { name: name, label: Name, widget: string }
+              - { name: description, label: Description, widget: text }
+              - { name: logo, label: Logo, widget: image }
